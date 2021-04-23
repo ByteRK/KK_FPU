@@ -79,9 +79,11 @@
 |47|[jd_xg.js](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/jd_xg.js)|小鸽有礼|[活动地址](https://snsdesign.jd.com/babelDiy/Zeus/4N5phvUAqZsGWBNGVJWmufXoBzpt/index.html?channel=lingsns003&scope=0&sceneid=9001&btnTips=&hideApp=0)|
 |48|[jd_xgyl.js](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/jd_xgyl.js)|小鸽有礼2|[活动地址](https://jingcai-h5.jd.com/#/dialTemplate?activityCode=1354740864131276800)|
 |49|[jx_sign.js](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/jx_sign.js)|京喜签到||
+|49|[jx_sign.js](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/jx_sign.js)|京喜签到||
 <!-- 清单标记结束 -->
 <!-- 此表格由 update_list.sh 脚本自动生成，请不要人工修改。 -->
 <!-- 这是隐藏信息，用来给 update_list.sh 脚本提供标记信息的，用于自动生成上面的脚本清单，请勿删除这里的标记信息。 -->
+
 
 #### 搬运脚本
 
