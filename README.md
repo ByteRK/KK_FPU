@@ -121,15 +121,14 @@
 
 ##### 订阅链接：
 
-- Surge：Task&Cookies脚本模块地址: [lxk0301_Task.sgmodule.sgmodule](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/Surge/lxk0301_Task.sgmodule.sgmodule)
+- Surge：Task&Cookies脚本模块地址: [lxk0301_Task.sgmodule.sgmodule](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/Sub/Surge/lxk0301_Task.sgmodule.sgmodule)
 
 - Loon：Task&Cookies脚本订阅链接: [lxk0301_LoonTask.conf](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/Loon/lxk0301_LoonTask.conf)
 
 - QuantumultX Task脚本订阅链接: [lxk0301_gallery.json](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/QuantumultX/lxk0301_gallery.json)，cookie(重写)订阅链接: [lxk0301_cookies.conf](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/QuantumultX/lxk0301_cookies.conf)
 
-## 赞赏码(开发维护不易,请赏杯茶水费)
-
-<div align=center><img width="250" height="250" src="./icon/thanks.jpg"/></div>
+## 主要参考：
+* [@lxk0301](https://github.com/lxk0301)
 
 
 ## 特别感谢(排名不分先后)：
