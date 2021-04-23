@@ -103,21 +103,19 @@
 
 - [部署方法](./docker)
 
-- [环境变量集合](./githubAction.md)
+- [环境变量集合](./Tip/githubAction.md)
  
 - 获取京东cookie教程可参考：
   
-  + [浏览器获取京东cookie教程](./backUp/GetJdCookie.md)
+  + [浏览器获取京东cookie教程](./Tip/GetJdCookie.md)
     
-  + [插件获取京东cookie教程](./backUp/GetJdCookie2.md)
-    
-  + 京东APP扫码获取cookie(此种方式获取的cookie有效期为90天)(执行`node getJDCookie.js`即可)
+  + [插件获取京东cookie教程](./Tip/GetJdCookie2.md)
 
 ### 2. iOS代理软件（QuantumultX, Surge, Loon, 小火箭）
 
 ##### BoxJs订阅地址：[lxk0301.boxjs.json](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/lxk0301.boxjs.json)
 
-##### 获取京东cookie [JD_extra_cookie.js](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/JD_extra_cookie.js)
+##### 获取京东cookie [JD_extra_cookie.js](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/JD/JD_extra_cookie.js)
 
 ##### 订阅链接：
 
@@ -125,10 +123,11 @@
 
 - Loon：Task&Cookies脚本订阅链接: [lxk0301_LoonTask.conf](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/Loon/lxk0301_LoonTask.conf)
 
-- QuantumultX Task脚本订阅链接: [lxk0301_gallery.json](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/QuantumultX/lxk0301_gallery.json)，cookie(重写)订阅链接: [lxk0301_cookies.conf](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/QuantumultX/lxk0301_cookies.conf)
+- QuantumultX Task脚本订阅链接: [lxk0301_gallery.json](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/QuantumultX/lxk0301_gallery.json)，cookie(重写)订阅链接: [lxk0301_cookies.conf](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/Sub/QuantumultX/lxk0301_cookies.conf)
 
 ## 主要参考：
 * [@lxk0301](https://github.com/lxk0301)
+* [@blackmatrix7](https://github.com/blackmatrix7)
 
 
 ## 特别感谢(排名不分先后)：
