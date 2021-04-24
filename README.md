@@ -109,7 +109,7 @@
  
 - 获取京东cookie教程可参考：
   
-  + [浏览器获取京东cookie教程](./Tip/GetJdCookie.md)
+  + [浏览器获取京东cookie教程](./Tip/GetJdCookie.md) 
     
   + [插件获取京东cookie教程](./Tip/GetJdCookie2.md)
 
