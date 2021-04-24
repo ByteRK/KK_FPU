@@ -21,12 +21,6 @@
 ## 脚本兼容: 
 [QuantumultX](https://apps.apple.com/us/app/quantumult-x/id1443988620), [Surge](https://apps.apple.com/us/app/surge-4/id1442620678), [Loon](https://apps.apple.com/us/app/loon/id1373567447), [小火箭](https://apps.apple.com/us/app/shadowrocket/id932747118), [JSBox](https://apps.apple.com/us/app/jsbox-learn-to-code/id1312014438), [Node.js**](https://nodejs.org/en/)
 
-## 邀请码互助
-
-- [获取各类活动互助码脚本 jd_get_share_code.js](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/JD/JS/jd_get_share_code.js)
-
-- [邀请码使用规范](githubAction.md#互助码类环境变量)(仅限云端)
-
 ## 食用方法
 
 ### 1. Docker
