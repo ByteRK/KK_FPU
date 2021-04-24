@@ -105,7 +105,7 @@
 
 - [部署方法](./docker)
 
-- [环境变量集合](./Tip/githubAction.md)
+- [环境变量集合](githubAction.md)
  
 - 获取京东cookie教程可参考：
   
