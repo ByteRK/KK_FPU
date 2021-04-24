@@ -18,7 +18,8 @@
 > ***您使用或者复制了本仓库且本人制作的任何脚本，则视为`已接受`此声明，请仔细阅读*** 
 
 
-**脚本兼容: [QuantumultX](https://apps.apple.com/us/app/quantumult-x/id1443988620), [Surge](https://apps.apple.com/us/app/surge-4/id1442620678), [Loon](https://apps.apple.com/us/app/loon/id1373567447), [小火箭](https://apps.apple.com/us/app/shadowrocket/id932747118), [JSBox](https://apps.apple.com/us/app/jsbox-learn-to-code/id1312014438), [Node.js**](https://nodejs.org/en/)
+## 脚本兼容: 
+[QuantumultX](https://apps.apple.com/us/app/quantumult-x/id1443988620), [Surge](https://apps.apple.com/us/app/surge-4/id1442620678), [Loon](https://apps.apple.com/us/app/loon/id1373567447), [小火箭](https://apps.apple.com/us/app/shadowrocket/id932747118), [JSBox](https://apps.apple.com/us/app/jsbox-learn-to-code/id1312014438), [Node.js**](https://nodejs.org/en/)
 
 ## 邀请码互助
 
