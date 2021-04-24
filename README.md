@@ -48,7 +48,7 @@
 
   - Loon：Task&Cookies脚本订阅链接: [lxk0301_LoonTask.conf](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/Loon/lxk0301_LoonTask.conf)
 
-  - QuantumultX Task脚本订阅链接: [lxk0301_gallery.json](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/QuantumultX/lxk0301_gallery.json)，cookie(重写)订阅链接: [lxk0301_cookies.conf](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/Sub/QuantumultX/lxk0301_cookies.conf)
+  - QuantumultX：Task脚本订阅链接: [lxk0301_gallery.json](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/QuantumultX/lxk0301_gallery.json)，cookie(重写)订阅链接: [lxk0301_cookies.conf](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/Sub/QuantumultX/lxk0301_cookies.conf)
 
 
 ## 特别感谢(排名不分先后)：
