@@ -1,24 +1,24 @@
 /*
 女装盲盒
-活动时间：2021-2-19至2021-2-25
-活动地址：https://anmp.jd.com/babelDiy/Zeus/2rjWmdgpwypWAQmLuW3CvJQtBjWL/index.html
+活动时间：2021-4-1至2021-4-31
+活动地址：https://anmp.jd.com/babelDiy/Zeus/2x3yeXUmPbFVCAoXKQqSrdrQuoBk/index.html
 活动入口：京东app-女装馆-赢京豆
 已支持IOS双京东账号,Node.js支持N个京东账号
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
 ============Quantumultx===============
 [task_local]
 #女装盲盒
-0 7 19-25 2 * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nzmh.js, tag=女装盲盒, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true
+35 1,23 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js, tag=女装盲盒, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 
 ================Loon==============
 [Script]
-cron "0 7 19-25 2 *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nzmh.js,tag=女装盲盒
+cron "35 1,23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js,tag=女装盲盒
 
 ===============Surge=================
-女装盲盒 = type=cron,cronexp="0 7 19-25 2 *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nzmh.js
+女装盲盒 = type=cron,cronexp="35 1,23 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js
 
 ============小火箭=========
-女装盲盒 = type=cron,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nzmh.js, cronexpr="0 7 19-25 2 *", timeout=3600, enable=true
+女装盲盒 = type=cron,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js, cronexpr="35 1,23 * * *", timeout=3600, enable=true
  */
 
 const $ = new Env('女装盲盒抽京豆');
@@ -35,13 +35,7 @@ if ($.isNode()) {
   if (process.env.JD_DEBUG && process.env.JD_DEBUG === 'false') console.log = () => {
   };
 } else {
-  let cookiesData = $.getdata('CookiesJD') || "[]";
-  cookiesData = jsonParse(cookiesData);
-  cookiesArr = cookiesData.map(item => item.cookie);
-  cookiesArr.reverse();
-  cookiesArr.push(...[$.getdata('CookieJD2'), $.getdata('CookieJD')]);
-  cookiesArr.reverse();
-  cookiesArr = cookiesArr.filter(item => item !== "" && item !== null && item !== undefined);
+  cookiesArr = [$.getdata('CookieJD'), $.getdata('CookieJD2'), ...jsonParse($.getdata('CookiesJD') || "[]").map(item => item.cookie)].filter(item => !!item);
 }
 
 !(async () => {
@@ -52,7 +46,7 @@ if ($.isNode()) {
   for (let i = 0; i < cookiesArr.length; i++) {
     if (cookiesArr[i]) {
       cookie = cookiesArr[i];
-      $.UserName = decodeURIComponent(cookie.match(/pt_pin=(.+?);/) && cookie.match(/pt_pin=(.+?);/)[1])
+      $.UserName = decodeURIComponent(cookie.match(/pt_pin=([^; ]+)(?=;?)/) && cookie.match(/pt_pin=([^; ]+)(?=;?)/)[1])
       $.index = i + 1;
       $.isLogin = true;
       $.nickName = '';
@@ -69,7 +63,13 @@ if ($.isNode()) {
         }
         continue
       }
-      await jdMh()
+      try {
+        await jdMh('https://anmp.jd.com/babelDiy/Zeus/2x3yeXUmPbFVCAoXKQqSrdrQuoBk/index.html')
+        // await jdMh('https://anmp.jd.com/babelDiy/Zeus/3UGPT8RMBu4kL2YAYN98MgkcDhRq/index.html?wxAppName=jd')
+        // await jdMh('https://anmp.jd.com/babelDiy/Zeus/yiNQjMxQvs3R3SdS4nwa2MFk1FE/index.html?wxAppName=jd')
+      } catch (e) {
+        $.logErr(e)
+      }
     }
   }
 })()
@@ -80,30 +80,37 @@ if ($.isNode()) {
     $.done();
   })
 
-async function jdMh() {
-  await getInfo()
-  await getUserInfo()
-  await draw()
-  while ($.userInfo.bless >= $.userInfo.cost_bless_one_time) {
-    await draw()
+async function jdMh(url) {
+  try {
+    await getInfo(url)
     await getUserInfo()
-    await $.wait(500)
+    await draw()
+    while ($.userInfo.bless >= $.userInfo.cost_bless_one_time) {
+      await draw()
+      await getUserInfo()
+      await $.wait(500)
+    }
+    await showMsg();
+  } catch (e) {
+    $.logErr(e)
   }
-  await showMsg();
 }
 
 function showMsg() {
   return new Promise(resolve => {
-    message += `本次运行获得${$.beans}京豆`
-    $.msg($.name, '', `京东账号${$.index}${$.nickName}\n${message}`);
+    if ($.beans) {
+      message += `本次运行获得${$.beans}京豆`
+      $.msg($.name, '', `京东账号${$.index}${$.nickName}\n${message}`);
+    }
     resolve()
   })
 }
 
-function getInfo() {
+function getInfo(url = 'https://anmp.jd.com/babelDiy/Zeus/3DSHPs2xC66RgcCEB8YVLsudqfh5/index.html?wxAppName=jd') {
+  console.log(`url:${url}`)
   return new Promise(resolve => {
     $.get({
-      url: 'https://anmp.jd.com/babelDiy/Zeus/2rjWmdgpwypWAQmLuW3CvJQtBjWL/index.html?wxAppName=jd',
+      url,
       headers: {
         Cookie: cookie
       }
@@ -206,7 +213,7 @@ function taskUrl(function_id, body = '') {
       'Accept-Language': 'zh-cn',
       'Content-Type': 'application/json;charset=utf-8',
       'Origin': 'wq.jd.com',
-      'User-Agent': 'JD4iPhone/167490 (iPhone; iOS 14.2; Scale/3.00)',
+      "User-Agent": $.isNode() ? (process.env.JD_USER_AGENT ? process.env.JD_USER_AGENT : (require('./USER_AGENTS').USER_AGENT)) : ($.getdata('JDUA') ? $.getdata('JDUA') : "jdapp;iPhone;9.4.4;14.3;network/4g;Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148;supportJDSHWK/1"),
       'Referer': `https://anmp.jd.com/babelDiy/Zeus/xKACpgVjVJM7zPKbd5AGCij5yV9/index.html?wxAppName=jd`,
       'Cookie': cookie
     }
@@ -240,7 +247,11 @@ function TotalBean() {
               $.isLogin = false; //cookie过期
               return
             }
-            $.nickName = data['base'].nickname;
+            if (data['retcode'] === 0) {
+              $.nickName = (data['base'] && data['base'].nickname) || $.UserName;
+            } else {
+              $.nickName = $.UserName
+            }
           } else {
             console.log(`京东服务器返回空数据`)
           }
