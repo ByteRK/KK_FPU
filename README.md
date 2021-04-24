@@ -1,4 +1,4 @@
-## 特别声明: 
+## 特别声明:
 
 * 本仓库发布的Script项目中涉及的任何解锁和解密分析脚本，仅用于测试和学习研究，禁止用于商业用途，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断.
 
@@ -21,7 +21,7 @@
 
 #### 说明
 
-1. 其中 [jd_bean_sign.js](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/jd_bean_sign.js) 可N个京东账号，Node.js专用，核心脚本是JD_DailyBonus.js， IOS软件用户请使用NobyDa的 [JD_DailyBonus.js](https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js)
+1. 其中 [jd_bean_sign.js](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/JD/JS/jd_bean_sign.js) 可N个京东账号，Node.js专用，核心脚本是JD_DailyBonus.js， IOS软件用户请使用NobyDa的 [JD_DailyBonus.js](https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js)
 
 2. 以字母排序。
 
@@ -87,15 +87,15 @@
 
 #### 搬运脚本
 
-1.  【 [@yangtingxiao](https://github.com/yangtingxiao) 】 京东抽奖机([jd_lotteryMachine.js](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/jd_lotteryMachine.js))
+1.  【 [@yangtingxiao](https://github.com/yangtingxiao) 】 京东抽奖机([jd_lotteryMachine.js](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/JD/JS/jd_lotteryMachine.js))
 
-2.  【 [@yangtingxiao](https://github.com/yangtingxiao) 】 京东排行榜([jd_rankingList.js](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/jd_rankingList.js))
+2.  【 [@yangtingxiao](https://github.com/yangtingxiao) 】 京东排行榜([jd_rankingList.js](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/JD/JS/jd_rankingList.js))
 
-**脚本兼容: [QuantumultX](https://apps.apple.com/us/app/quantumult-x/id1443988620), [Surge](https://apps.apple.com/us/app/surge-4/id1442620678), [Loon](https://apps.apple.com/us/app/loon/id1373567447), 小火箭, JSBox, Node.js**
+**脚本兼容: [QuantumultX](https://apps.apple.com/us/app/quantumult-x/id1443988620), [Surge](https://apps.apple.com/us/app/surge-4/id1442620678), [Loon](https://apps.apple.com/us/app/loon/id1373567447), [小火箭](https://apps.apple.com/us/app/shadowrocket/id932747118), [JSBox](https://apps.apple.com/us/app/jsbox-learn-to-code/id1312014438), [Node.js**](https://nodejs.org/en/)
 
 ## 邀请码互助
 
-- [获取各类活动互助码脚本 jd_get_share_code.js](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/jd_get_share_code.js)
+- [获取各类活动互助码脚本 jd_get_share_code.js](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/JD/JS/jd_get_share_code.js)
 
 - [邀请码使用规范](githubAction.md#互助码类环境变量)(仅限云端)
 
