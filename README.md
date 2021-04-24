@@ -109,7 +109,7 @@
  
 - 获取京东cookie教程可参考：
   
-  + [浏览器获取京东cookie教程](./Tip/GetJdCookie.md) 
+  + [浏览器获取京东cookie教程](./Tip/GetJdCookie.md)
     
   + [插件获取京东cookie教程](./Tip/GetJdCookie2.md)
 
@@ -128,6 +128,7 @@
 - QuantumultX Task脚本订阅链接: [lxk0301_gallery.json](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/QuantumultX/lxk0301_gallery.json)，cookie(重写)订阅链接: [lxk0301_cookies.conf](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/Sub/QuantumultX/lxk0301_cookies.conf)
 
 ## 主要参考：
+
 * [@lxk0301](https://github.com/lxk0301)
 * [@blackmatrix7](https://github.com/blackmatrix7)
 
