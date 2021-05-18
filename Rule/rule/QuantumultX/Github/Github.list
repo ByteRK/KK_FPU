@@ -1,30 +1,30 @@
-# NAME: Github
+# NAME: GitHub
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-17 00:14:28
+# UPDATED: 2021-05-07 09:34:52
 # HOST-KEYWORD: 1
 # HOST-SUFFIX: 22
 # TOTAL: 23
-HOST-SUFFIX,atom.io,Github
-HOST-SUFFIX,dependabot.com,Github
-HOST-SUFFIX,ghcr.io,Github
-HOST-SUFFIX,git.io,Github
-HOST-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net,Github
-HOST-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com,Github
-HOST-SUFFIX,github.blog,Github
-HOST-SUFFIX,github.com,Github
-HOST-SUFFIX,github.community,Github
-HOST-SUFFIX,github.dev,Github
-HOST-SUFFIX,github.io,Github
-HOST-SUFFIX,githubapp.com,Github
-HOST-SUFFIX,githubassets.com,Github
-HOST-SUFFIX,githubhackathon.com,Github
-HOST-SUFFIX,githubstatus.com,Github
-HOST-SUFFIX,githubuniverse.com,Github
-HOST-SUFFIX,githubusercontent.com,Github
-HOST-SUFFIX,npm.community,Github
-HOST-SUFFIX,npmjs.com,Github
-HOST-SUFFIX,npmjs.org,Github
-HOST-SUFFIX,rawgit.com,Github
-HOST-SUFFIX,rawgithub.com,Github
-HOST-KEYWORD,github,Github
+HOST-SUFFIX,atom.io,GitHub
+HOST-SUFFIX,dependabot.com,GitHub
+HOST-SUFFIX,ghcr.io,GitHub
+HOST-SUFFIX,git.io,GitHub
+HOST-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net,GitHub
+HOST-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com,GitHub
+HOST-SUFFIX,github.blog,GitHub
+HOST-SUFFIX,github.com,GitHub
+HOST-SUFFIX,github.community,GitHub
+HOST-SUFFIX,github.dev,GitHub
+HOST-SUFFIX,github.io,GitHub
+HOST-SUFFIX,githubapp.com,GitHub
+HOST-SUFFIX,githubassets.com,GitHub
+HOST-SUFFIX,githubhackathon.com,GitHub
+HOST-SUFFIX,githubstatus.com,GitHub
+HOST-SUFFIX,githubuniverse.com,GitHub
+HOST-SUFFIX,githubusercontent.com,GitHub
+HOST-SUFFIX,npm.community,GitHub
+HOST-SUFFIX,npmjs.com,GitHub
+HOST-SUFFIX,npmjs.org,GitHub
+HOST-SUFFIX,rawgit.com,GitHub
+HOST-SUFFIX,rawgithub.com,GitHub
+HOST-KEYWORD,github,GitHub
