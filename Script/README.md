@@ -81,6 +81,8 @@ QQ阅读|海德汇一城|民盈国贸城|趣客有礼|水滴筹保险商城小�
 
 ➽ [photonmang](https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Task/photonmang.json)
 
+➽ [yichahucha](https://github.com/yichahucha/surge/blob/master/loon_sub.conf)
+
 途虎养车
   
  
@@ -127,6 +129,8 @@ QQ阅读|海德汇一城|民盈国贸城|趣客有礼|水滴筹保险商城小�
   * [@passerby-b](https://gitee.com/passerby-b) 
   
   * [@photonmang](https://github.com/photonmang) 
+
+  * [@yichahucha](https://github.com/yichahucha)
  
 
 **常见问题**
