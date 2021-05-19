@@ -1,4 +1,77 @@
-### Tip:尚处于整理阶段……
+## 文件目录
+
+
+> JD
+> > JS
+> > > 京东脚本
+> > Share
+> > > 京东获取互助
+> Plugin
+> > Block
+> > > 去广告插件
+> > Unlock
+> > > 解锁插件
+> Rule
+> > blank
+> > > 空文件
+> > external
+> >  外围资源
+> > > Loon
+> > > QuantumultX
+> > > Surge
+> > icon
+移除到第一层icon
+> > 图标单向备份
+> > > color
+> > > dark
+> > > mini
+> > > qure
+> > > task（已删库）
+> > rewrite
+> > > 重写（乱）
+> > rule
+> > 网站规则（带快速引导）
+> > > Clash
+> > > Loon
+> > > QuantumultX
+> > > Shadowrocket
+> > > Surge
+> > source
+> > > 数据源（无用）
+> Script
+> > 一些脚本
+> Sub
+> > 订阅文件
+> > > BoxJS
+> > > Loon
+> > > QuantumultX
+> > > Surge
+> Tip
+> > 一些教程
+> > > 获取京东Cookies
+> > > 获取第二个京东Cookies
+> > > 电报推送
+> > > GitHub仓库保存上游同步
+> > > GitHubAction
+> > > 腾讯云函数
+> > > 云函数部署京东脚本（失效）
+> activity
+> > 京东活动（盲猜可移）
+> > 移往JD/JS
+> backup
+> > 备份库  感觉没啥用
+> > 考虑移除
+> docker
+> > 一个电脑签到容器
+> > 移往Tip
+> icon
+> > 教程的图
+> > 移往下一级
+> utils
+> > 京东日记获取共享码
+> > 移除到JD/Share
+> README.md
+> > 记事用
 
 ## 特别声明:
 * 仓库内文件大部分整理自网络，`且本人会根据自我需求进行个性化更改，如需要可自行下载`
@@ -21,34 +94,6 @@
 
 ## 脚本兼容: 
 [QuantumultX](https://apps.apple.com/us/app/quantumult-x/id1443988620), [Surge](https://apps.apple.com/us/app/surge-4/id1442620678), [Loon](https://apps.apple.com/us/app/loon/id1373567447), [小火箭](https://apps.apple.com/us/app/shadowrocket/id932747118), [JSBox](https://apps.apple.com/us/app/jsbox-learn-to-code/id1312014438), [Node.js**](https://nodejs.org/en/)
-
-## 食用方法
-
-### 1. Docker
-
-- [部署方法](./docker)
-
-- [环境变量集合](./Tip/githubAction.md)
- 
-- 获取京东cookie教程可参考：
-  
-  + [浏览器获取京东cookie教程](./Tip/GetJdCookie.md)
-    
-  + [插件获取京东cookie教程](./Tip/GetJdCookie2.md)
-
-### 2. iOS代理软件（QuantumultX, Surge, Loon, 小火箭）
-
-- BoxJs订阅地址：[BoxJS.json](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/Sub/BoxJS/BoxJS.json)
-
-- 获取京东cookie [JD_extra_cookie.js](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/JD/JD_extra_cookie.js)
-
-- 订阅链接：
-
-  - Surge：Task&Cookies脚本模块地址: [lxk0301_Task.sgmodule.sgmodule](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/Sub/Surge/lxk0301_Task.sgmodule.sgmodule)
-
-  - Loon：Task&Cookies脚本订阅链接: [lxk0301_LoonTask.conf](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/Loon/lxk0301_LoonTask.conf)
-
-  - QuantumultX：Task脚本订阅链接: [lxk0301_gallery.json](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/QuantumultX/lxk0301_gallery.json)，cookie(重写)订阅链接: [lxk0301_cookies.conf](https://raw.githubusercontent.com/HackRicken/JD_FPU/main/Sub/QuantumultX/lxk0301_cookies.conf)
 
 
 ## 特别感谢(排名不分先后)：
