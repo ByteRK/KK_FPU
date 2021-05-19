@@ -17,10 +17,3 @@ https://github.com/blackmatrix7/ios_rule_script/tree/master/icon/dark 备份自 
 https://github.com/blackmatrix7/ios_rule_script/tree/master/icon/qure/color 备份自 https://github.com/Koolson/Qure/tree/master/IconSet/Color
 
 https://github.com/blackmatrix7/ios_rule_script/tree/master/icon/task 备份自 https://github.com/Orz-3/task   (上游已删库，不再更新)
-
-
-
-
-
-
-
