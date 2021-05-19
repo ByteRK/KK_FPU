@@ -13,6 +13,7 @@
 > > > 去广告插件
 > > Unlock
 > > > 解锁插件
+>
 > Rule
 > > blank
 > > > 空文件
@@ -22,7 +23,6 @@
 > > > QuantumultX
 > > > Surge
 > > icon
-移除到第一层icon
 > > 图标单向备份
 > > > color
 > > > dark
@@ -40,14 +40,17 @@
 > > > Surge
 > > source
 > > > 数据源（无用）
+>
 > Script
 > > 一些脚本
+>
 > Sub
 > > 订阅文件
 > > > BoxJS
 > > > Loon
 > > > QuantumultX
 > > > Surge
+>
 > Tip
 > > 一些教程
 > > > 获取京东Cookies
@@ -57,21 +60,21 @@
 > > > GitHubAction
 > > > 腾讯云函数
 > > > 云函数部署京东脚本（失效）
+>
 > activity
 > > 京东活动（盲猜可移）
-> > 移往JD/JS
+>
 > backup
 > > 备份库  感觉没啥用
 > > 考虑移除
+>
 > docker
 > > 一个电脑签到容器
-> > 移往Tip
+>
 > icon
 > > 教程的图
 > > 移往下一级
-> utils
-> > 京东日记获取共享码
-> > 移除到JD/Share
+>
 > README.md
 > > 记事用
 
