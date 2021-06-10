@@ -84,7 +84,7 @@ function showMsg() {
 }
 async function main() {
   try {
-    await userSignIn();//赚京豆-签到领京豆
+    // await userSignIn();//赚京豆-签到领京豆
     await vvipTask();//赚京豆-加速领京豆
     await showMsg();
   } catch (e) {
