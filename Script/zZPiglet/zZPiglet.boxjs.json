@@ -1,0 +1,335 @@
+{
+  "id": "zZPiglet.app.sub",
+  "name": "zZPiglet 应用订阅",
+  "author": "@zZPiglet",
+  "icon": "https://raw.githubusercontent.com/zZPiglet/Task/master/img/fly.gif",
+  "repo": "https://github.com/zZPiglet/Task",
+  "apps": [
+    {
+      "id": "zZ.Weibo",
+      "name": "微博通知",
+      "descs_html": [
+        "请先进入<a href=\"https://m.weibo.cn\">手机网页版微博</a>并登陆按，再按<a href=\"https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js\">脚本注释</a>进行配置，然后回到网页刷新即可获取 Cookie。",
+        "请注意：一定要<font class=\"red--text\">先登录</font>，否则获取的为游客 Cookie，无法通知「特别关注」及有查看限制的微博。",
+        "运行后通知为「上一次」运行到「本次」运行之间的微博，其中「第零次」运行及「测试环境」默认为「很久很久很久···」以前（时间戳为0），所以第一次运行为接口返回的所有信息，之后有新微博才会通知。",
+        "需要注意的是：即便因配置错误运行之后有错误信息，此次运行时间戳也已经记录，若想还原到「第零次」的状态，请清空下面的时间戳。",
+        "注意：「特别管组」、「用户 ID」、「用户昵称」三者的通知均<font class=\"red--text\">独立</font>，请勿填写重复，以避免通知重复。",
+        "若有希望添加的点击跳转的客户端，请提供该客户端打开指定微博的 URL Scheme，反馈至 <a href=\"https://t.me/zZPiglet_bot\">@zZPiglet_bot</a>。"
+      ],
+      "keys": ["@Weibo.WeiboNotice", "@Weibo.interval", "@Weibo.Group", "@Weibo.Weibo_uids", "@Weibo.Weibo_nicknames", "@Weibo.chooseClient"],
+      "settings": [
+        {
+          "id": "@Weibo.debug",
+          "name": "测试环境",
+          "val": false,
+          "type": "boolean",
+          "desc": "如未出现特殊报错等问题请保持关闭。"
+        },
+        {
+          "id": "@Weibo.interval",
+          "name": "间隔",
+          "val": "",
+          "type": "number",
+          "placeholder": "1000", 
+          "desc": "运行时多通知之间时间间隔，单位为毫秒，不填默认为 1000 毫秒。"
+        },
+        {
+          "id": "@Weibo.update",
+          "name": "时间戳",
+          "val": "",
+          "type": "number", 
+          "desc": "上次运行时保存的时间戳，十三位。"
+        }, 
+        {
+          "id": "@Weibo.WeiboNotice",
+          "name": "Cookie",
+          "val": "",
+          "type": "textarea",
+          "rows": 2,
+          "autoGrow": true, 
+          "desc": "微博 Cookie，若抓包填入，只需填入 Cookie 中「SUB=」后至「;」中间的值。"
+        },
+        {
+          "id": "@Weibo.Group",
+          "name": "通知分组",
+          "val": ["Special"],
+          "type": "checkboxes",
+          "desc": "选择需要通知的分组",
+          "items": [
+            { "key": "Special", "label": "特别关注" },
+            { "key": "Spider", "label": "指定用户" }
+          ]
+        },
+        {
+          "id": "@Weibo.Weibo_uids",
+          "name": "用户 ID",
+          "val": "",
+          "type": "textarea",
+          "placeholder": "1111681197,\n7099422177", 
+          "autoGrow": true, 
+          "rows": 2,
+          "desc": "填入需订阅的用户 uid，如不填入 uid 及昵称请取消上一项「指定用户」勾选。以英文逗号分隔多个 uid，可加回车。微博 uid 的获取方法：如「来去之间」微博主页为「https://weibo.com/wflanker」，需查看页面源码，找到「$CONFIG['oid'] = '1111681197'」即可得知 uid 为「1111681197」，切记不是「$CONFIG['uid']」，或直接访问手机端，其主页为「https://m.weibo.cn/u/1111681197?uid=1111681197」亦可得知。再如「外交部发言人办公室」微博主页为「https://weibo.com/u/7099422177」，则其 uid 为「7099422177」。"
+        },
+        {
+          "id": "@Weibo.Weibo_nicknames",
+          "name": "用户昵称",
+          "val": "",
+          "type": "textarea",
+          "placeholder": "央视新闻,\n搜狐娱乐", 
+          "autoGrow": true, 
+          "rows": 2,
+          "desc": "填入需订阅的用户昵称，如不填入 uid 及昵称请取消上一项「指定用户」勾选。以英文逗号分隔多个昵称，可加回车。请勿重复填写。"
+        },
+        {
+          "id": "@Weibo.chooseClient",
+          "name": "客户端",
+          "val": "Safari",
+          "type": "radios",
+          "desc": "选择点击跳转的客户端，如需加入想要的客户端，请提供该客户端打开指定微博的 URL Scheme，反馈至 @zZPiglet_bot，或提交 issue，或进行 PR。",
+          "items": [
+            { "key": "Safari", "label": "Safari" },
+            { "key": "Sinaweibo", "label": "微博" },
+            { "key": "Weibointernational", "label": "微博国际版" },
+            { "key": "VVebo", "label": "VVebo" }
+          ]
+        }
+      ],
+      "author": "@zZPiglet",
+      "repo": "https://github.com/zZPiglet/Task/blob/master/Weibo/Weibo.js",
+      "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/weibo.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/weibo.png"
+      ]
+    },
+    {
+      "id": "zZ.Douban",
+      "name": "电影日历",
+      "descs_html": [
+        "由于官方取消了 APIKey 的申请，请自行解决此问题：<ol><li>网上找别人之前申请的（关键字：<font class=\"red--text\">豆瓣 API Key</font>）</li> <li>下载 app 自行抓包 / 重写获取本机上的</li></ol>",
+        "若选择利用重写获得，请先按<a href=\"https://raw.githubusercontent.com/zZPiglet/Task/master/MovieCalendar/MovieCalendar.js\">脚本注释</a>进行配置，进入  widget 界面（负一屏），添加「豆瓣·电影日历」，并重新进入此界面使其刷新获取内容，若弹出\"首次写入 MovieCalendar APIKey 成功\"即可正常食用，其他提示或无提示请使用其他方法获取 APIKey。",
+        "注意：重试次数请勿填写过大，会导致<font class=\"red--text\">内存爆炸</font>💥！",
+        "当客户端选择「自定义跳转」时，可在下方填入需要跳转的链接，也可为 URL Scheme。需注意的是，普通链接应带 <font class=\"red--text\">http(s)://</font>。",
+        "URL Scheme 如：<ul type=\"disc\"><li>钉钉打卡：dingtalk://dingtalkclient/page/link?url=https://attend.dingtalk.com/attend/index.html</li><li>支付宝领积分：alipays://platformapi/startapp?appId=20000160&url=/www/pointSignIn.html</li><li>支付宝领家庭积分：alipays://platformapi/startapp?appId=2019052365379124</li><li>支付宝收能量：alipay://platformapi/startapp?appId=60000002</li><li>支付宝喂小鸡：alipays://platformapi/startapp?appId=66666674</li><li>支付宝消费券：alipays://platformapi/startapp?appId=2021001162654785</li><li>招行便民刮刮乐：cmbmobilebank://cmbls/functionjump?action=gocorpno&corpno=100891&shorturl=https%3A%2F%2Fcmb-scratchers.weijuju.com%2Fapp%2Findex</li><li>招行 188 抽奖：cmbmobilebank://cmbls/functionjump?action=gofuncid&funcid=16335001&needlogin=true&cmb_app_trans_parms_start=here&ActGroupID=AGP20201231114539LWG5kfNa&shorturl=http%3A%2F%2Fcmbt.cn%2FQQmnzR</li><li>招行 688 抽奖：cmbmobilebank://cmbls/functionjump?action=gofuncid&funcid=16335001&needlogin=true&cmb_app_trans_parms_start=here&ActGroupID=AGP20201231115927hrJ7vvyu&shorturl=http%3A%2F%2Fcmbt.cn%2FQQmnzR</li><li>小黑盒签到：heybox://</li><li>115 摇一摇：wx9b74cc2b355eef5f://</li></ul>"
+      ],
+      "keys": ["@MovieCalendar.apikey", "@MovieCalendar.diylink", "@MovieCalendar.time", "@MovieCalendar.choosePic", "@MovieCalendar.chooseClient"],
+      "settings": [
+        {
+          "id": "@MovieCalendar.debug",
+          "name": "测试环境",
+          "val": false,
+          "type": "boolean",
+          "desc": "如未出现特殊报错等问题请保持关闭。"
+        },
+        {
+          "id": "@MovieCalendar.time",
+          "name": "重试次数",
+          "val": "",
+          "type": "number",
+          "placeholder": "10", 
+          "desc": "运行时接口失败的重试次数，不填默认为 10，请谨慎填写，过大会爆内存。"
+        },
+        {
+          "id": "@MovieCalendar.apikey",
+          "name": "APIKey",
+          "val": "",
+          "type": "text", 
+          "desc": "豆瓣获取接口的 APIKey，请自行获取。"
+        }, 
+        {
+          "id": "@MovieCalendar.choosePic",
+          "name": "多媒体",
+          "val": "poster",
+          "type": "radios",
+          "desc": "选择通知中的多媒体。",
+          "items": [
+            { "key": "poster", "label": "电影剧照" },
+            { "key": "cover", "label": "电影海报" },
+            { "key": "trailer", "label": "预告片" }
+          ]
+        },
+        {
+          "id": "@MovieCalendar.chooseClient",
+          "name": "客户端",
+          "val": "Safari",
+          "type": "radios",
+          "desc": "选择点击跳转的客户端。",
+          "items": [
+            { "key": "Safari", "label": "Safari" },
+            { "key": "douban", "label": "豆瓣" },
+            { "key": "diy", "label": "自定义跳转" }
+          ]
+        },
+        {
+          "id": "@MovieCalendar.diylink",
+          "name": "跳转链接",
+          "val": "",
+          "type": "text",
+          "placeholder": "dingtalk://dingtalkclient/page/link?url=https://attend.dingtalk.com/attend/index.html", 
+          "desc": "自定义跳转链接，可为 URL Scheme，仅当客户端选择「自定义跳转」时有效。"
+        }
+      ],
+      "author": "@zZPiglet",
+      "repo": "https://github.com/zZPiglet/Task/blob/master/MovieCalendar/MovieCalendar.js",
+      "scripts": [
+        {
+          "name": "电影日历 样式一",
+          "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/MovieCalendar/MovieCalendar.js"
+        },
+        {
+          "name": "电影日历 样式二",
+          "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/MovieCalendar/MovieCalendar_lite.js"
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/MovieCalendar.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/MovieCalendar.png"
+      ]
+    },
+    {
+      "id": "zZ.Oclean",
+      "name": "欧可林",
+      "descs_html": [
+        "使用 app 请先按<a href=\"https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean.js\">脚本注释</a>进行配置，然后进入\"欧可林\"并点击\"活动\"，若弹出\"首次写入欧可林 Cookie 成功\"即可正常食用。",
+        "使用小程序请先按<a href=\"https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js\">脚本注释</a>进行配置，然后进入微信小程序\"欧可林商城\"并点击\"每日任务\"，若弹出\"首次写入欧可林商城 Cookie 成功\"即可正常食用。",
+        "app 和小程序选择一个使用即可，两者获取的奖励一致。欧可林有早、晚积分红包脚本，请搭配使用，抢红包脚本基本均处于超时状态，故要么无通知要么通知超时，无影响。若抢红包脚本发出正常通知，请反馈通知及日志至 <a href=\"https://t.me/zZPiglet_bot\">@zZPiglet_bot</a>。"
+      ],
+      "keys": ["Oclean", "Oclean_mini"],
+      "settings": [
+        {
+          "id": "Oclean",
+          "name": "Shop-Member",
+          "val": "",
+          "type": "text",
+          "desc": "用户验证信息，由 app 注册绑定生成。"
+        },
+        {
+          "id": "Oclean_mini",
+          "name": "openId",
+          "val": "",
+          "type": "text",
+          "desc": "用户验证信息，由微信小程序生成。"
+        }
+      ],
+      "author": "@zZPiglet",
+      "repo": "https://github.com/zZPiglet/Task/tree/master/Oclean",
+      "scripts": [
+        {
+          "name": "欧可林 app",
+          "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean.js"
+        },
+        {
+          "name": "欧可林 app 早红包",
+          "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_red_envelope_am.js"
+        },
+        {
+          "name": "欧可林 app 晚红包",
+          "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_red_envelope_pm.js"
+        },
+        {
+          "name": "欧可林 小程序",
+          "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js"
+        },
+        {
+          "name": "欧可林 小程序 早红包",
+          "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini_red_envelope_am.js"
+        },
+        {
+          "name": "欧可林 小程序 晚红包",
+          "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini_red_envelope_pm.js"
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Oclean.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Oclean.png"
+      ]
+    },
+    {
+      "id": "zZ.umetrip",
+      "name": "航旅纵横(pro)",
+      "desc_html": "请先按<a href=\"https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js\">脚本注释</a>进行配置，然后进入\"航旅纵横(Pro)\" - \"出行有礼\" - \"每日签到\"，若弹出\"首次写入 umetrip id 成功\"即可正常食用。",
+      "keys": ["@umetrip.id"],
+      "settings": [
+        {
+          "id": "@umetrip.id",
+          "name": "rsid",
+          "val": "",
+          "type": "text",
+          "autoGrow": true,
+          "rows": 2,
+          "desc": "用户验证信息。若抓包填入请填写 rsid 中「$$」之前的部分。"
+        }
+      ],
+      "author": "@zZPiglet",
+      "repo": "https://github.com/zZPiglet/Task/blob/master/umetrip/umetrip.js",
+      "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/umetrip.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/umetrip.png"
+      ]
+    },
+    {
+      "id": "zZ.CMB_688",
+      "name": "招商银行 - 688、188",
+      "keys": ["CMB_wait_688", "CMB_wait_188", "CMB_wait_out"],
+      "settings": [
+        {
+          "id": "CMB_wait_688",
+          "name": "等待跳转至 688 时间",
+          "val": "",
+          "type": "number",
+          "desc": "从「余额宝转入」通知到「招行 688」通知之间间隔时间，单位为秒，不填默认 15 秒"
+        },
+        {
+          "id": "CMB_wait_188",
+          "name": "等待跳转至 188 时间",
+          "val": "",
+          "type": "number",
+          "desc": "从「招行 688」通知到「招行 188」通知之间间隔时间，单位为秒，不填默认 15 秒"
+        },
+        {
+          "id": "CMB_wait_out",
+          "name": "等待跳转至余额宝转出时间",
+          "val": "",
+          "type": "number",
+          "desc": "从「招行 188」通知到「余额宝转出」通知之间间隔时间，单位为秒，不填默认 15 秒"
+        }
+      ],
+      "author": "@zZPiglet",
+      "repo": "https://github.com/zZPiglet/Task/tree/master/CMB/CMB_688.js",
+      "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/CMB/CMB_688.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/cmbchina.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/cmbchina.png"
+      ]
+    },
+    {
+      "id": "zZ.Alipay",
+      "name": "支付宝 - 积分能量",
+      "keys": ["Alipay_wait_family","Alipay_wait_mayi"],
+      "settings": [
+        {
+          "id": "Alipay_wait_family",
+          "name": "等待跳转至领家庭积分时间",
+          "val": "",
+          "type": "number",
+          "desc": "从「领积分」通知到「领家庭积分」通知之间间隔时间，单位为秒，不填默认 5 秒"
+        },
+        {
+          "id": "Alipay_wait_mayi",
+          "name": "等待跳转至收能量时间",
+          "val": "",
+          "type": "number",
+          "desc": "从「领家庭积分」通知到「收能量」通知之间间隔时间，单位为秒，不填默认 5 秒"
+        }
+      ],
+      "author": "@zZPiglet",
+      "repo": "https://github.com/zZPiglet/Task/tree/master/Alipay/Alipay.js",
+      "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/Alipay/Alipay.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/alipay.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/alipay.png"
+      ]
+    }
+  ]
+}
