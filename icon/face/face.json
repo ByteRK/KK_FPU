@@ -1,0 +1,102 @@
+{
+    "name": "face icons",
+    "description": "by Orz-3",
+    "icons": [
+        {
+            "name": "Global",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/face/Global.png"
+        },
+        {
+            "name": "China",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/face/China.png"
+        },
+        {
+            "name": "Bilibili",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/face/Bili.png"
+        },
+        {
+            "name": "YouTube",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/face/YouTube.png"
+        },
+        {
+            "name": "Final",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/face/Final.png"
+        },
+        {
+            "name": "Apple",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/face/Apple.png"
+        },
+        {
+            "name": "Message",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/face/Message.png"
+        },
+        {
+            "name": "Netflix",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/face/Netflix.png"
+        },
+        {
+            "name": "Music",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/face/Music.png"
+        },
+        {
+            "name": "Netease",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/face/Netease.png"
+        },
+        {
+            "name": "Static",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/face/Static.png"
+        },
+        {
+            "name": "Auto",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/face/Auto.png"
+        },
+        {
+            "name": "Game",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/face/Game.png"
+        },
+        {
+            "name": "Scholar",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/face/Scholar.png"
+        },
+        {
+            "name": "HK",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/face/HK.png"
+        },
+        {
+            "name": "MO",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/face/MO.png"
+        },
+        {
+            "name": "TW",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/face/TW.png"
+        },
+        {
+            "name": "CN",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/face/CN.png"
+        },
+        {
+            "name": "UN",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/face/UN.png"
+        },
+        {
+            "name": "UK",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/face/UK.png"
+        },
+        {
+            "name": "US",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/face/US.png"
+        },
+        {
+            "name": "JP",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/face/JP.png"
+        },
+        {
+            "name": "KR",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/face/KR.png"
+        },
+        {
+            "name": "SG",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/face/SG.png"
+        }
+    ]
+}

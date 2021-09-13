@@ -1,0 +1,246 @@
+{
+    "name": "mini Color",
+    "description": "by Orz-3",
+    "icons": [
+        {
+            "name": "Global",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Global.png"
+        },
+        {
+            "name": "China",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/China.png"
+        },
+        {
+            "name": "Streaming",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Streaming.png"
+        },
+        {
+            "name": "StreamingSE",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/StreamingSE.png"
+        },
+        {
+            "name": "StreamingCN",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/StreamingCN.png"
+        },
+        {
+            "name": "Static",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Static.png"
+        },
+        {
+            "name": "Urltest",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Urltest.png"
+        },
+        {
+            "name": "Available",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Available.png"
+        },
+        {
+            "name": "Roundrobin",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Roundrobin.png"
+        },
+        {
+            "name": "SSID",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/SSID.png"
+        },
+        {
+            "name": "Telegram",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Telegram.png"
+        },
+        {
+            "name": "Instagram",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Instagram.png"
+        },
+        {
+            "name": "Speedtest",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Speedtest.png"
+        },
+        {
+            "name": "Adblock",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Adblock.png"
+        },
+        {
+            "name": "Final",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Final.png"
+        },
+        {
+            "name": "Google",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Google.png"
+        },
+        {
+            "name": "Apple",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Apple.png"
+        },
+        {
+            "name": "Microsoft",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Microsoft.png"
+        },
+        {
+            "name": "Twitter",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Twitter.png"
+        },
+        {
+            "name": "Paypal",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Paypal.png"
+        },
+        {
+            "name": "GoogleDrive",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/GoogleDrive.png"
+        },
+        {
+            "name": "AppleTV",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/AppleTV.png"
+        },
+        {
+            "name": "Discovery+",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Discovery.png"
+        },
+        {
+            "name": "Clubhouse",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Clubhouse.png"
+        },
+        {
+            "name": "NeteaseMusic",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Netease.png"
+        },
+        {
+            "name": "YouTube",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/YouTube.png"
+        },
+        {
+            "name": "Netflix",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Netflix.png"
+        },
+        {
+            "name": "Spotify",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Spotify.png"
+        },
+        {
+            "name": "Emby",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Emby.png"
+        },
+        {
+            "name": "PLUS",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/PLUS.png"
+        },
+        {
+            "name": "TikTok",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/TikTok.png"
+        },
+        {
+            "name": "Bahamut",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Bahamut.png"
+        },
+        {
+            "name": "Pornhub",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Pornhub.png"
+        },
+        {
+            "name": "Bilibili",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Bili.png"
+        },
+        {
+            "name": "Disney+",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/DisneyPlus.png"
+        },
+        {
+            "name": "HBO",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/HBO.png"
+        },
+        {
+            "name": "Hulu",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Hulu.png"
+        },
+        {
+            "name": "PrimeVideo",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/PrimeVideo.png"
+        },
+        {
+            "name": "LineTV",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/LineTV.png"
+        },
+        {
+            "name": "Paramount",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Paramount.png"
+        },
+        {
+            "name": "HK",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/HK.png"
+        },
+        {
+            "name": "MO",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/MO.png"
+        },
+        {
+            "name": "TW",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/TW.png"
+        },
+        {
+            "name": "CN",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/CN.png"
+        },
+        {
+            "name": "GAME",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/GAME.png"
+        },
+        {
+            "name": "JP",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/JP.png"
+        },
+        {
+            "name": "KR",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/KR.png"
+        },
+        {
+            "name": "SG",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/SG.png"
+        },
+        {
+            "name": "VN",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/VN.png"
+        },
+        {
+            "name": "TH",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/TH.png"
+        },
+        {
+            "name": "RU",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/RU.png"
+        },
+        {
+            "name": "UK",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/UK.png"
+        },
+        {
+            "name": "FR",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/FR.png"
+        },
+        {
+            "name": "DE",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/DE.png"
+        },
+        {
+            "name": "TR",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/TR.png"
+        },
+        {
+            "name": "US",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/US.png"
+        },
+        {
+            "name": "CA",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/CA.png"
+        },
+        {
+            "name": "AU",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/AU.png"
+        },
+        {
+            "name": "XD",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/XD.png"
+        },
+        {
+            "name": "UN",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/UN.png"
+        }
+    ]
+}

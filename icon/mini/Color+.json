@@ -1,0 +1,310 @@
+{
+    "name": "Color+",
+    "description": "By Orz-3",
+    "icons": [
+        {
+            "name": "Flower",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Flower.png"
+        },
+        {
+            "name": "Maying",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Maying.png"
+        },
+        {
+            "name": "Nexitally",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Nex.png"
+        },
+        {
+            "name": "Dler",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Dler.png"
+        },
+        {
+            "name": "Cylink",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Cylink.png"
+        },
+        {
+            "name": "SaySS",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/SaySS.png"
+        },
+        {
+            "name": "Boslife",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Boslife.png"
+        },
+        {
+            "name": "CCCat",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/CCCat.png"
+        },
+        {
+            "name": "AAEX",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/AAEX.png"
+        },
+        {
+            "name": "Hitun",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Hitun.png"
+        },
+        {
+            "name": "MDSS",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/MDSS.png"
+        },
+        {
+            "name": "STC",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/STC.png"
+        },
+        {
+            "name": "Blinkload",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Blink.png"
+        },
+        {
+            "name": "YTOO",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Ytoo.png"
+        },
+        {
+            "name": "SSP",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Ssp.png"
+        },
+        {
+            "name": "Renzhe",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Renzhe.png"
+        },
+        {
+            "name": "NSFW",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/NSFW.png"
+        },
+        {
+            "name": "Cord",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Cord.png"
+        },
+        {
+            "name": "Exflux",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Exflux.png"
+        },
+        {
+            "name": "ImmTel",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Imm.png"
+        },
+        {
+            "name": "Xingmeng",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Xingmeng.png"
+        },
+        {
+            "name": "Ark",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Ark.png"
+        },
+        {
+            "name": "Amy",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Amy.png"
+        },
+        {
+            "name": "GuGuEX",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Guguex.png"
+        },
+        {
+            "name": "Kache",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Kache.png"
+        },
+        {
+            "name": "Cm",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Cm.png"
+        },
+        {
+            "name": "Fastnode",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Fastnode.png"
+        },
+        {
+            "name": "Boom",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Boom.png"
+        },
+        {
+            "name": "Np",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Np.png"
+        },
+        {
+            "name": "Catnet",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Catnet.png"
+        },
+        {
+            "name": "Xair",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Xair.png"
+        },
+        {
+            "name": "Dukou",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Dukou.png"
+        },
+        {
+            "name": "CoCo",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Coco.png"
+        },
+        {
+            "name": "V2Tun",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/V2tun.png"
+        },
+        {
+            "name": "DLK",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/DLK.png"
+        },
+        {
+            "name": "Fastlink",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Fastlink.png"
+        },
+        {
+            "name": "Yunyi",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Yunyi.png"
+        },
+        {
+            "name": "CNIX",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/CNIX.png"
+        },
+        {
+            "name": "Zhs",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Zhs.png"
+        },
+        {
+            "name": "Bywave",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Bywave.png"
+        },
+        {
+            "name": "Ywhl",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Ywhl.png"
+        },
+        {
+            "name": "Kedou",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Kedou.png"
+        },
+        {
+            "name": "Fastfish",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Fastfish.png"
+        },
+        {
+            "name": "Dianliang",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Dianliang.png"
+        },
+        {
+            "name": "ASN",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/ASN.png"
+        },
+        {
+            "name": "Hidden",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Hidden.png"
+        },
+        {
+            "name": "Pikachu",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Pikachu.png"
+        },
+        {
+            "name": "Paoluz",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Paoluz.png"
+        },
+        {
+            "name": "Prpr",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Prpr.png"
+        },
+        {
+            "name": "Skicat",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Skicat.png"
+        },
+        {
+            "name": "Suda",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Suda.png"
+        },
+        {
+            "name": "Muchang",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Muchang.png"
+        },
+        {
+            "name": "Shandian",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Shandian.png"
+        },
+        {
+            "name": "MGNB",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/MGNB.png"
+        },
+        {
+            "name": "Wallless",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Wallless.png"
+        },
+        {
+            "name": "Element",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Element.png"
+        },
+        {
+            "name": "BitCloud",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Bitcloud.png"
+        },
+        {
+            "name": "Hxlm",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Hxlm.png"
+        },
+        {
+            "name": "Miaona",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Miao.png"
+        },
+        {
+            "name": "Duang",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Duang.png"
+        },
+        {
+            "name": "FNF",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/FNF.png"
+        },
+        {
+            "name": "Rookie",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Rookie.png"
+        },
+        {
+            "name": "OvO",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/OvO.png"
+        },
+        {
+            "name": "Socloud",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Socloud.png"
+        },
+        {
+            "name": "Suncloud",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Sun.png"
+        },
+        {
+            "name": "GLaDOS",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/GLaDOS.png"
+        },
+        {
+            "name": "Situ",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Situ.png"
+        },
+        {
+            "name": "Kuai",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Kuai.png"
+        },
+        {
+            "name": "SWCloud",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/SWCloud.png"
+        },
+        {
+            "name": "MIMEMI",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Mimemi.png"
+        },
+        {
+            "name": "XTunnel",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/XTunnel.png"
+        },
+        {
+            "name": "Touhou",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Touhou.png"
+        },
+        {
+            "name": "Pacifiuue",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Pacifique.png"
+        },
+        {
+            "name": "GaCloud",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/GaCloud.png"
+        },
+        {
+            "name": "Enet",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/Enet.png"
+        },
+        {
+            "name": "FRANXX",
+            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Color/FRANXX.png"
+        }
+    ]
+}
