@@ -29,6 +29,7 @@ var obj = {
     { spid: "data_recover", times: 0, expire_time: 1946256142 },
     { spid: "ocr", times: 0, expire_time: 1946256142 },
     { spid: "pdf2doc", times: 0, expire_time: 1946256142 },
+    { spid: "pdf2excel", times: 0, expire_time: 1946256142 },
     { spid: "pdf_merge", times: 0, expire_time: 1946256142 },
     { spid: "pdf_sign", times: 0, expire_time: 1946256142 },
     { spid: "pdf_split", times: 0, expire_time: 1946256142 }
