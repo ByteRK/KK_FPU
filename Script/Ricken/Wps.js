@@ -44,6 +44,11 @@ var obj = {
     memberid: 40,
     expire_time: 1946256142,
     enabled: [
+      { memberid: 45, name: "精品课会员", expire_time: 1946256142 },
+      { memberid: 44, name: "精品课会员", expire_time: 1946256142 },
+      { memberid: 43, name: "精品课会员", expire_time: 1946256142 },
+      { memberid: 42, name: "精品课会员", expire_time: 1946256142 },
+      { memberid: 41, name: "精品课会员", expire_time: 1946256142 },
       { memberid: 40, name: "超级会员", expire_time: 1946256142 },
       { memberid: 20, name: "WPS会员", expire_time: 1946256142 },
       { memberid: 12, name: "稻壳会员", expire_time: 1946256142 }
