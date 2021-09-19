@@ -44,24 +44,24 @@ var obj = {
     memberid: 40,
     expire_time: 1946256142,
     enabled: [
-      { memberid: 51, name: "精品课会员", expire_time: 1946256142 },
-      { memberid: 50, name: "精品课会员", expire_time: 1946256142 },
-      { memberid: 49, name: "精品课会员", expire_time: 1946256142 },
-      { memberid: 48, name: "精品课会员", expire_time: 1946256142 },
-      { memberid: 47, name: "精品课会员", expire_time: 1946256142 },
-      { memberid: 46, name: "精品课会员", expire_time: 1946256142 },
-      { memberid: 45, name: "精品课会员", expire_time: 1946256142 },
-      { memberid: 44, name: "精品课会员", expire_time: 1946256142 },
-      { memberid: 43, name: "精品课会员", expire_time: 1946256142 },
-      { memberid: 42, name: "精品课会员", expire_time: 1946256142 },
-      { memberid: 41, name: "精品课会员", expire_time: 1946256142 },
       { memberid: 40, name: "超级会员", expire_time: 1946256142 },
       { memberid: 20, name: "WPS会员", expire_time: 1946256142 },
       { memberid: 12, name: "稻壳会员", expire_time: 1946256142 }
     ]
   },
+  vips:[
+    { name:"超级会员", has_ad:0, memberid:20, expire_time: 1946256142, enabled: null },
+    { name:"稻壳会员", has_ad:0, memberid:20, expire_time: 1946256142, enabled: null },
+    { name:"WPS会员", has_ad:0, memberid:20, expire_time: 1946256142, enabled: null }
+  ],
+  data :{
+    contract_data:[],
+    server_time: 1946256142
+  },
   wealth: 0,
-  expire_time: 1946256142
+  expire_time: 1946256142,
+  server_time: 1946256142,
+  msg:success
 };
 
 $done({ body: JSON.stringify(obj) });
