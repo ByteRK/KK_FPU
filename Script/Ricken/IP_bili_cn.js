@@ -56,20 +56,5 @@ if ($response.statusCode != 200) {
   var subtitle =  "🌸 "+ ISP_ValidCheck(obj['isp']) + " ➠ "+ obj['country'];
   var ip = obj['addr']; 
 
-  var timezone = "东";
-
-  if(parseInt(obj['longitude'])>0){
-    timezone = "西";
-  }
-
-  var timey = Math.abs(parseInt(obj['longitude']))%15;
-  var times = Math.floor(Math.abs(parseInt(obj['longitude']))/15);
-  if(timey<7.5){
-    timezone = timezone + times + "区";
-  }else{
-    times = times + 1;
-    timezone = timezone + times + "区";
-  }
-
-  var description = '服务商:'+obj['isp'] + '\n'+'定位: [' +obj["latitude"]+","+obj["longitude"]+"]"+ '\n' + 'IP:'+ obj['addr'] + '\n' +'时区:'+ timezone;
+  var description = '服务商:'+obj['isp'] + '\n'+'定位: [' +obj["latitude"]+","+obj["longitude"]+"]"+ '\n' + 'IP:'+ obj['addr'] + '\n' +'时区:'+ "timezone";
   $done({title, subtitle, ip, description});
