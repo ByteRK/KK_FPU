@@ -63,7 +63,7 @@ if ($response.statusCode != 200) {
   }
 
   var timey = Math.abs(parseInt(obj['longitude']))%15;
-  var times = Math.abs(parseInt(obj['longitude']))/15;
+  var times = Math.floor(Math.abs(parseInt(obj['longitude']))/15);
   if(timey<7.5){
     timezone = timezone + times + "区";
   }else{
