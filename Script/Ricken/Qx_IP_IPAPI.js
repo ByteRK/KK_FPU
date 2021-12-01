@@ -61,8 +61,8 @@ if ($response.statusCode != 200) {
 var body = $response.body;
 var obj = JSON.parse(body);
 
-var title = flags.get(obj['countryCode']) + ' ' + City_ValidCheck(obj['city']) + ' 🥤';
+var title = flags.get(obj['countryCode']) + ' ' + City_ValidCheck(obj['city']) + ' 🏖';
 var subtitle = "🌸 " + ORG_ValidCheck(obj['org']) + " ➠ " + Area_check(obj['country']);
 var ip = obj['query'];
-var description = 'IP:' + obj['query'] + '\n' + 'AREA:' + Area_check(obj['country']) + '\n' + 'ISP:' + obj['isp'] + '\n' + 'ORG:' + obj['org'] + '\n' + 'CITY:' + City_ValidCheck(obj['regionName']) + '\n' + 'TZ:' + obj['timezone'] + '\n' + 'LON:' + obj['lon'] + '\n' + 'LAT:' + obj['lat'] + '\n\n' + '🧑🏻‍ 想喝可乐的KK🥤';
+var description = 'IP:' + obj['query'] + '\n' + 'AREA:' + Area_check(obj['country']) + '\n' + 'ISP:' + obj['isp'] + '\n' + 'ORG:' + obj['org'] + '\n' + 'CITY:' + City_ValidCheck(obj['regionName']) + '\n' + 'TZ:' + obj['timezone'] + '\n' + 'LON:' + obj['lon'] + '\n' + 'LAT:' + obj['lat'] + '\n\n' + '‍🧑🏻‍ 想喝可乐的KK🥤';
 $done({ title, subtitle, ip, description });
