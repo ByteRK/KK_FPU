@@ -49,19 +49,8 @@ var obj = {
       { memberid: 12, name: "稻壳会员", expire_time: 1946256142 }
     ]
   },
-  vips:[
-    { name:"超级会员", has_ad:0, memberid:20, expire_time: 1946256142, enabled: null },
-    { name:"稻壳会员", has_ad:0, memberid:20, expire_time: 1946256142, enabled: null },
-    { name:"WPS会员", has_ad:0, memberid:20, expire_time: 1946256142, enabled: null }
-  ],
-  data :{
-    contract_data:[],
-    server_time: 1946256142
-  },
   wealth: 0,
-  expire_time: 1946256142,
-  server_time: 1946256142,
-  msg:success
+  expire_time: 1946256142
 };
 
 $done({ body: JSON.stringify(obj) });
