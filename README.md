@@ -19,27 +19,3 @@
 
  **您必须在下载后的24小时内从计算机或手机中完全删除以上内容.**  </br>
 > ***您使用或者复制了本仓库内的任何脚本，则视为`已接受`此声明，请仔细阅读*** 
-
-
-## 脚本兼容: 
-[QuantumultX](https://apps.apple.com/us/app/quantumult-x/id1443988620), [Surge](https://apps.apple.com/us/app/surge-4/id1442620678), [Loon](https://apps.apple.com/us/app/loon/id1373567447), [小火箭](https://apps.apple.com/us/app/shadowrocket/id932747118), [JSBox](https://apps.apple.com/us/app/jsbox-learn-to-code/id1312014438), [Node.js**](https://nodejs.org/en/)
-
-
-## 特别感谢(排名不分先后)：
-
-
-* [@lxk0301](https://github.com/lxk0301)
-
-* [@blackmatrix7](https://github.com/blackmatrix7)
-
-* [@NobyDa](https://github.com/NobyDa)
-
-* [@chavyleung](https://github.com/chavyleung)
-
-* [@liuxiaoyucc](https://github.com/liuxiaoyucc)
-
-* [@Zero-S1](https://github.com/Zero-S1)
-
-* [@uniqueque](https://github.com/uniqueque)
-
-* [@nzw9314](https://github.com/nzw9314)
