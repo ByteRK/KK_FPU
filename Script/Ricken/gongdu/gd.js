@@ -19,7 +19,7 @@
 [task_local]
 
 # > 共读每日签到
-0 0 4 * * * https://raw.githubusercontent.com/HackRicken/KK_FPU/main/Script/Ricken/gongdu/gd.js, tag=共读每日签到, img-url=https://raw.githubusercontent.com/HackRicken/KK_FPU/main/Icon/yuio/app/gongdu.png, enable=true
+0 0 4 * * * https://raw.githubusercontent.com/HackRicken/KK_FPU/main/Script/Ricken/gongdu/gd.js, tag=共读每日签到, img-url=https://raw.githubusercontent.com/HackRicken/KK_FPU/main/Icon/yuio/app/gongdu.png, enabled=true
 
 [mitm] 
 hostname = api.aoodog.com
