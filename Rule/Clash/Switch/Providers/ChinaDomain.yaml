@@ -15,12 +15,14 @@ payload:
   - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,qupu123.com
   - DOMAIN-SUFFIX,pdfwifi.com
+  - DOMAIN-SUFFIX,zhenguanyu.biz
+  - DOMAIN-SUFFIX,zhenguanyu.com
 
-  # CN域名直连
+  # CN域名直连(中国|公司|网络)
   - DOMAIN-SUFFIX,cn
-  - DOMAIN-SUFFIX,中国
-  - DOMAIN-SUFFIX,公司
-  - DOMAIN-SUFFIX,网络
+  - DOMAIN-SUFFIX,xn--fiqs8s
+  - DOMAIN-SUFFIX,xn--55qx5d
+  - DOMAIN-SUFFIX,xn--io0a7i
 
   # 中国国内常见域名关键词直连
   - DOMAIN-KEYWORD,-cn
@@ -312,6 +314,7 @@ payload:
   - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
 
   # SteamCN
+  - DOMAIN-SUFFIX,cm.steampowered.com
   - DOMAIN-SUFFIX,steamcontent.com
   - DOMAIN-SUFFIX,steamusercontent.com
   - DOMAIN-SUFFIX,steamchina.com
@@ -571,7 +574,6 @@ payload:
   - DOMAIN-SUFFIX,lizhi.fm
   - DOMAIN-SUFFIX,lizhi.io
   - DOMAIN-SUFFIX,lizhifm.com
-  - DOMAIN-SUFFIX,loli.net
   - DOMAIN-SUFFIX,luoo.net
   - DOMAIN-SUFFIX,lvmama.com
   - DOMAIN-SUFFIX,lxdns.com
@@ -598,7 +600,6 @@ payload:
   - DOMAIN-SUFFIX,oracle.com
   - DOMAIN-SUFFIX,oschina.net
   - DOMAIN-SUFFIX,ourdvs.com
-  - DOMAIN-SUFFIX,paypal.com
   - DOMAIN-SUFFIX,polyv.net
   - DOMAIN-SUFFIX,qbox.me
   - DOMAIN-SUFFIX,qcloud.com
@@ -625,7 +626,6 @@ payload:
   - DOMAIN-SUFFIX,sf-express.com
   - DOMAIN-SUFFIX,shumilou.net
   - DOMAIN-SUFFIX,simplecd.me
-  - DOMAIN-SUFFIX,sm.ms
   - DOMAIN-SUFFIX,smzdm.com
   - DOMAIN-SUFFIX,snwx.com
   - DOMAIN-SUFFIX,soufunimg.com

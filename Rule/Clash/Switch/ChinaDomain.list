@@ -14,12 +14,14 @@ DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msftncsi.com
 DOMAIN-SUFFIX,qupu123.com
 DOMAIN-SUFFIX,pdfwifi.com
+DOMAIN-SUFFIX,zhenguanyu.biz
+DOMAIN-SUFFIX,zhenguanyu.com
 
-# CN域名直连
+# CN域名直连(中国|公司|网络)
 DOMAIN-SUFFIX,cn
-DOMAIN-SUFFIX,中国
-DOMAIN-SUFFIX,公司
-DOMAIN-SUFFIX,网络
+DOMAIN-SUFFIX,xn--fiqs8s
+DOMAIN-SUFFIX,xn--55qx5d
+DOMAIN-SUFFIX,xn--io0a7i
 
 # 中国国内常见域名关键词直连
 DOMAIN-KEYWORD,-cn
@@ -311,6 +313,7 @@ DOMAIN-SUFFIX,sony.com
 DOMAIN-SUFFIX,sonyentertainmentnetwork.com
 
 # SteamCN
+DOMAIN-SUFFIX,cm.steampowered.com
 DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steamusercontent.com
 DOMAIN-SUFFIX,steamchina.com
@@ -596,7 +599,6 @@ DOMAIN-SUFFIX,onlinedown.net
 DOMAIN-SUFFIX,oracle.com
 DOMAIN-SUFFIX,oschina.net
 DOMAIN-SUFFIX,ourdvs.com
-DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,polyv.net
 DOMAIN-SUFFIX,qbox.me
 DOMAIN-SUFFIX,qcloud.com
