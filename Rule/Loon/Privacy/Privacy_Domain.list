@@ -1,11 +1,11 @@
 # NAME: Privacy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-03-04 02:12:14
+# UPDATED: 2022-03-11 02:13:36
 # DOMAIN: 13
-# DOMAIN-SUFFIX: 12408
+# DOMAIN-SUFFIX: 12410
 # IP-CIDR: 6
-# TOTAL: 12427
+# TOTAL: 12429
 hm.baidu.com
 hmma.baidu.com
 js.users.51.la
@@ -70,6 +70,7 @@ zgsdk.zhugeio.com
 .8147563.thekingdom.bk.com
 .8147563.your-way.bk.com
 .82o9v830.com
+.8672.site
 .8ehhtsv9bo7i.monkeylearn.com
 .8ezc.sfr.fr
 .8p0kiyq5mq1d.flex.team
@@ -1174,6 +1175,7 @@ zgsdk.zhugeio.com
 .analytics.contents.by-fw.jp
 .analytics.convertlanguage.com
 .analytics.cynapse.com
+.analytics.daasrv.net
 .analytics.data.lloydsbankinggroup.com
 .analytics.datahc.com
 .analytics.designspiration.com
@@ -1801,6 +1803,7 @@ zgsdk.zhugeio.com
 .briskpelican.io
 .brizxe.dior.com
 .broadboundary.com
+.brontops.com
 .brothersbucket.com
 .browser-updater.yandex.net
 .browser.events.data.microsoft.com
@@ -1918,6 +1921,7 @@ zgsdk.zhugeio.com
 .capablecup.com
 .capture-api.ap3prod.com
 .capture.condenastdigital.com
+.capturehighered.net
 .carburanalyticsspace.carte-gr.total.fr
 .carburantsanalyticsa.carte-gr.total.fr
 .carburez-a-l-emotion.carte-gr.total.fr
@@ -3213,7 +3217,6 @@ zgsdk.zhugeio.com
 .email.mail.primexbt.com
 .email.mccoys.com
 .email.member.theknot.com
-.email.mg.everyonesocial.com
 .email.mymandg.co.uk
 .email.participaction.com
 .email.pray.com
@@ -3355,7 +3358,6 @@ zgsdk.zhugeio.com
 .engageru2.3mrussia.ru
 .enlightenment.secureshoppingbasket.com
 .ens.luzernerzeitung.ch
-.ens.nzz.ch
 .ens.tagblatt.ch
 .enterprise2.secureforms.mcafee.com
 .entertainingeyes.com
@@ -3901,7 +3903,6 @@ zgsdk.zhugeio.com
 .go.federalbank.co.in
 .go.foremostmedia.com
 .go.fuze.com
-.go.fvtc.edu
 .go.getherculestires.com
 .go.gpcom.com
 .go.hager.com
@@ -4010,7 +4011,6 @@ zgsdk.zhugeio.com
 .gw5worvzkb4j.stoic.ai
 .gwtc.sfr.fr
 .gx.idg.se
-.gyvcwd.cdiscount.com
 .gz-data.com
 .gzads.com
 .gzimdi.soloautos.mx
@@ -4475,6 +4475,7 @@ zgsdk.zhugeio.com
 .infos.yellow.com.au
 .infospot.roanokegroup.com
 .ingest.make.rvapps.io
+.ingress.linktr.ee
 .inkubate.actonservice.com
 .innerskinresearch.com
 .innocentwax.com
@@ -4645,6 +4646,7 @@ zgsdk.zhugeio.com
 .k.voyageursdumonde.fr
 .k4fu.verif.com
 .k54nw.pw
+.k5a.io
 .ka.ilius.net
 .kabokc.webuy.com
 .kaden.netoff.co.jp
@@ -8581,6 +8583,7 @@ zgsdk.zhugeio.com
 .smetrics.rejuvenation.com
 .smetrics.remserv.com.au
 .smetrics.renesas.com
+.smetrics.repco.co.nz
 .smetrics.repco.com.au
 .smetrics.restaurant.com
 .smetrics.rexulti.com
@@ -10344,6 +10347,7 @@ zgsdk.zhugeio.com
 .telemetry.adobe.io
 .telemetry.api.playstation.com
 .telemetry.jivosite.com
+.telemetry.phenixrts.com
 .telemetry.reembed.com
 .telemetry.soundcloud.com
 .telemetry.tableausoftware.com
@@ -10753,7 +10757,6 @@ zgsdk.zhugeio.com
 .tr.news.casino.fr
 .tr.news.casinodrive.fr
 .tr.news.casinomax.fr
-.tr.news.cdiscount.com
 .tr.news.companeo.es
 .tr.news.cotemaison.fr
 .tr.news.deneuville-chocolat.fr
@@ -10799,7 +10802,6 @@ zgsdk.zhugeio.com
 .tr.news.younited-coach.com
 .tr.news.younited-credit.com
 .tr.news2pjms.fr
-.tr.news6.cdiscount.com
 .tr.newsletter.afpa.fr
 .tr.newsletter.assuragency.net
 .tr.newsletter.bouygues-construction.com
@@ -10820,7 +10822,6 @@ zgsdk.zhugeio.com
 .tr.notification-gdpr.sygmabybnpparibas-pf.com
 .tr.notification.banque-revillon.fr
 .tr.notification.cafineo.fr
-.tr.notification.cdiscount.com
 .tr.notification.cetelem.fr
 .tr.notification.credit-moderne.fr
 .tr.notification.norrsken.fr
@@ -11488,6 +11489,7 @@ zgsdk.zhugeio.com
 .ubmitt.heine.ch
 .ubmups.houseofindya.com
 .ubt.berlingskemedia.net
+.ubuyanalytics.ubuy.com
 .ubvsjh.pointtown.com
 .ubxvdx.accuweather.com
 .udgrbq.malwarebytes.com
