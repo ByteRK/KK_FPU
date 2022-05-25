@@ -15,3 +15,4 @@ HOST-SUFFIX,npmjs.com,GitHub
 HOST-SUFFIX,npmjs.org,GitHub
 HOST-SUFFIX,rawgit.com,GitHub
 HOST-KEYWORD,github,GitHub
+HOST-SUFFIX,raw.githubusercontent.com,GitHub
