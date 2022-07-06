@@ -76,7 +76,7 @@ function getcookie() {
         Ricken.msg("🥤写入" + appName + "UID失败‼️", "", "配置错误, 无法读取UID");
         Ricken.log("写入" + appName + "UID失败‼️", "", "配置错误, 无法读取UID");
     }
-    Ricken.done()
+    Ricken.done($response.body)
 }
 
 function main() {
