@@ -19,7 +19,11 @@ objc.vips = [
         "expire_time": 1946256142,
         "name": "超级会员",
         "has_ad": 0,
-        "enabled": null
+        "enabled": [
+            { memberid: 40, name: "超级会员", expire_time: 1946256142 },
+            { memberid: 20, name: "WPS会员", expire_time: 1946256142 },
+            { memberid: 12, name: "稻壳会员", expire_time: 1946256142 }
+        ]
     }
 ];
 
