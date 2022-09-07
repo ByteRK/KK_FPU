@@ -1,0 +1,15 @@
+name: Wps
+desc: 解锁Wps会员
+http:
+  mitm:
+    - 'account.wps.cn'
+  script:
+    - match: https?:\/\/account\.wps\.cn\/api\/users
+      name: Wps
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  Xmind:
+    url: https://raw.githubusercontent.com/HackRicken/KK_FPU/main/Script/Ricken/wps/wps.js
+    interval: 86400
