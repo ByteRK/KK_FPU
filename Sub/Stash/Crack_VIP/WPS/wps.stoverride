@@ -1,5 +1,5 @@
 name: Wps
-desc: 解锁Wps本地会员
+desc: 解锁Wps本地会员 --By Ricken
 http:
   mitm:
     - 'account.wps.cn'
