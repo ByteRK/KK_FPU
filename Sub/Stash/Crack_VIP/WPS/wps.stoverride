@@ -1,15 +1,32 @@
 name: Wps
-desc: 解锁Wps会员
+desc: 解锁Wps本地会员
 http:
   mitm:
     - 'account.wps.cn'
+    - '*account.wps.com'
+    - '*.docer.wps.cn'
+    - 'vipapi.wps.cn'
+    - 'account.wps.cn'
   script:
-    - match: https?:\/\/account\.wps\.cn\/api\/users
+    - match: ^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$
       name: Wps
       type: response
       require-body: true
       timeout: 10
+    - match: ^https?:\/\/account\.wps\.(com|cn)\/api\/v3\/mine\/vips
+      name: Wps_docer
+      type: response
+      require-body: true
+      timeout: 10
+    - match: ^https?:\/\/.+\.(docer.)?wps.cn\/(user\/v1\/vip|android\/mb\/buy|download\/v1\/ios|partner\/invoke\/usable|(api|rank)\/v1(\/mobile\/mb)?\/detail)
+      name: Wps_docer
+      type: request
+      require-body: false
+      timeout: 10
 script-providers:
   Wps:
     url: https://raw.githubusercontent.com/HackRicken/KK_FPU/main/Script/Ricken/wps/wps.js
+    interval: 86400
+  Wps_docer:
+    url: https://raw.githubusercontent.com/HackRicken/KK_FPU/main/Script/Ricken/wps/docer.js
     interval: 86400
