@@ -1,0 +1,17 @@
+name: Commerce
+desc: 醒图&Ulike&轻颜相机&vaporcam（四合一）解锁会员权限 --By Ricken
+http:
+  mitm:
+    - 'commerce-i18n-api.faceu.mobi'
+    - 'commerce-api.faceu.mobi'
+    - 'pay.wecut.com'
+  script:
+    - match: https://(commerce-.*api|pay).(faceu|wecut).(com|mobi)/(commerce|apple)/(iosAppVerifyReceipt.php|v1/subscription/user_info)
+      name: Commerce
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  Commerce:
+    url: https://raw.githubusercontent.com/HackRicken/KK_FPU/main/Script/Internet/commerce/commerce.js
+    interval: 86400
