@@ -10,6 +10,6 @@ http:
       require-body: true
       timeout: 10
 script-providers:
-  Xmind:
+  Wps:
     url: https://raw.githubusercontent.com/HackRicken/KK_FPU/main/Script/Ricken/wps/wps.js
     interval: 86400
