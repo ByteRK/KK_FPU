@@ -1,4 +1,4 @@
 name: 广工商校园网DNS
 desc: 解决打开Stash无法登陆校园网界面 --By Ricken
 rules:
-  - IP-CIDR,10.20.16.5,DIRECT,no-resolve
+  - IP-CIDR,10.20.16.5/20,DIRECT,no-resolve
