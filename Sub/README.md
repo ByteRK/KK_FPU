@@ -14,14 +14,14 @@
 
 ### 2. iOS代理软件（QuantumultX, Surge, Loon, 小火箭）
 
-- BoxJs订阅地址：[BoxJS.json](https://raw.githubusercontent.com/HackRicken/KK_FPU/main/Sub/BoxJS/BoxJS.json)
+- BoxJs订阅地址：[BoxJS.json](https://raw.githubusercontent.com/ByteRK/KK_FPU/main/Sub/BoxJS/BoxJS.json)
 
-- 获取京东cookie [JD_extra_cookie.js](https://raw.githubusercontent.com/HackRicken/KK_FPU/main/JD/JD_extra_cookie.js)
+- 获取京东cookie [JD_extra_cookie.js](https://raw.githubusercontent.com/ByteRK/KK_FPU/main/JD/JD_extra_cookie.js)
 
 - 订阅链接：`JD`
 
-  - Surge：Task&Cookies脚本模块地址: [lxk0301_Task.sgmodule.sgmodule](https://raw.githubusercontent.com/HackRicken/KK_FPU/main/Sub/Surge/lxk0301_Task.sgmodule.sgmodule)
+  - Surge：Task&Cookies脚本模块地址: [lxk0301_Task.sgmodule.sgmodule](https://raw.githubusercontent.com/ByteRK/KK_FPU/main/Sub/Surge/lxk0301_Task.sgmodule.sgmodule)
 
-  - Loon：Task&Cookies脚本订阅链接: [lxk0301_LoonTask.conf](https://raw.githubusercontent.com/HackRicken/KK_FPU/main/Loon/lxk0301_LoonTask.conf)
+  - Loon：Task&Cookies脚本订阅链接: [lxk0301_LoonTask.conf](https://raw.githubusercontent.com/ByteRK/KK_FPU/main/Loon/lxk0301_LoonTask.conf)
 
-  - QuantumultX：Task脚本订阅链接: [QX_JD_gallery.json](https://raw.githubusercontent.com/HackRicken/KK_FPU/main/Sub/QuantumultX/QX_JD_gallery.json)，cookie(重写)订阅链接: [lxk0301_cookies.conf](https://raw.githubusercontent.com/HackRicken/KK_FPU/main/Sub/QuantumultX/QX_JD_cookies.conf)
+  - QuantumultX：Task脚本订阅链接: [QX_JD_gallery.json](https://raw.githubusercontent.com/ByteRK/KK_FPU/main/Sub/QuantumultX/QX_JD_gallery.json)，cookie(重写)订阅链接: [lxk0301_cookies.conf](https://raw.githubusercontent.com/ByteRK/KK_FPU/main/Sub/QuantumultX/QX_JD_cookies.conf)

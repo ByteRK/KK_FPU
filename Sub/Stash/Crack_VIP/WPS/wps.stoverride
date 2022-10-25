@@ -25,8 +25,8 @@ http:
       timeout: 10
 script-providers:
   Wps:
-    url: https://raw.githubusercontent.com/HackRicken/KK_FPU/main/Script/Ricken/wps/wps.js
+    url: https://raw.githubusercontent.com/ByteRK/KK_FPU/main/Script/Ricken/wps/wps.js
     interval: 86400
   Wps_docer:
-    url: https://raw.githubusercontent.com/HackRicken/KK_FPU/main/Script/Ricken/wps/docer.js
+    url: https://raw.githubusercontent.com/ByteRK/KK_FPU/main/Script/Ricken/wps/docer.js
     interval: 86400

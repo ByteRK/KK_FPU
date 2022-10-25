@@ -2,8 +2,8 @@
 
 [rewrite_local]
 # > WPS解锁稻壳会员
-^https?:\/\/account\.wps\.cn\/api\/v3\/mine\/vips url script-response-body https://raw.githubusercontent.com/HackRicken/KK_FPU/main/Script/Ricken/wps/docer.js
-^https?:\/\/.+\.(docer.)?wps.cn\/(user\/v1\/vip|android\/mb\/buy|download\/v1\/ios|partner\/invoke\/usable|(api|rank)\/v1(\/mobile\/mb)?\/detail) url script-request-header https://raw.githubusercontent.com/HackRicken/KK_FPU/main/Script/Ricken/wps/docer.js
+^https?:\/\/account\.wps\.cn\/api\/v3\/mine\/vips url script-response-body https://raw.githubusercontent.com/ByteRK/KK_FPU/main/Script/Ricken/wps/docer.js
+^https?:\/\/.+\.(docer.)?wps.cn\/(user\/v1\/vip|android\/mb\/buy|download\/v1\/ios|partner\/invoke\/usable|(api|rank)\/v1(\/mobile\/mb)?\/detail) url script-request-header https://raw.githubusercontent.com/ByteRK/KK_FPU/main/Script/Ricken/wps/docer.js
 
 [mitm]
 hostname = *.docer.wps.cn, vipapi.wps.cn, account.wps.cn

@@ -2,7 +2,7 @@
 
 [rewrite_local]
 # > 滴答清单解锁会员
-^https:\/\/(ticktick|dida365)\.com\/api\/v2\/user\/status url script-response-body https://raw.githubusercontent.com/HackRicken/KK_FPU/main/Script/Ricken/wps/docer.js
+^https:\/\/(ticktick|dida365)\.com\/api\/v2\/user\/status url script-response-body https://raw.githubusercontent.com/ByteRK/KK_FPU/main/Script/Ricken/wps/docer.js
 
 [mitm]
 hostname = ticktick.com, dida365.com

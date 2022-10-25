@@ -13,5 +13,5 @@ http:
       timeout: 10
 script-providers:
   Commerce:
-    url: https://raw.githubusercontent.com/HackRicken/KK_FPU/main/Script/Internet/commerce/commerce.js
+    url: https://raw.githubusercontent.com/ByteRK/KK_FPU/main/Script/Internet/commerce/commerce.js
     interval: 86400

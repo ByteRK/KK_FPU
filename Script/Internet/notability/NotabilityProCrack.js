@@ -5,7 +5,7 @@
 软件版本：11.0.6
 [rewrite_local]
 # Notability解锁订阅
-^https?:\/\/notability\.com\/subscriptions url script-response-body https://raw.githubusercontent.com/HackRicken/KK_FPU/master/Script/Internet/notability/NotabilityProCrack.js
+^https?:\/\/notability\.com\/subscriptions url script-response-body https://raw.githubusercontent.com/ByteRK/KK_FPU/master/Script/Internet/notability/NotabilityProCrack.js
 [mitm] 
 hostname = notability.com
 *

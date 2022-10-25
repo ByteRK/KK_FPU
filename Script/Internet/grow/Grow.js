@@ -9,8 +9,8 @@
 
 hostname=api.revenuecat.com
 
-^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$ url script-echo-response https://raw.githubusercontent.com/HackRicken/KK_FPU/main/Script/Internet/grow/Grow.js
-^https?:\/\/api\.revenuecat\.com\/v\d\/receipts$ url script-echo-response https://raw.githubusercontent.com/HackRicken/KK_FPU/main/Script/Internet/grow/Grow.js
+^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$ url script-echo-response https://raw.githubusercontent.com/ByteRK/KK_FPU/main/Script/Internet/grow/Grow.js
+^https?:\/\/api\.revenuecat\.com\/v\d\/receipts$ url script-echo-response https://raw.githubusercontent.com/ByteRK/KK_FPU/main/Script/Internet/grow/Grow.js
 
 
 */

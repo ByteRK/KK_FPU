@@ -6,7 +6,7 @@ NOMO CAM 解锁订阅
 [rewrite_local]
 
 # > NOMO CAM 解锁订阅
-^https?:\/\/nomo\.dafork\.com\/api\/v3\/register\/phone_signin$ url script-response-body https://raw.githubusercontent.com/HackRicken/KK_FPU/main/Script/Internet/nomo/NoMoCamProCrack.js
+^https?:\/\/nomo\.dafork\.com\/api\/v3\/register\/phone_signin$ url script-response-body https://raw.githubusercontent.com/ByteRK/KK_FPU/main/Script/Internet/nomo/NoMoCamProCrack.js
 
 [mitm] 
 

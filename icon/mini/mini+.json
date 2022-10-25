@@ -4,43 +4,43 @@
     "icons": [
         {
             "name": "Personal",
-            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Alpha/Personal.png"
+            "url": "https://raw.githubusercontent.com/ByteRK/KK_FPU/main/icon/mini/Alpha/Personal.png"
         },
         {
             "name": "Team",
-            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Alpha/Team.png"
+            "url": "https://raw.githubusercontent.com/ByteRK/KK_FPU/main/icon/mini/Alpha/Team.png"
         },
         {
             "name": "Enterprise",
-            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Alpha/Enterprise.png"
+            "url": "https://raw.githubusercontent.com/ByteRK/KK_FPU/main/icon/mini/Alpha/Enterprise.png"
         },
         {
             "name": "Piao",
-            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Alpha/Piao.png"
+            "url": "https://raw.githubusercontent.com/ByteRK/KK_FPU/main/icon/mini/Alpha/Piao.png"
         },
         {
             "name": "RIP",
-            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Alpha/RIP.png"
+            "url": "https://raw.githubusercontent.com/ByteRK/KK_FPU/main/icon/mini/Alpha/RIP.png"
         },
         {
             "name": "SS",
-            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Alpha/SS.png"
+            "url": "https://raw.githubusercontent.com/ByteRK/KK_FPU/main/icon/mini/Alpha/SS.png"
         },
         {
             "name": "SSR",
-            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Alpha/SSR.png"
+            "url": "https://raw.githubusercontent.com/ByteRK/KK_FPU/main/icon/mini/Alpha/SSR.png"
         },
         {
             "name": "V2aray",
-            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Alpha/V2ray.png"
+            "url": "https://raw.githubusercontent.com/ByteRK/KK_FPU/main/icon/mini/Alpha/V2ray.png"
         },
         {
             "name": "Trojan",
-            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Alpha/Trojan.png"
+            "url": "https://raw.githubusercontent.com/ByteRK/KK_FPU/main/icon/mini/Alpha/Trojan.png"
         },
         {
             "name": "Vpn",
-            "url": "https://raw.githubusercontent.com/HackRicken/KK_FPU/main/icon/mini/Alpha/Vpn.png"
+            "url": "https://raw.githubusercontent.com/ByteRK/KK_FPU/main/icon/mini/Alpha/Vpn.png"
         }
     ]
 }

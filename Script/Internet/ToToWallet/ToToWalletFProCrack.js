@@ -13,7 +13,7 @@
 *******************************
 [rewrite_local]
 # > 图图记账解锁永久高级版
-^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/HackRicken/KK_FPU/master/Script/Internet/ToToWallet/ToToWalletFProCrack.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/ByteRK/KK_FPU/master/Script/Internet/ToToWallet/ToToWalletFProCrack.js
 [mitm] 
 hostname = api.revenuecat.com
 *
