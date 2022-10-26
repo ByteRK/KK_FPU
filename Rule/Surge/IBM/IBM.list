@@ -1,7 +1,7 @@
 # NAME: IBM
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-01-18 23:33:27
+# UPDATED: 2022-10-18 21:04:42
 # DOMAIN-SUFFIX: 13
 # TOTAL: 13
 DOMAIN-SUFFIX,appdomain.cloud
@@ -15,5 +15,5 @@ DOMAIN-SUFFIX,ibm.us
 DOMAIN-SUFFIX,nic.ibm
 DOMAIN-SUFFIX,s-bluemix.net
 DOMAIN-SUFFIX,s81c.com
-DOMAIN-SUFFIX,weather
+DOMAIN-SUFFIX,weather.com
 DOMAIN-SUFFIX,weatherchannel

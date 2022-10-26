@@ -1,23 +1,26 @@
 # NAME: Google
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-19 12:55:38
-# PROCESS-NAME: 5
-# USER-AGENT: 3
-# DOMAIN-SUFFIX: 642
-# DOMAIN-KEYWORD: 8
+# UPDATED: 2022-10-18 21:03:27
+# DOMAIN-KEYWORD: 6
+# DOMAIN-SUFFIX: 710
 # IP-CIDR: 4
 # IP-CIDR6: 1
-# TOTAL: 663
+# PROCESS-NAME: 5
+# USER-AGENT: 3
+# TOTAL: 729
 DOMAIN-SUFFIX,0emm.com
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,1ucrs.com
 DOMAIN-SUFFIX,265.com
+DOMAIN-SUFFIX,2mdn-cn.net
 DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,466453.com
 DOMAIN-SUFFIX,abc.xyz
+DOMAIN-SUFFIX,accounts.googlers.com
 DOMAIN-SUFFIX,adgoogle.net
 DOMAIN-SUFFIX,admeld.com
+DOMAIN-SUFFIX,admob-cn.com
 DOMAIN-SUFFIX,admob.com
 DOMAIN-SUFFIX,adsense.com
 DOMAIN-SUFFIX,adsensecustomsearchads.com
@@ -27,6 +30,7 @@ DOMAIN-SUFFIX,advertiserscommunity.com
 DOMAIN-SUFFIX,adwords-community.com
 DOMAIN-SUFFIX,adwords.com
 DOMAIN-SUFFIX,adwordsexpress.com
+DOMAIN-SUFFIX,ai.ytimg.com
 DOMAIN-SUFFIX,amp.dev
 DOMAIN-SUFFIX,ampproject.com
 DOMAIN-SUFFIX,ampproject.net
@@ -37,21 +41,27 @@ DOMAIN-SUFFIX,androidtv.com
 DOMAIN-SUFFIX,angulardart.org
 DOMAIN-SUFFIX,api.ai
 DOMAIN-SUFFIX,apigee.com
+DOMAIN-SUFFIX,app-measurement-cn.com
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,app-measurement.net
 DOMAIN-SUFFIX,appbridge.ca
 DOMAIN-SUFFIX,appbridge.io
 DOMAIN-SUFFIX,appbridge.it
+DOMAIN-SUFFIX,apps5.oingo.com
 DOMAIN-SUFFIX,appspot.com
 DOMAIN-SUFFIX,apture.com
 DOMAIN-SUFFIX,area120.com
 DOMAIN-SUFFIX,asp-cc.com
 DOMAIN-SUFFIX,autodraw.com
+DOMAIN-SUFFIX,avail.googleflights.net
 DOMAIN-SUFFIX,bandpage.com
 DOMAIN-SUFFIX,baselinestudy.com
 DOMAIN-SUFFIX,baselinestudy.org
 DOMAIN-SUFFIX,bazel.build
 DOMAIN-SUFFIX,bdn.dev
+DOMAIN-SUFFIX,beacons.gvt2.com
+DOMAIN-SUFFIX,beacons2.gvt2.com
+DOMAIN-SUFFIX,beacons3.gvt2.com
 DOMAIN-SUFFIX,beatthatquote.com
 DOMAIN-SUFFIX,blink.org
 DOMAIN-SUFFIX,blogblog.com
@@ -153,9 +163,11 @@ DOMAIN-SUFFIX,chromestatus.com
 DOMAIN-SUFFIX,chromium.org
 DOMAIN-SUFFIX,chronicle.security
 DOMAIN-SUFFIX,chroniclesec.com
+DOMAIN-SUFFIX,clickserve.cc-dt.com
 DOMAIN-SUFFIX,clickserver.googleads.com
 DOMAIN-SUFFIX,cloudburstresearch.com
 DOMAIN-SUFFIX,cloudfunctions.net
+DOMAIN-SUFFIX,cloudproxy.app
 DOMAIN-SUFFIX,cloudrobotics.com
 DOMAIN-SUFFIX,cobrasearch.com
 DOMAIN-SUFFIX,codespot.com
@@ -175,6 +187,7 @@ DOMAIN-SUFFIX,cs4hs.com
 DOMAIN-SUFFIX,dart.dev
 DOMAIN-SUFFIX,dartlang.org
 DOMAIN-SUFFIX,dartpad.dev
+DOMAIN-SUFFIX,dartsearch-cn.net
 DOMAIN-SUFFIX,dartsearch.net
 DOMAIN-SUFFIX,data-vocabulary.org
 DOMAIN-SUFFIX,dataliberation.org
@@ -182,13 +195,22 @@ DOMAIN-SUFFIX,debug.com
 DOMAIN-SUFFIX,debugproject.com
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deja.com
+DOMAIN-SUFFIX,deps.dev
+DOMAIN-SUFFIX,deps.info
 DOMAIN-SUFFIX,devsitetest.how
 DOMAIN-SUFFIX,dialogflow.com
 DOMAIN-SUFFIX,digisfera.com
 DOMAIN-SUFFIX,digitalassetlinks.org
 DOMAIN-SUFFIX,digitalattackmap.com
+DOMAIN-SUFFIX,distribution.qatp1.net
+DOMAIN-SUFFIX,distribution.qcpp1.net
+DOMAIN-SUFFIX,distribution.qpdp1.net
+DOMAIN-SUFFIX,doubleclick-cn.net
 DOMAIN-SUFFIX,doubleclick.com
 DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,download.qatp1.net
+DOMAIN-SUFFIX,download.qcpp1.net
+DOMAIN-SUFFIX,download.qpdp1.net
 DOMAIN-SUFFIX,episodic.com
 DOMAIN-SUFFIX,fastlane.ci
 DOMAIN-SUFFIX,fastlane.tools
@@ -208,6 +230,8 @@ DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,g.dev
 DOMAIN-SUFFIX,g.page
 DOMAIN-SUFFIX,gateway.dev
+DOMAIN-SUFFIX,gcp.gvt2.com
+DOMAIN-SUFFIX,gcpnode.com
 DOMAIN-SUFFIX,gcr.io
 DOMAIN-SUFFIX,gerritcodereview.com
 DOMAIN-SUFFIX,get.app
@@ -218,8 +242,6 @@ DOMAIN-SUFFIX,getbumptop.com
 DOMAIN-SUFFIX,getmdl.io
 DOMAIN-SUFFIX,getoutline.org
 DOMAIN-SUFFIX,ggoogle.com
-DOMAIN-SUFFIX,ggpht.cn
-DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,gipscorp.com
 DOMAIN-SUFFIX,gkecnapps.cn
 DOMAIN-SUFFIX,globaledu.org
@@ -236,10 +258,12 @@ DOMAIN-SUFFIX,golang.com
 DOMAIN-SUFFIX,golang.net
 DOMAIN-SUFFIX,golang.org
 DOMAIN-SUFFIX,gonglchuangl.net
+DOMAIN-SUFFIX,gongyichuangyi.net
 DOMAIN-SUFFIX,goo.gl
 DOMAIN-SUFFIX,googel.com
 DOMAIN-SUFFIX,googil.com
 DOMAIN-SUFFIX,googl.com
+DOMAIN-SUFFIX,google-analytics-cn.com
 DOMAIN-SUFFIX,google-analytics.com
 DOMAIN-SUFFIX,google-syndication.com
 DOMAIN-SUFFIX,google.ad
@@ -439,10 +463,13 @@ DOMAIN-SUFFIX,google.vu
 DOMAIN-SUFFIX,google.ws
 DOMAIN-SUFFIX,googleacquisitionmigration.com
 DOMAIN-SUFFIX,googleadapis.com
+DOMAIN-SUFFIX,googleadservices-cn.com
 DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,googleanalytics.com
+DOMAIN-SUFFIX,googleapis-cn.com
 DOMAIN-SUFFIX,googleapis.cn
 DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleapps-cn.com
 DOMAIN-SUFFIX,googleapps.com
 DOMAIN-SUFFIX,googlearth.com
 DOMAIN-SUFFIX,googleblog.com
@@ -455,43 +482,50 @@ DOMAIN-SUFFIX,googlecommerce.com
 DOMAIN-SUFFIX,googlecompare.co.uk
 DOMAIN-SUFFIX,googledanmark.com
 DOMAIN-SUFFIX,googledomains.com
-DOMAIN-SUFFIX,googledrive.com
 DOMAIN-SUFFIX,googlee.com
 DOMAIN-SUFFIX,googleearth.com
+DOMAIN-SUFFIX,googlefiber.com
 DOMAIN-SUFFIX,googlefiber.net
 DOMAIN-SUFFIX,googlefinland.com
+DOMAIN-SUFFIX,googleflights-cn.net
 DOMAIN-SUFFIX,googlemail.com
 DOMAIN-SUFFIX,googlemaps.com
 DOMAIN-SUFFIX,googlemashups.com
+DOMAIN-SUFFIX,googleoptimize-cn.com
 DOMAIN-SUFFIX,googleoptimize.com
 DOMAIN-SUFFIX,googlepagecreator.com
 DOMAIN-SUFFIX,googlephotos.com
 DOMAIN-SUFFIX,googleplay.com
+DOMAIN-SUFFIX,googleplex.com
 DOMAIN-SUFFIX,googleplus.com
 DOMAIN-SUFFIX,googlescholar.com
 DOMAIN-SUFFIX,googlesource.com
 DOMAIN-SUFFIX,googlestore.com
 DOMAIN-SUFFIX,googlesverige.com
+DOMAIN-SUFFIX,googlesyndication-cn.com
 DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googletagmanager-cn.com
 DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,googletagservices-cn.com
 DOMAIN-SUFFIX,googletagservices.com
+DOMAIN-SUFFIX,googletraveladservices-cn.com
 DOMAIN-SUFFIX,googletraveladservices.com
-DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,googlevads-cn.com
 DOMAIN-SUFFIX,googleventures.com
-DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,googlr.com
 DOMAIN-SUFFIX,goolge.com
 DOMAIN-SUFFIX,gooogle.com
 DOMAIN-SUFFIX,gridaware.app
 DOMAIN-SUFFIX,gsrc.io
+DOMAIN-SUFFIX,gstatic-cn.com
 DOMAIN-SUFFIX,gstatic.cn
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gstaticcnapps.cn
 DOMAIN-SUFFIX,gsuite.com
 DOMAIN-SUFFIX,gv.com
 DOMAIN-SUFFIX,gvt0.com
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,gvt1-cn.com
+DOMAIN-SUFFIX,gvt2-cn.com
 DOMAIN-SUFFIX,gvt3.com
 DOMAIN-SUFFIX,gvt5.com
 DOMAIN-SUFFIX,gvt6.com
@@ -525,6 +559,9 @@ DOMAIN-SUFFIX,mdialog.com
 DOMAIN-SUFFIX,meet.new
 DOMAIN-SUFFIX,mfg-inspector.com
 DOMAIN-SUFFIX,mobileview.page
+DOMAIN-SUFFIX,monitoring.qatp1.net
+DOMAIN-SUFFIX,monitoring.qcpp1.net
+DOMAIN-SUFFIX,monitoring.qpdp1.net
 DOMAIN-SUFFIX,moodstocks.com
 DOMAIN-SUFFIX,near.by
 DOMAIN-SUFFIX,nest.com
@@ -538,6 +575,8 @@ DOMAIN-SUFFIX,on2.com
 DOMAIN-SUFFIX,onefifteen.net
 DOMAIN-SUFFIX,onefifteen.org
 DOMAIN-SUFFIX,oneworldmanystories.com
+DOMAIN-SUFFIX,opensourceinsight.dev
+DOMAIN-SUFFIX,opensourceinsights.dev
 DOMAIN-SUFFIX,openthread.io
 DOMAIN-SUFFIX,openweave.io
 DOMAIN-SUFFIX,orbitera.com
@@ -560,20 +599,43 @@ DOMAIN-SUFFIX,polymer-project.org
 DOMAIN-SUFFIX,polymerproject.org
 DOMAIN-SUFFIX,postini.com
 DOMAIN-SUFFIX,privacysandbox.com
+DOMAIN-SUFFIX,prod-controlbe.floonet.goog
+DOMAIN-SUFFIX,prod-databe.floonet.goog
+DOMAIN-SUFFIX,prod.databe.floonet.goog
 DOMAIN-SUFFIX,projectara.com
 DOMAIN-SUFFIX,projectbaseline.com
 DOMAIN-SUFFIX,publishproxy.com
+DOMAIN-SUFFIX,qagpublic.qatp1.net
+DOMAIN-SUFFIX,qagpublic.qcpp1.net
+DOMAIN-SUFFIX,qagpublic.qpdp1.net
+DOMAIN-SUFFIX,qgadmin.qatp1.net
+DOMAIN-SUFFIX,qgadmin.qcpp1.net
+DOMAIN-SUFFIX,qgadmin.qpdp1.net
+DOMAIN-SUFFIX,qpx.googleflights.net
+DOMAIN-SUFFIX,qualysapi.qatp1.net
+DOMAIN-SUFFIX,qualysapi.qcpp1.net
+DOMAIN-SUFFIX,qualysapi.qpdp1.net
+DOMAIN-SUFFIX,qualysguard.qatp1.net
+DOMAIN-SUFFIX,qualysguard.qcpp1.net
+DOMAIN-SUFFIX,qualysguard.qpdp1.net
 DOMAIN-SUFFIX,questvisual.com
 DOMAIN-SUFFIX,quickoffice.com
 DOMAIN-SUFFIX,quiksee.com
 DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,redhotlabs.com
+DOMAIN-SUFFIX,redirector.gcpcdn.gvt1.com
+DOMAIN-SUFFIX,redirector.gvt1.com
+DOMAIN-SUFFIX,redirector.offline-maps.gvt1.com
+DOMAIN-SUFFIX,redirector.snap.gvt1.com
 DOMAIN-SUFFIX,registry.google
 DOMAIN-SUFFIX,revolv.com
 DOMAIN-SUFFIX,ridepenguin.com
 DOMAIN-SUFFIX,run.app
 DOMAIN-SUFFIX,savethedate.foo
 DOMAIN-SUFFIX,saynow.com
+DOMAIN-SUFFIX,scanservice1.qatp1.net
+DOMAIN-SUFFIX,scanservice1.qcpp1.net
+DOMAIN-SUFFIX,scanservice1.qpdp1.net
 DOMAIN-SUFFIX,schema.org
 DOMAIN-SUFFIX,schemer.com
 DOMAIN-SUFFIX,screenwisetrends.com
@@ -582,6 +644,9 @@ DOMAIN-SUFFIX,shattered.io
 DOMAIN-SUFFIX,snapseed.com
 DOMAIN-SUFFIX,solveforx.com
 DOMAIN-SUFFIX,stadia.dev
+DOMAIN-SUFFIX,staging-controlbe.floonet.goog
+DOMAIN-SUFFIX,staging-databe.floonet.goog
+DOMAIN-SUFFIX,staging.databe.floonet.goog
 DOMAIN-SUFFIX,stcroixmosquito.com
 DOMAIN-SUFFIX,stcroixmosquitoproject.com
 DOMAIN-SUFFIX,studywatchbyverily.com
@@ -604,6 +669,8 @@ DOMAIN-SUFFIX,tiltbrush.com
 DOMAIN-SUFFIX,txcloud.net
 DOMAIN-SUFFIX,txvia.com
 DOMAIN-SUFFIX,unfiltered.news
+DOMAIN-SUFFIX,up.corp.goog
+DOMAIN-SUFFIX,up.gcp.googlers.com
 DOMAIN-SUFFIX,urchin.com
 DOMAIN-SUFFIX,useplannr.com
 DOMAIN-SUFFIX,usvimosquito.com
@@ -635,6 +702,8 @@ DOMAIN-SUFFIX,womenwill.com.br
 DOMAIN-SUFFIX,womenwill.id
 DOMAIN-SUFFIX,womenwill.in
 DOMAIN-SUFFIX,womenwill.mx
+DOMAIN-SUFFIX,www.destinationurl.com
+DOMAIN-SUFFIX,www.pxcc.com
 DOMAIN-SUFFIX,x.company
 DOMAIN-SUFFIX,x.team
 DOMAIN-SUFFIX,xn--9kr7l.com
@@ -646,19 +715,16 @@ DOMAIN-SUFFIX,xn--gogl-1nd42e.com
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c
 DOMAIN-SUFFIX,xplr.co
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,yt.be
-DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,zukunftswerkstatt.de
 DOMAIN-SUFFIX,zynamics.com
+DOMAIN-SUFFIX,googledrive.com
+DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-KEYWORD,appspot
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD,googlesource
 DOMAIN-KEYWORD,gstatic
 DOMAIN-KEYWORD,recaptcha
-DOMAIN-KEYWORD,www.google.
 IP-CIDR,172.110.32.0/21,no-resolve
 IP-CIDR,173.194.0.0/16,no-resolve
 IP-CIDR,216.73.80.0/20,no-resolve
@@ -667,8 +733,8 @@ IP-CIDR6,2620:120:e000::/40,no-resolve
 USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
 USER-AGENT,*com.google.Drive*
 USER-AGENT,Google.Drive*
-PROCESS-NAME,backupandsync
 PROCESS-NAME,com.android.vending
 PROCESS-NAME,com.google.android.gms
 PROCESS-NAME,com.google.android.gsf
 PROCESS-NAME,com.google.android.play.games
+PROCESS-NAME,backupandsync

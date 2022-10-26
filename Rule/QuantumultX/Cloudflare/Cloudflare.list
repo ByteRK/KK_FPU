@@ -1,28 +1,35 @@
 # NAME: Cloudflare
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-01-18 23:33:29
-# HOST-SUFFIX: 22
+# UPDATED: 2022-10-18 21:03:53
+# HOST-SUFFIX: 29
 # IP-CIDR: 14
 # IP6-CIDR: 7
-# TOTAL: 43
+# TOTAL: 50
+HOST-SUFFIX,cf-ipfs.com,Cloudflare
 HOST-SUFFIX,cloudflare-dns.com,Cloudflare
 HOST-SUFFIX,cloudflare-ipfs.com,Cloudflare
 HOST-SUFFIX,cloudflare-quic.com,Cloudflare
 HOST-SUFFIX,cloudflare.com,Cloudflare
 HOST-SUFFIX,cloudflare.net,Cloudflare
+HOST-SUFFIX,cloudflare.tv,Cloudflare
+HOST-SUFFIX,cloudflareaccess.com,Cloudflare
 HOST-SUFFIX,cloudflareapps.com,Cloudflare
 HOST-SUFFIX,cloudflarebolt.com,Cloudflare
 HOST-SUFFIX,cloudflareclient.com,Cloudflare
 HOST-SUFFIX,cloudflareinsights.com,Cloudflare
 HOST-SUFFIX,cloudflareok.com,Cloudflare
+HOST-SUFFIX,cloudflarepreview.com,Cloudflare
 HOST-SUFFIX,cloudflareresolve.com,Cloudflare
 HOST-SUFFIX,cloudflaressl.com,Cloudflare
 HOST-SUFFIX,cloudflarestatus.com,Cloudflare
+HOST-SUFFIX,cloudflarestorage.com,Cloudflare
 HOST-SUFFIX,cloudflarestream.com,Cloudflare
 HOST-SUFFIX,cloudflaretest.com,Cloudflare
 HOST-SUFFIX,cloudflarewarp.com,Cloudflare
+HOST-SUFFIX,every1dns.net,Cloudflare
 HOST-SUFFIX,one.one.one,Cloudflare
+HOST-SUFFIX,pacloudflare.com,Cloudflare
 HOST-SUFFIX,pages.dev,Cloudflare
 HOST-SUFFIX,trycloudflare.com,Cloudflare
 HOST-SUFFIX,videodelivery.net,Cloudflare

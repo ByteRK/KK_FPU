@@ -1,15 +1,15 @@
 # NAME: AdvertisingLite
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-03-10 02:12:57
-# DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
-# DOMAIN: 23559
+# UPDATED: 2022-10-25 02:42:31
+# DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
+# AND: 1
+# DOMAIN: 23685
 # DOMAIN-KEYWORD: 27
-# DOMAIN-SUFFIX: 13288
-# IP-CIDR: 158
-# IP-CIDR6: 1
-# URL-REGEX: 296
-# TOTAL: 37329
+# DOMAIN-SUFFIX: 13488
+# IP-CIDR: 190
+# URL-REGEX: 295
+# TOTAL: 37686
 00-gov.cn
 0024aadd.com
 0026645142c89aeb1.com
@@ -22,6 +22,7 @@
 012.tw
 0123kjz.com
 012469af389a1d1246d.com
+0127.adsame.com
 013572.cn
 017e689c749.com
 020wujin.cn
@@ -111,6 +112,7 @@
 111ol.com
 114lm.com
 114park.com
+114study.adsame.com
 114yeah.com
 11599jgj.com
 116b.com
@@ -258,7 +260,6 @@
 24smi.org
 24smile.org
 24vunvrv.com
-24x7adservice.com
 2529.com
 254a.com
 2559a303164ddde96.com
@@ -1032,7 +1033,6 @@ absorbingband.com
 absorbingcorn.com
 absorbingprison.com
 abstractedamount.com
-absurdapple.com
 absurdity.flarelight.com
 abtao.wang
 abtrcking.com
@@ -1108,7 +1108,6 @@ activeprospects.com
 activetracker.activehotels.com
 activity.browser.intl.miui.com
 activity.clotfun.xyz
-activity.tuiapple.com
 actnx.com
 actpx.com
 actuallysheep.com
@@ -1370,7 +1369,6 @@ adgoto.com
 adgreed.com
 adgroups.com
 adgrx.com
-adguanggao.eee114.com
 adgup.com
 adhealers.com
 adheart.de
@@ -1464,9 +1462,6 @@ admantx.com
 admarketing.yahoo.net
 admarketplace.net
 admartzone.com
-admarvel.s3.amazonaws.com
-admarvel.top
-admaster.net
 admatrix.jp
 admaxim.com
 admaya.in
@@ -1568,6 +1563,7 @@ adpick.co.kr
 adpies.com
 adpinion.com
 adpionier.de
+adplace.adsame.com
 adplans.info
 adplex.media
 adplugg.com
@@ -1685,10 +1681,10 @@ ads4cheap.com
 ads4xxx.com
 ads5-adnow.com
 adsafety.net
-adsage.com
 adsagony.com
 adsalvo.com
 adsame1.cnr.cn
+adsamer.adsame.com
 adsapi.snapchat.com
 adsblockkpush.com
 adsbookie.com
@@ -1718,9 +1714,6 @@ adserverplus.com
 adserverpub.com
 adservex.media.net
 adservhere.com
-adservice.google.co.jp
-adservice.google.com.hk
-adservicemedia.dk
 adserving.favorit-network.com
 adserving.unibet.com
 adservingfactory.com
@@ -1734,6 +1727,7 @@ adsfac.net
 adsfac.us
 adsfan.net
 adsfast.com
+adsfilebssdlbig.tx.kugou.com
 adsforallmedia.com
 adsforindians.com
 adsfundi.com
@@ -1793,8 +1787,6 @@ adsrv.bangbros.com
 adsrv.us
 adsrv1.tapad.com
 adsrv4k.com
-adsrvmedia.com
-adsrvmedia.net
 adsrvx.com
 adssend.net
 adsstatic.vivo.com.cn
@@ -2006,6 +1998,7 @@ adwstats.com
 adx-t.com
 adx.com.ru
 adx.maplehaze.cn
+adx.op.cp18.ott.cibntv.net
 adx1.com
 adxadtracker.com
 adxapi.jumei.com
@@ -2345,6 +2338,7 @@ akuettddwkwtdx.com
 akwajlcoap.com
 akyscwwwttk.com
 akzgmbembk.com
+al.autohome.com.cn
 alahnavideos.pro
 alapsblu.com
 albacross.com
@@ -2525,6 +2519,7 @@ analytics.oneplus.cn
 analytics.ooyala.com
 analytics.praetor.im
 analytics.snidigital.com
+analytics.talkingdata.net
 analytics.techweb.com.cn
 analytics.tv189.cn
 analytics.woozooo.com
@@ -2588,7 +2583,6 @@ antoball.com
 antotu.info
 antvoice.com
 anvtnqpbkjyk.com
-anxiousapples.com
 anyaspasp.club
 anybest.host
 anybest.pw
@@ -2645,7 +2639,7 @@ api-luckycoinsdk.doglobal.net
 api-secure.solvemedia.com
 api-u-ssl.xunlei.com
 api.140proof.com
-api.22lianmeng.com
+api.186078.com
 api.aalbbh84.info
 api.ad.xv555.com
 api.ad.yipinread.com
@@ -2662,6 +2656,7 @@ api.e-cg.cn
 api.groupon.com
 api.inwemo.com
 api.ip138.com
+api.iplay.163.com
 api.jsecoin.com
 api.jsfc8.cn
 api.kwaizt.com
@@ -2672,6 +2667,7 @@ api.newsfeed.intl.miui.com
 api.no4book.com
 api.qvpublish.com
 api.sdk.fmobi.cn
+api.so
 api.ssp.zxrtb.com
 api.stack-sonar.com
 api.starsmp.com
@@ -2691,8 +2687,12 @@ apkonline.ru
 apm-engine.meteor.com
 apmebf.com
 apollofind.com
+app-ab37.marketo.com
 app-analytics-cn.huami.com
 app-analytics.huami.com
+app-lon07.marketo.com
+app-sj15.marketo.com
+app-sj30.marketo.com
 app.e2ma.net
 app.livemarketshoppers.com
 app.pho8.com
@@ -2703,7 +2703,6 @@ appboy.eu
 appboycdn.com
 appconsent.io
 appendad.com
-applebarq.com
 appn.center
 apportium.com
 approp.pro
@@ -2798,6 +2797,7 @@ as.adfonic.net
 as.cfcdist.loan
 as.g4.ifeng.com
 as.g5s.ifeng.com
+as.jdkic.com
 as07d698u9.com
 as1.wenku.baidu.com
 as5000.com
@@ -2827,6 +2827,7 @@ asklots.com
 aso1.net
 asooda.com
 asotrack1.fluentmobile.com
+asp.adsame.com
 aspampbrr.online
 aspanyarc.club
 asparmany.site
@@ -2841,6 +2842,7 @@ asset.pagefair.net
 assetize.com
 assets.ckjr001.com
 assets.cntdy.mobi
+assets.growingio.com
 assets.simplifydigital.co.uk
 assetscdn.stream
 assoc-amazon.ca
@@ -2876,7 +2878,6 @@ atemda.com
 atgsvcs.com
 athenainstitute.biz
 athingcatedrestori.info
-atianqi.com
 ationmultinal.info
 atlcourier.com
 atmalinks.com
@@ -2948,9 +2949,9 @@ auto-im.com
 auto-ping.com
 autoaffiliatenetwork.com
 autoaudience.com
+autobild.adsame.com
 autoid.com
 autoline-top.com
-autolinkmaker.itunes.apple.com
 autologica.ga
 automatad.com
 automatedtraffic.com
@@ -3235,7 +3236,6 @@ banners.bigmobileads.com
 banners.blacksexmatch.com
 banners.fastcupid.com
 banners.fuckbookhookups.com
-banners.itunes.apple.com
 banners.ixitools.com
 banners.mellowads.com
 banners.nostringsattached.com
@@ -3612,6 +3612,7 @@ biskerando.com
 bit-bork-boodle.com
 bitads.net
 bitadv.co
+bitauto.irs01.com
 bitclub.network
 bitclubnetwork.com
 bitcoadz.io
@@ -3842,6 +3843,7 @@ botize.com
 botman.ninja
 botscanner.com
 botsvisit.com
+botuu.adsame.com
 boudja.com
 boudougu.com
 bouermes.be
@@ -3965,6 +3967,7 @@ btnibbler.com
 btonzfjleinuax.com
 btovopyov.com
 btpnav.com
+btrace.qq.com
 btrdlsehltu.com
 btrll.com
 btserve.com
@@ -4123,7 +4126,6 @@ c.5r6t.com
 c.91wan.com
 c.booksir.com.cn
 c.dengbaozx.cn
-c.duomeng.net
 c.future888.net
 c.greystripe.com
 c.hit.ua
@@ -4198,8 +4200,11 @@ cagelrib.net
 cahvxjmcl.com
 caiba9.xyz
 caicaicai.121yy.com
+caing.adsame.com
 cais181.com
 caithamo.net
+caixin.adsame.com
+caixinimg.adsame.com
 calarm.info
 calcch.com
 calculatorstatement.com
@@ -4380,6 +4385,7 @@ cdn.onesignal.com
 cdn.optmd.com
 cdn.rhombusads.com
 cdn.runative-syndicate.com
+cdn.segment.com
 cdn.segment.io
 cdn.static-cnt.bid
 cdn.surroundtm.com
@@ -4998,6 +5004,7 @@ comunicazio.com
 comuwczkajglxs.com
 comwgi.com
 concede.fmtlib.net
+conde.adsame.com
 conderedtoget.info
 conditioncrush.com
 conds.ru
@@ -5006,8 +5013,6 @@ conduit-banners.com
 conduit-services.com
 conduze.com
 conf.hpplay.cn
-config.adsage.cn
-config.adsage.com
 config.unityads.unitychina.cn
 confirmational.com
 confirmit.com
@@ -5151,6 +5156,7 @@ corateencountry.pro
 core-cen-54.com
 core-queerclick.netdna-ssl.com
 core.queerclick.com
+corebug.adsame.com
 coremotives.com
 cornflip.com
 coroheyjses.com
@@ -5531,6 +5537,7 @@ d.13mobi.com
 d.517sccts.cn
 d.cntv.cn
 d.cpufan.club
+d.feih.com.cn
 d.gz2010.cn
 d.hzblic.com
 d.jjyx.com
@@ -5934,6 +5941,7 @@ dc8na2hxrj29i.cloudfront.net
 dc8xl0ndzn2cb.cloudfront.net
 dcc.ghrtgf.xyz
 dcc.strbgi.xyz
+dcci.adsame.com
 dccqzsmabz.com
 dccstsamnyrjk.com
 dcentatorsstrial.info
@@ -6035,6 +6043,7 @@ demandbase.com
 demandmedia.s3.amazonaws.com
 demanier.com
 dematom.com
+demo.adsame.com
 demo.rhombusads.com
 demo.vertexinfo.in
 demo.xinqcr.com
@@ -6378,6 +6387,8 @@ doktester.orgfree.com
 dollarade.com
 dollarsponsor.com
 dolohen.com
+dolphin.adsame.com
+dolphin1.adsame.com
 domain.aishengji.com
 domainadvertising.com
 domainbuyingservices.com
@@ -6440,7 +6451,6 @@ down3.feiyang163.com
 download-archiver.ru
 download-performance.com
 download.56.com
-download.adsage.com
 download.grandcloud.cn
 download.ttrili.com
 download.xp666.com
@@ -6459,6 +6469,7 @@ dows.yuyudl.com
 doxurgeoisuniv.info
 doyugqaizcecne.com
 dp-medien.eu
+dp.im.wei.cn
 dp25.kr
 dpallyihgtgu.com
 dpbolvw.net
@@ -6538,6 +6549,7 @@ dsnxvnkxyimczk.com
 dsp.brand.sogo.com
 dspack.com.cn
 dsparking.com
+dspimg.adsame.com
 dspimg.dftoutiao.com
 dsply.com
 dstik9906m659.cloudfront.net
@@ -6631,7 +6643,6 @@ dwin1.com
 dwin2.com
 dwkfnswdnheqfz.com
 dwmegismbq.com
-dwtrack.qidian.com
 dwuvmraztukg.com
 dxiixnrumvni.com
 dxkkb5tytkivf.cloudfront.net
@@ -6743,7 +6754,6 @@ e.9xws7p.cn
 e.ailix.cn
 e.bgj582.cn
 e.cx016d.cn
-e.duomeng.org
 e.easypatent.net
 e.ejuen.com
 e.evpywi.cn
@@ -6787,6 +6797,7 @@ e.s0o5g.cn
 e.s76xid.cn
 e.sgltc.cn
 e.tapdb.net
+e.tf.360.cn
 e.u4j1ec.cn
 e.us8l5b.cn
 e.uw45o.cn
@@ -6848,7 +6859,11 @@ eadulttraffic.com
 eae33bbaf48.com
 eae5daf052d2673b.com
 eaffzvnyj.com
+eagle.adsame.com
 eagleapi.io
+eagleasp.adsame.com
+eagledemo.adsame.com
+eaglepro.adsame.com
 eaiatlexsotxbh.com
 eajmyphr.com
 eaknxurdsogwr.com
@@ -6883,6 +6898,7 @@ easyhits4u.com
 easyinline.com
 easykits.org
 easylist.club
+easynews.adsame.com
 easyresearch.se
 easysol.net
 easytomessage.com
@@ -7205,7 +7221,6 @@ entitlements.jwplayer.com
 entlydazhcmlgx.com
 entrecard.com
 entrecard.s3.amazonaws.com
-entry.adsage.com
 entygpeb.com
 enusbrzlmcmg.com
 enviousshape.com
@@ -7313,7 +7328,6 @@ esignificanvi.info
 eslkcmhn.com
 esm1.net
 esoad.frost-electric-supply.com
-esomniture.com
 espdesign.com.au
 essayads.com
 essaycoupons.com
@@ -7677,6 +7691,7 @@ fc2b9b7ce3165.com
 fc3tn.baidu.com
 fc5tn.baidu.com
 fcafnvgdokqfo.com
+fcanr.tracking.miui.com
 fcfd5de4b3be3.com
 fcfhjuyanmlvgb.com
 fcgadgets.blogspot.com
@@ -7816,6 +7831,7 @@ filitrac.com
 filterycreasona.info
 fimserve.com
 fimserve.myspace.com
+finalid.com
 finance-reporting.org
 financenews.pw
 find-ip-address.org
@@ -8093,6 +8109,8 @@ freecouponbiz.com
 freedownloadsoft.net
 freefblikes.phpnet.us
 freegamespub.com
+freegeoip.app
+freegeoip.net
 freehitscounter.org
 freelogs.com
 freeonescams.com
@@ -8466,6 +8484,8 @@ geocontatore.com
 geoedge.be
 geofamily.ru
 geoinventory.com
+geoip-db.com
+geoip-js.com
 geojs.io
 geolid.com
 geoplugin.net
@@ -8720,7 +8740,6 @@ go2jump.org
 go2link.net
 go2media.org
 go2speed.org
-goadservices.com
 goallurl.ru
 goatoode.net
 gobaiwhe.net
@@ -8950,6 +8969,7 @@ guanoo.net
 guardiandigitalcomparison.co.uk
 guardwork.info
 gueqndbe.com
+guess.tf.360.cn
 gugemfslzh.com
 gugeys.com
 guhpyglt.com
@@ -8985,6 +9005,8 @@ gvtawzpydsujep.com
 gvwyxnyq.com
 gvzphwswtv.com
 gw.d.ywopt.com
+gw.im.weibo.cn
+gw1.im.weibo.cn
 gwallet.com
 gwashiondevelhig.info
 gweini.com
@@ -9389,6 +9411,7 @@ hmtoday.com
 hmwebs.top
 hn-button.herokuapp.com
 hn163fck.com
+hnb2c.adsame.com
 hnbutton.appspot.com
 hncahnvieotyu.com
 hndnserror1.wo.com.cn
@@ -9710,6 +9733,7 @@ hzzevwlmjji.com
 hzzmoouuqb.com
 i-media.co.nz
 i-stats.com
+i.adsame.com
 i.bestcontentfare.top
 i.hzblic.com
 i.jumptap.com
@@ -9730,7 +9754,6 @@ i5iog3mlrw.com
 i864ekhq.com
 iaatzkkqyv.com
 iacpromotion.s3.amazonaws.com
-iad.apple.com
 iad.e.360.cn
 iadfjbrttvgn.com
 iadmat.nosdn.127.net
@@ -9829,6 +9852,7 @@ if.yyjsbz.cn
 ifactz.com
 ifbubmsr.com
 ifbwyogrfjo.com
+ifeng.adsame.com
 ifeuddaywa.com
 iffzxqnhd.com
 ifhxmaazmylfx.com
@@ -9994,7 +10018,6 @@ img2.g.pptv.com
 img2.pengfu.net
 img2.user.kanimg.com
 img3.g.pptv.com
-img3.lianmengma.com
 imgdew.pw
 imgf.gade.suimeng.la
 imgfeedget.com
@@ -10137,6 +10160,7 @@ inpwrd.com
 inquisitiveinvention.com
 inrd.ru
 inside-graph.com
+inside.rtbasia.com
 insideall.com
 insidesoci.al
 insight.mintel.com
@@ -10612,6 +10636,7 @@ jewhaulr.com
 jewishcontentnetwork.com
 jf71qh5v14.com
 jfavhjmb.com
+jfdaily.adsame.com
 jfduv7.com
 jffoydsb.com
 jfgbdjhyc.com
@@ -10820,6 +10845,7 @@ jractwjn.com
 jrad.jd.com
 jrecvuklrjpli.com
 jrikmexrknmxy.com
+jrj.adsame.com
 jrkuzeyfiztvos.com
 jrltmnxpj.com
 jroqvbvw.info
@@ -10875,6 +10901,7 @@ jsjs.jbzj.com
 jsjs.pro
 jsjxhd.com
 jsmbaidu.com
+jsmedia.adsame.com
 jsmentry.com
 jsmjmp.com
 jsonip.com
@@ -10910,6 +10937,7 @@ jujzh9va.com
 jukfpojq.com
 jumboaffiliates.com
 jump-time.net
+jump.ishop789.com
 jump.mycctvmedia.com
 jumplead.com
 jumplead.io
@@ -10938,7 +10966,6 @@ justuno.com
 jutmdieqbww.com
 juwtdcraiiihb.com
 juxiangyou.com
-juxiao.adsmogo.net
 juyoufan.net
 juzdqtmyo.com
 jvcswgskvw.com
@@ -11950,6 +11977,7 @@ logly.co.jp
 logmatic.io
 lognormal.net
 logo-net.co.uk
+logoshejishi.mairuan.com
 logrocket.io
 logrp.hpplay.cn
 logs.amap.com
@@ -12378,6 +12406,7 @@ m.icoc2018.cn
 m.ik20nd.cn
 m.io019p.cn
 m.iorgb.com
+m.irs01.com
 m.j06kc.cn
 m.j5s9b.cn
 m.jdhq188.cn
@@ -12560,6 +12589,7 @@ mahindrainsurance.com
 mahrzxsou.com
 maikuque.net
 mail-ads.google.com
+mail.adsame.com
 mail.advantagebusinessmedia.com
 mailboto.com
 mailerlite.com
@@ -12599,6 +12629,7 @@ mantedtonisms.info
 manychat.com
 maploco.com
 mapmyuser.com
+mapping.adsame.com
 marapcana.online
 marbil24.co.za
 marchen-toy.co.jp
@@ -12650,6 +12681,7 @@ masterwanker.com
 masture.mobi
 mataharirama.xyz
 match.ads.betweendigital.com
+material.jfdaily.adsame.com
 mateti.net
 mathads.com
 mathenea.com
@@ -12661,6 +12693,7 @@ matrimoniale3x.ro
 matrix-cash.com
 maudau.com
 maudfkdsuyp.com
+max.adsame.com
 maxcash.com
 maxcorpmedia.com
 maxgirlgames.com
@@ -12670,6 +12703,7 @@ maximainvest.net
 maxisoft.co.uk
 maxonclick.com
 maxserving.com
+maxsys.adsame.com
 maxtracker.net
 maxtraffic.com
 maxymiser.com
@@ -12835,6 +12869,7 @@ megatronmailer.com
 megausenet.pro
 megausenet.services
 meigeer.com.cn
+meihua.adsame.com
 meineserver.com
 meinlist.com
 meinlnim.com
@@ -13015,6 +13050,7 @@ misslk.com
 mitatic.xyz
 mitouxoo.net
 miwhonjam.com
+mix.adsame.com
 mixer.sina.cn
 mixers.sina.cn
 mixi.media
@@ -13144,7 +13180,6 @@ mobday.com
 mobdisc.net
 mobdisc.org
 mobgold.com
-mobi.adsage.com
 mobicont.com
 mobidevdom.com
 mobifobi.com
@@ -13219,7 +13254,6 @@ moneytec.com
 moneywhisper.com
 mongoosemetrics.com
 monitis.com
-monitor-stsdk.vivo.com.cn
 monitoringservice.co
 monitus.net
 monkeybroker.net
@@ -13392,6 +13426,7 @@ multimater.com
 multiview.com
 mumbldnn.com
 munchkin.brightfunnel.com
+munchkin.marketo.com
 mundanepollution.com
 munero.me
 munpprwlhric.com
@@ -13449,7 +13484,6 @@ mwc.velti.com
 mwfzoumik.com
 mwhjamwra.com
 mwhtoxix.com
-mws.adsage.com
 mwslcqfoifw.com
 mwstats.net
 mwtvrqokhbnidz.com
@@ -13585,6 +13619,10 @@ n388hkxg.com
 n74s9.com
 n8s.jp
 n9nedegrees.com
+na-ab21.marketo.com
+na-ab32.marketo.com
+na-lon05.marketo.com
+na-lon09.marketo.com
 naapvraf.com
 naavxddd.com
 naayna.com
@@ -13840,6 +13878,7 @@ newweb.top
 newwedads.com
 newwiesdom.com.cn
 newzheng.cn
+nex.163.com
 nex8.net
 nexac.com
 nexeps.com
@@ -14288,6 +14327,7 @@ obvbubmzdvom.com
 obxwnnheaixf.com
 obyxqjgwg.com
 obzatop.info
+ocean2.authcaptcha.com
 oceanwebcraft.com
 ocejkjkopphj.com
 ocelot.studio
@@ -14324,6 +14364,7 @@ odwsequjcyk.com
 odysseus-nua.com
 oe.tredsd.com
 oecxrvamnvc.com
+oeeee.adsame.com
 oefyjdykepx.com
 oegzbchydxbjkz.com
 oehivgounhm.com
@@ -14464,9 +14505,6 @@ omeda.com
 ometria.com
 omg2.com
 omgid.qq.com
-omgmta.play.cp81.ott.cibntv.net
-omgmta.play.ott.video.qq.com
-omgmta.qq.com
 omgpm.com
 omguk.com
 omiki.com
@@ -14545,7 +14583,6 @@ onpato.ru
 onrampadvertising.com
 onrio.com.br
 onrlaqhh.com
-onrt-stsdk.vivo.com.cn
 onscroll.com
 onthe.io
 onunughegmar.club
@@ -14606,9 +14643,6 @@ opentracker.net
 opentracking.ru
 openvenue.com
 openvpn.f2pool.com
-openxadexchange.com
-openxenterprise.com
-openxmarket.asia
 operaserver.com
 operatedelivery.com
 opflriars.com
@@ -14697,7 +14731,6 @@ origer.info
 orkut.krovatka.su
 ornament-i.com
 orszajhynaqr.com
-ort-stsdk.vivo.com.cn
 ortonch.com
 orts.wixawin.com
 orvzvaqig.com
@@ -14736,6 +14769,7 @@ othere.info
 othernedm.info
 otherprofit.com
 othersonline.com
+otheve.beacon.qq.com
 otiqknmqyibci.com
 otkpegjvpyi.com
 otmonog.info
@@ -14869,6 +14903,7 @@ p.delivery.net
 p.egou.com
 p.estream.to
 p.raasnet.com
+p.s.360.cn
 p.smartertravel.com
 p.sug.so.com
 p.typekit.net
@@ -14931,6 +14966,7 @@ pakbanners.com
 pan.dogster.com
 pan.keyunzhan.com
 panachetech.com
+panda.adsame.com
 panda.network
 panection.co
 panelsave.com
@@ -14969,7 +15005,6 @@ partner.dw.com
 partner.e-conomic.com
 partner.loveplanet.ru
 partner.video.syndication.msn.com
-partnerad.l.google.com
 partnercash.com
 partnercash.de
 partnerearning.com
@@ -15031,6 +15066,7 @@ pcizpawioulv.com
 pcjkmabp.com
 pclicks.com
 pcpzhtdvtcqj.com
+pcr.da.netease.com
 pcrhfkuwp.com
 pcruxm.xyz
 pcskkmgjnubi.com
@@ -15357,8 +15393,11 @@ play.estream.nu
 play.estream.to
 play.estream.xyz
 play.flowplayer.space
+play.gramombird.com
 play.istlandoll.com
+play.mine.gay-hotvideo.net
 play.on.animeteatr.ru
+play.pampopholf.com
 play.play.estream.nu
 play.play.estream.to
 play.play.estream.xyz
@@ -15446,7 +15485,6 @@ pnmkuqkonlzj.com
 pnobsmeio.com
 pnperf.com
 pnrblholty.com
-pnrt-stsdk.vivo.com.cn
 pnsandbox.com
 pnstat.com
 pntra.com
@@ -15670,6 +15708,7 @@ prepareplanes.com
 presatisfy.com
 pressly.com
 prestadsng.com
+preview.adsame.com
 preview.sharethrough.com
 prexista.com
 prfct.co
@@ -15818,7 +15857,6 @@ prqqmfkedev.com
 prre.ru
 prrpfmrz.com
 prscripts.com
-prt-stsdk.vivo.com.cn
 prtracker.com
 prudsys-rde.de
 prwlzpyschwi.com
@@ -16192,7 +16230,6 @@ q64a9ris0j.com
 q7ms.cn
 q8ux4fscc7.com
 qadserve.com
-qadservice.com
 qaggfomwjko.com
 qagkaxrj.com
 qagnufdwht.com
@@ -16284,6 +16321,7 @@ qhsyg.top
 qhuktypo.com
 qhupdate.com
 qiaepasvtp.com
+qianlong.adsame.com
 qianwei.wang
 qianyilamian.cn
 qibbblerzykelr.com
@@ -16643,6 +16681,7 @@ rawoarsy.com
 rawoo.barginginfrance.net
 rawr.at
 raxlextehqhw.com
+rayli.adsame.com
 rayli.com.cn
 rays-counter.com
 raz-raz-mataz.com
@@ -16754,7 +16793,6 @@ redistats.com
 redlele.com
 redlightcenter.com
 redmx.cn
-redpineapplemedia.com
 redpsh.pro
 redretarget.com
 redstatcounter.com
@@ -16868,6 +16906,7 @@ resonantbrush.com
 resource.m0lxcdn.kukuplay.com
 respondhq.com
 responsetap.com
+rest.irs01.com
 restions-planted.com
 resulticks.com
 resultlinks.com
@@ -16885,10 +16924,12 @@ retiremely.com
 retono42.us
 retoxo.com
 rettica.com
+return.adsame.com
 returnpath.net
 reundcwkqvctq.com
 reussissonsensemble.fr
 rev-stripe.com
+rev.da.netease.com
 rev2pub.com
 rev4rtb.com
 revboostprocdnadsprod.azureedge.net
@@ -17067,6 +17108,8 @@ roakicat.net
 robocat.me
 robotadserver.com
 robsoaks.com
+rock.reauthenticator.com
+rock2.authcaptcha.com
 rocketgames.com
 rocketier.net
 rocketyield.com
@@ -17327,6 +17370,7 @@ s1.dapenti.com
 s1.ei16h.cn
 s1.kuaibaopay.com
 s1.leshi123.cc
+s1.stat
 s1.szlu-an.com
 s1.wp.com
 s10.hostcontent.live
@@ -17347,6 +17391,7 @@ s2d6.com
 s2sterra.com
 s3.flowplayer.space
 s3.joexl.com
+s3.pampopholf.com
 s3.phluant.com
 s3s-main.net
 s4.hit.stat.pl
@@ -17408,9 +17453,15 @@ saletrack.co.uk
 salon.com
 saltamendors.com
 salvador24.com
+samba.adsame.com
 sambaads.com
+sambaclk.adsame.com
+sambasys.adsame.com
 samboc.com
 samevay.com.cn
+sammax.adsame.com
+sammix.adsame.com
+samrt.adsame.com
 samvaulter.com
 samvinva.info
 san-spr-01.net
@@ -17429,6 +17480,7 @@ sarov.ws
 sas.com
 sas15k01.com
 sascentral.com
+sass2.authcaptcha.com
 sasson-cpa.co.il
 satgreera.com
 satismeter.com
@@ -17556,6 +17608,7 @@ sdytygrznweksx.com
 sdzwkmokd.com
 sdzxojlt.com
 sea-nov-1.com
+sea2.authcaptcha.com
 seal.godaddy.com
 seal.verisign.com
 sealserver.trustwave.com
@@ -17778,7 +17831,6 @@ serve.williamhillcasino.com
 servebom.com
 servedby.yell.com
 servedbyadbutler.com
-servedbyopenx.com
 servemeads.com
 server.freegamesall.com
 server.jsecoin.com
@@ -18236,7 +18288,6 @@ slogantrend.de
 sloi1.com
 slopeaota.com
 slvcwiabpgyxa.com
-sm.domobcdn.com
 sm.pcmag.com
 smac-ssp.com
 smaclick.com
@@ -18504,6 +18555,7 @@ spinfo.wps.cn
 spiralstab.com
 spjvuubtewq.com
 spklw.com
+splashimgbssdl.yun.kugou.com
 splinky.com
 splittag.com
 splurgi.com
@@ -18680,6 +18732,7 @@ stat.pl
 stat.pladform.ru
 stat.ringier.cz
 stat.social
+stat.tf.360.cn
 stat.timedg.com
 stat.ts.cn
 stat.v.17173.com
@@ -18715,6 +18768,7 @@ static.adxadserv.com
 static.akacdn.ru
 static.apptrack.cn
 static.baixingcdn.com
+static.beilamusi.com
 static.bmob.cn
 static.browsermine.com
 static.cdn.gtsmobi.com
@@ -18726,6 +18780,7 @@ static.front.xywy.com
 static.hotjar.com
 static.img.imagecdn.cn
 static.live.nagezan.net
+static.mackeeper.com
 static.retirementcommunitiesfyi.com
 static.sellbuyshop.cn
 static.smi2.net
@@ -18762,6 +18817,7 @@ stats.cn.ronghub.com
 stats.cz
 stats.de
 stats.fr
+stats.guess.tf.360.cn
 stats.infzm.com
 stats.lt
 stats.pflexads.com
@@ -18825,9 +18881,11 @@ stkqkfhlscmcuh.com
 stkyqouwanr.com
 stnetsdk.appstore.vivo.com.cn
 stnetsdk.vivo.com.cn
+stnn.adsame.com
 stoaksie.com
 stoashou.net
 stocker.bonnint.net
+stone2.authcaptcha.com
 stonecalcom.com
 stootoat.com
 stopadblock.info
@@ -18862,7 +18920,6 @@ strongexplain.com
 strossle.it
 strs.jp
 struq.com
-stsdk.vivo.com.cn
 stuff-nzwhistleout.s3.amazonaws.com
 stuowq.cn
 stupendoussleet.com
@@ -19279,6 +19336,8 @@ technical-service.net
 technorati.com
 technoratimedia.com
 techsolutions.com.tw
+techweb.adsame.com
+techweb.iv.adsame.com
 tecslide.com
 ted.dailymail.co.uk
 tedioustooth.com
@@ -19749,7 +19808,9 @@ tracdelight.io
 trace-2000.com
 trace.events
 trace.m1905.cn
+trace.rtbasia.com
 trace.ynet.com
+trace2.rtbasia.com
 traceadmanager.com
 traceless.me
 tracelytics.com
@@ -19768,6 +19829,7 @@ track.effiliation.com
 track.laredoute.fr
 track.mypcbackup.com
 track.rediff.com
+track.sohu.com
 track.tkbo.com
 track.totalav.com
 track.xtrasize.nl
@@ -19809,6 +19871,7 @@ tracking.sembox.it
 tracking.skyword.com
 tracking.to
 tracking.unrealengine.com
+tracking.v.tf.360.cn
 tracking.worldmedia.net
 tracking100.com
 tracking101.com
@@ -19931,7 +19994,6 @@ traviilo.com
 traviously.pro
 trbas.com
 trbo.com
-trc.adsage.com
 trclfonj.com
 trcrkykttaila.com
 trdmnpklszd.com
@@ -20681,6 +20743,7 @@ uukqisdwolzsjd.com
 uulvtpbx.com
 uunak.cn
 uunriutbi.com
+uusee.adsame.com
 uusftafycvolbk.com
 uux79.com
 uuxnwoevyb.com
@@ -20758,6 +20821,7 @@ v.originz.cn
 v.qhruixin.cn
 v.qudwrj.cn
 v.sixiuwl.cn
+v.tf.360.cn
 v.u22l.cc
 v.xi666.com
 v.xinshide.cn
@@ -20766,6 +20830,7 @@ v0.stat.ku6.com
 v1.stat.ku6.com
 v11media.com
 v12group.com
+v13-6173431.z.irs01.com
 v16.56.com
 v1n7c.com
 v2.phb123.com
@@ -20843,6 +20908,7 @@ vdacizdywoe.com
 vdains.info
 vdbasihbxwea.com
 vdbhe7ti.com
+vdcci.adsame.com
 vdfoejtqimcgog.com
 vdhufs.com
 vdna-assets.com
@@ -21010,7 +21076,6 @@ vip.catcs.cn
 vip.pai76.com
 vip.winfisc.com
 vipcpms.com
-vipdn123.blackapplehost.com
 vipwm.cc
 vira.ru
 viral782.com
@@ -21095,7 +21160,6 @@ vkznlzueuuebb.com
 vletnguozhvm.com
 vlexokrako.com
 vlhdmywfi.com
-vlion.cn
 vlitag.com
 vllwccvw.com
 vlnaseyii.com
@@ -21243,6 +21307,7 @@ vsupeokq.com
 vswvbbegnyxxx.com
 vsyqexksz.com
 vtbyvtmabpclx.com
+vtechweb.adsame.com
 vtemaaftwexu.com
 vtfdfdldethe.com
 vtgcvsmzxiyoz.com
@@ -21702,7 +21767,6 @@ widgets.fccinteractive.com
 widgets.fie.futurecdn.net
 widgets.getpocket.com
 widgets.itaringa.net
-widgets.itunes.apple.com
 widgets.junction.co.za
 widgets.lendingtree.com
 widgets.mobilelocalnews.com
@@ -21783,6 +21847,7 @@ wlrzptntiqez.com
 wlszodcfwqk.com
 wlwootzzijp.com
 wlzdghlzjewbwv.com
+wm.makeding.com
 wm.yololike.space
 wma.io
 wmaqrkguf.com
@@ -21894,6 +21959,7 @@ wroclawski.com.pl
 wrpmyymqowytz.com
 wrxivlclw.com
 ws.browsermine.com
+ws2.hbssjd.cn
 wsd.guonongllc.com
 wsds.cn
 wsemqlxmmhp.com
@@ -21902,6 +21968,7 @@ wsockd.com
 wsowkqnxs.com
 wsrkpjfs.com
 wss.nablabee.com
+wss.rand.com.ru
 wssejwluqthda.com
 wstatslive.com
 wswrfjuevvfz.com
@@ -21971,6 +22038,7 @@ www.111ol.com
 www.11599jgj.com
 www.1990tu.com
 www.3peaks.co.jp
+www.4009997658.com
 www.56yk.com
 www.61677.com
 www.7ldou.com
@@ -21978,11 +22046,11 @@ www.83692.com
 www.8jzw.com
 www.9llm.com
 www.aabbttuu.com
+www.abbyychina.com
 www.acquisizionevideo.com
 www.actiagroup.com
 www.adm668.com
-www.adsage.cn
-www.adsmogo.net
+www.adsame.com
 www.advancesrl.eu
 www.aerreravasi.com
 www.airsonett.se
@@ -21995,9 +22063,13 @@ www.arkinsoftware.in
 www.atousoft.com
 www.authedwebmine.cz
 www.baidujs.vip
+www.bartender.cc
 www.bcservice.it
 www.besocial.online
+www.betterzip.net
 www.betterzipcn.com
+www.beyondcompare.cc
+www.bingdianhuanyuan.cn
 www.brafsc.top
 www.brightadnetwork.com
 www.bsrkt.com
@@ -22006,15 +22078,19 @@ www.ceisystems.it
 www.cellularbeton.it
 www.cerquasas.it
 www.chapesx.site
+www.chemdraw.com.cn
 www.chiaperottipaolo.it
 www.cifor.com
 www.cm-analysis.com
 www.cmmob.cn
+www.codesoftchina.com
 www.coinimp.com
 www.coinimp.net
 www.coloritpak.by
 www.consumeralternatives.org
+www.coreldrawchina.com
 www.cortesidesign.com
+www.crossoverchina.com
 www.cryptonoter.com
 www.datasecu.download
 www.del-marine.com
@@ -22024,6 +22100,8 @@ www.donneuropa.it
 www.downloaddirect.com
 www.drteachme.com
 www.duote.com
+www.easyrecoverychina.com
+www.ediuschina.com
 www.eivamos.com
 www.eltrafiko.com
 www.emrlogistics.com
@@ -22035,8 +22113,11 @@ www.family-partners.fr
 www.fasadobygg.com
 www.feiyang163.com
 www.fiduciariobajio.com.mx
+www.fjlqqc.com
+www.flash.cn
 www.flipf.cn
 www.flowtec.com.br
+www.flstudiochina.com
 www.fotoidea.com
 www.freecontent.bid
 www.freecontent.date
@@ -22055,9 +22136,11 @@ www.geakr.com
 www.gennaroespositomilano.it
 www.gmcjjh.org
 www.gold-city.it
+www.googletagmanager.com
 www.grjs01.com
-www.guanggao369.cn
+www.growingio.com
 www.guanyitanggy.com
+www.guitarpro.cc
 www.hausnet.ru
 www.hitekshop.vn
 www.hjaoopoa.top
@@ -22066,14 +22149,20 @@ www.hostcontent.live
 www.hostingcloud.party
 www.hostingcloud.racing
 www.hostingcloud.science
+www.huishenghuiying.com.cn
 www.hxcav77.com
+www.hypersnap.net
+www.iconworkshop.cn
 www.icybrand.eu
 www.ilkwork.com
+www.imindmap.cc
 www.infra.by
 www.iscrv.com
 www.isitone.com
 www.jazdoxthxiv.com
 www.jcmarcadolib.com
+www.jihehuaban.com.cn
+www.jiubuhua.com
 www.jiudianxing.cn
 www.jiudianxing.com
 www.joomlalivechat.com
@@ -22087,6 +22176,8 @@ www.jwmwtcmexc.com
 www.kanjiantu.com
 www.kanshuapp.com
 www.kcta.or.kr
+www.keyshot.cc
+www.kingdeecn.cn
 www.kj1p.com
 www.kjbbc.net
 www.kngcjx.com
@@ -22097,16 +22188,25 @@ www.lifelabs.vn
 www.lightminer.co
 www.liteapp.mobi
 www.litra.com.mk
+www.logoshejishi.com
 www.lostartofbeingadame.com
 www.lowes-pianos-and-organs.com
 www.lyzgs.com
 www.m-barati.de
+www.mairuan.cn
+www.mairuan.com
+www.mairuan.com.cn
+www.mairuan.net
+www.mairuanwang.com
+www.makeding.com
 www.makohela.tk
 www.marinoderosas.com
 www.marss.eu
+www.mathtype.cn
 www.media.net
 www.meipian7.cn
 www.milardi.it
+www.mindmanager.cc
 www.mmnetwork.mobi
 www.mondoperaio.net
 www.monero-miner.com
@@ -22114,9 +22214,13 @@ www.monkeyminer.net
 www.montacarichi.it
 www.motivacionyrelajacion.com
 www.moviedownloader.net
+www.mycleanmymac.com
+www.nicelabel.cc
 www.notaverde.com
 www.nothingcompares.co.uk
 www.notmining.org
+www.ntfsformac.cc
+www.ntfsformac.cn
 www.nuvon.com
 www.obyz.de
 www.offerent.com
@@ -22125,12 +22229,15 @@ www.ohiomm.com
 www.oiluk.net
 www.ostsee-schnack.de
 www.outlinearray.com
+www.overturechina.com
 www.owueis.com
 www.panazan.ro
+www.pdfexpert.cc
 www.perupuntocom.com
 www.petpleasers.ca
 www.pflexads.com
 www.pgathailand.com
+www.photozoomchina.com
 www.pieiron.co.uk
 www.pj38330.bet
 www.pj39330.bet
@@ -22140,6 +22247,7 @@ www.professionalblackbook.com
 www.profill-smd.com
 www.propan.ru
 www.purplehorses.net
+www.qinchugudao.com
 www.racingandclassic.com
 www.rangzhuai.com
 www.realinnovation.com
@@ -22160,6 +22268,7 @@ www.scantanzania.com
 www.seal-technicsag.ch
 www.secondome.com
 www.secretchina.com
+www.shankejingling.com
 www.sieltre.it
 www.sinawap.com
 www.sitepalace.com
@@ -22176,6 +22285,7 @@ www.studiochiarelli.eu
 www.studiolegaleabbruzzese.com
 www.super8service.de
 www.t-gas.co.uk
+www.talkingdata.com
 www.tdms.saglik.gov.tr
 www.technix.it
 www.terethat.ru
@@ -22190,6 +22300,8 @@ www.two-of-us.at
 www.unicaitaly.it
 www.uriyuri.com
 www.usaenterprise.com
+www.vegaschina.cn
+www.verifier.live
 www.vertourmer.com
 www.vinyljazzrecords.com
 www.vipcpms.com
@@ -22212,12 +22324,17 @@ www.wxbgf.top
 www.wyroki.eu
 www.xingchenjia.com
 www.xiruz.kit.net
+www.xmindchina.net
+www.xshellcn.com
 www.xsl280.com
 www.xsl281.com
+www.yuanchengxiezuo.com
 www.ywvcomputerprocess.info
 www.z8o.cn
 www.zatzy.com
+www.zbrushcn.com
 www.zctei.com
+www.zhzzx.com
 www.zjsyawqj.cn
 www.zyxyfy.com
 www2.adfreetv.ch
@@ -22278,7 +22395,6 @@ wzwetfprojnyx.com
 wzxdsgnqpnu.com
 wzyagambcfn.bid
 wzzrquhn.com
-x-adservice.com
 x-ssp.com
 x-stat.de
 x-traceur.com
@@ -22327,6 +22443,7 @@ xbxcwhtgx.com
 xbynkkqi.com
 xbzakxofyhdy.com
 xbzwwsagli.com
+xcar.adsame.com
 xcbteuhokmcj.com
 xcelltech.com
 xcelsiusadserver.com
@@ -22412,6 +22529,13 @@ xhlrlyygx.com
 xhnt.snqrk.cn
 xhstxnpemardz.com
 xi9p.com
+xia.abbyychina.com
+xia.bartender.cc
+xia.easyrecoverychina.com
+xia.mathtype.cn
+xia.mycleanmymac.com
+xia.ntfsformac.cn
+xia.xshellcn.com
 xiamiss.wap.xsbiquge.com
 xiankandy.com
 xiaocai-rookie.info
@@ -22433,6 +22557,7 @@ xineday.com
 xing-share.com
 xing678.com
 xingmengxia.cn
+xinhuanet.adsame.com
 xinkuaiyu.com
 xinshengchuanmei.cn
 xinyikeji.red
@@ -22727,6 +22852,7 @@ yallarec.com
 yamanoha.com
 yanhao.red
 yanskweqyuma.com
+yaolan.adsame.com
 yardr.net
 yashi.com
 yatab.net
@@ -23134,6 +23260,7 @@ yzyalgnxo.com
 yzytjgdrz.com
 yzyycjzfkpveu.com
 yzzvsnbten.com
+z.irs01.com
 z.opmnstr.com
 z0252.x2jpz.xyz
 z1.cnywst.com
@@ -23480,7 +23607,6 @@ zswhcsfww.mobi
 zsxqjjobfb.com
 zszgjiejuw.mobi
 zt-dst.com
-zt.adsage.com
 zt.tim-taxi.com
 ztcadx.com
 ztdfsxgcyprwvp.com
@@ -23656,6 +23782,7 @@ zzxosget.com
 .0uk9e.cn
 .0x013d.website
 .0x01e7.website
+.0x1f4b0.com
 .0xxd.com
 .0z5jn.cn
 .1.01fy.cn
@@ -23941,7 +24068,7 @@ zzxosget.com
 .2shoushi.com
 .2st5ne.cn
 .2tpwcqot22mb.com
-.2txt.cc:8862
+.2txt.cc
 .2v0ni.cn
 .2v9ml.cn
 .2wxb5.cn
@@ -24167,6 +24294,7 @@ zzxosget.com
 .5egk.com
 .5eln.cn
 .5hytr.xyz
+.5ijo.01net.com
 .5imoney.com
 .5jcom.com.cn
 .5kmm.top
@@ -24192,7 +24320,7 @@ zzxosget.com
 .609623.com
 .614514.com
 .626uc.com
-.63xs.com:8016
+.63xs.com
 .643226.com
 .644446.com
 .645yvcj6c8rn.com
@@ -24507,6 +24635,8 @@ zzxosget.com
 .a.baiy.net
 .a.bake818.cn
 .a.baomihua.com
+.a.beilamusi.com
+.a.benshiw.net
 .a.bshu.com
 .a.cdngeek.net
 .a.ckm.iqiyi.com
@@ -24529,6 +24659,7 @@ zzxosget.com
 .a.holagames.com
 .a.icdol.com
 .a.imgso.cn
+.a.irs01.com
 .a.itiexue.net
 .a.jing55.com
 .a.jyeoo.com
@@ -24563,11 +24694,11 @@ zzxosget.com
 .a.thefreethoughtproject.com
 .a.thn21.com
 .a.tiyuxiu.com
+.a.tovarro.com
 .a.tuuituii2999.com
 .a.tvsou.com
 .a.ucoz.net
 .a.visualrevenue.com
-.a.vlion.cn
 .a.w3techs.com
 .a.waczt.cn
 .a.wanzhuang.com
@@ -24662,7 +24793,6 @@ zzxosget.com
 .ab.pincai.com
 .ab.sc115.com
 .abakus.freenet.de
-.abbp1.space.
 .abc.dooccn.com
 .abc.douguo.com
 .abc.eastlady.cn
@@ -25109,9 +25239,6 @@ zzxosget.com
 .admaji.com
 .admarket.21cn.com
 .admarket.mobi
-.admarvel.com
-.admaster.com
-.admaster.com.cn
 .admd.housefun.com.tw
 .admd.yam.com
 .admddc.com
@@ -25245,17 +25372,12 @@ zzxosget.com
 .adsebs.ximalaya.com
 .adsence.sogou.com
 .adsense.html5.qq.com
-.adsensor.org
 .adserve2.tom.com
 .adserver-ad.321mh.com
 .adserver.pandora.com
 .adserver.snapads.com
 .adserver.xpanama.net
 .adservi.com
-.adservice.com
-.adservice.google.com
-.adservice.sigmob.cn
-.adserviceretry.kugou.com
 .adsfactor.net
 .adsfile.qq.com
 .adsfs.oppomobile.com
@@ -25274,8 +25396,6 @@ zzxosget.com
 .adslvfile.qq.com
 .adslvseed.qq.com
 .adsmind.tc.qq.com
-.adsmogo.com
-.adsmogo.org
 .adsolution.imtt.qq.com
 .adsor.openrunner.com
 .adsp.xunlei.com
@@ -25295,7 +25415,6 @@ zzxosget.com
 .adsyndication.msn.com
 .adsys.chinacloudapp.cn
 .adsys.sinovision.net
-.adsystem.wasu.tv
 .adtaily.com
 .adtarget.tech
 .adtech.de
@@ -25368,6 +25487,7 @@ zzxosget.com
 .aercxy.com
 .aerserv.com
 .aes01.com
+.aeventlog.beacon.qq.com
 .aevents.izooto.com
 .afd.baidu.cn
 .afd.baidu.com
@@ -25389,6 +25509,7 @@ zzxosget.com
 .affiliates.genealogybank.com
 .affiliates.goodvibes.com
 .affiliates.londonmarketing.com
+.affiliates.mgmmirage.com
 .affiliates.mozy.com
 .affiliates.myfax.com
 .affiliates.thrixxx.com
@@ -25553,7 +25674,6 @@ zzxosget.com
 .am15.net
 .amazingfunnvideos.com
 .amazingmagics.com
-.amazon-adsystem.com
 .amdc.alipay.com
 .amdc.m.taobao.com
 .amensh.cn
@@ -25573,14 +25693,17 @@ zzxosget.com
 .analy.qq.com
 .analyse.weather.com.cn
 .analysis.shinobi.jp
-.analysys.cn
 .analytic.imlive.com
 .analytic.pho.fm
 .analyticapi.pho.fm
+.analytics-rhwg.rhcloud.com
 .analytics-static.ugc.bazaarvoice.com
 .analytics.21cn.com
+.analytics.ad.daum.net
+.analytics.anvato.net
 .analytics.arz.at
 .analytics.bhaskar.com
+.analytics.bigcommerce.com
 .analytics.bloomberg.com
 .analytics.cmg.net
 .analytics.cohesionapps.com
@@ -25596,15 +25719,19 @@ zzxosget.com
 .analytics.hz.netease.com
 .analytics.ifood.tv
 .analytics.industriemagazin.net
-.analytics.iraiser.eu
 .analytics.islamicfinder.org
 .analytics.jabong.com
+.analytics.ladmedia.fr
 .analytics.meaww.com
 .analytics.mindjolt.com
 .analytics.msn.com
 .analytics.ngfiles.com
+.analytics.performable.com
+.analytics.photorank.me
 .analytics.pinpoll.com
+.analytics.plex.tv
 .analytics.posttv.com
+.analytics.prod.aws.ecnext.net
 .analytics.proxer.me
 .analytics.r17.com
 .analytics.schoolwires.com
@@ -25615,6 +25742,7 @@ zzxosget.com
 .analytics.snssdk.com
 .analytics.socialblade.com
 .analytics.solidbau.at
+.analytics.sonymusic.com
 .analytics.sportybet.com
 .analytics.spotify.com
 .analytics.suggestv.io
@@ -25668,6 +25796,7 @@ zzxosget.com
 .anysdk.com
 .anyysz.com
 .anzhuocpm.com
+.ao-freegeoip.herokuapp.com
 .aodongjiaosu.com
 .aombjl099.com
 .aomde.com
@@ -25700,11 +25829,11 @@ zzxosget.com
 .api.dewmobile.net
 .api.dsp.yhd.com
 .api.goulegu.com
+.api.growingio.com
 .api.iapps.ifeng.com
 .api.iimedia.cn
 .api.ijunhai.com
 .api.joybj.com
-.api.jr.mi.com
 .api.ketedata.com
 .api.koudaikj.com
 .api.mp.uc.cn
@@ -25717,6 +25846,7 @@ zzxosget.com
 .api.ra2.xlmc.sec.miui.com
 .api.rees46.com
 .api.shuaji.360.cn
+.api.talkingdata.com
 .api.tongji.today
 .api.tw06.xlmc.sec.miui.com
 .api.union.vip.com
@@ -25728,6 +25858,7 @@ zzxosget.com
 .api.youqian.baidu.com
 .api.zol.com
 .api2.play.cn
+.apihk.growingio.com
 .apisoft.df0535.com
 .apjiangte.com
 .apk.idate520.com
@@ -25781,7 +25912,6 @@ zzxosget.com
 .appier.net
 .appimg.0575bbs.com
 .appjiagu.com
-.applequan.com
 .appliedsemantics.com
 .applifier.com
 .applift.com
@@ -25790,7 +25920,6 @@ zzxosget.com
 .applog.uc.cn
 .applogapi.autohome.com.cn
 .applogios.uc.cn
-.applovin.com
 .applvn.com
 .appnext-a.akamaihd.net
 .appnext.com
@@ -25802,7 +25931,6 @@ zzxosget.com
 .apps2.outfit7.com
 .apps5.oingo.com
 .appservices.comcsoft.com
-.appsflyer.com
 .appspromote.wostore.cn
 .appsupdate.sinaapp.com
 .apptentive.com
@@ -25815,6 +25943,7 @@ zzxosget.com
 .aqqgli3vle.bid
 .aquarius8.cn
 .aqugame.com
+.aqw.quanliyouxi.cn
 .aralego.com
 .arana.pw
 .archrug.com
@@ -25846,6 +25975,7 @@ zzxosget.com
 .as.baidu.com
 .as.base.de
 .as.bjmama.net
+.as.casalemedia.com
 .as.inbox.com
 .as.mgtv.com
 .as.sinahk.net
@@ -25862,6 +25992,7 @@ zzxosget.com
 .ashiping.com
 .ashot.txxx.com
 .ashow.pcpop.com
+.asia.marketo.com
 .asimgs.pplive.cn
 .asir.vip
 .askaspalb.online
@@ -25874,6 +26005,7 @@ zzxosget.com
 .assigned.cn
 .assume8.com
 .assumineuron.site
+.astrategy.beacon.qq.com
 .asv.nuggad.net
 .aswgbzsw.xingtangshuo.com
 .aswl.d3kdh34.pw
@@ -25907,6 +26039,7 @@ zzxosget.com
 .aty.hd.sohu.com
 .aty.sohu.com
 .audience.acpm.fr
+.audience.atex.com
 .audience.network
 .audit.macworld.co.uk
 .audit.pcadvisor.co.uk
@@ -25957,6 +26090,7 @@ zzxosget.com
 .ayrovalcontain.info
 .ayues.com
 .azabu-u.ac.jp
+.b-aws.aol.com
 .b-aws.techcrunch.com
 .b.53yao.com
 .b.77vcd.com
@@ -25964,7 +26098,6 @@ zzxosget.com
 .b.aowugame.com
 .b.babylon.com
 .b.baiy.net
-.b.bdstatic.com
 .b.boyfriendtv.com
 .b.bst.126.net
 .b.cyone.com.cn
@@ -25977,6 +26110,7 @@ zzxosget.com
 .b.myspace.com
 .b.pornoxo.com
 .b.rifub.com
+.b.scorecardresearch.com
 .b.smartvideo.youku.com
 .b.thefile.me
 .b.tukucc.com
@@ -26010,6 +26144,7 @@ zzxosget.com
 .ba.ccm2.net
 .ba.kioskea.net
 .ba138901a1dd4534b2d0.com
+.backstage.funnelenvy.com
 .backup.lumion3d.com
 .backup.lumion3d.net
 .badad.googleplex.com
@@ -26054,6 +26189,7 @@ zzxosget.com
 .baiyuandian.cc
 .bajieyy.cc
 .balanderramed.site
+.bam.nr-data.net
 .ban.seriesonlinex.org
 .bangbang521.com
 .banjuanmao.com
@@ -26231,10 +26367,14 @@ zzxosget.com
 .beacon.indieclick.com
 .beacon.indieclicktv.com
 .beacon.itmedia.jp
+.beacon.krxd.net
 .beacon.livefyre.com
 .beacon.lycos.com
 .beacon.netflix.com
+.beacon.nrholding.net
 .beacon.nuskin.com
+.beacon.rum.dynapis.com
+.beacon.thred.woven.com
 .beacon.toyota.co.jp
 .beacon.www.theguardian.com
 .beacons.brandads.net
@@ -26272,6 +26412,7 @@ zzxosget.com
 .bersmanatomic.site
 .bes-progfree.com
 .besiasmere.site
+.besti.ga
 .bestvideo2019.xyz
 .bet36500050.com
 .betohomeall.com
@@ -26288,6 +26429,7 @@ zzxosget.com
 .bh.contextweb.com
 .bhaoea.cn
 .bhjac.azvub.cn
+.bhu9.bankia.es
 .bhuak.com
 .bhyddc.com
 .biandaosheng.com
@@ -26511,6 +26653,7 @@ zzxosget.com
 .business.inveno.com
 .butashasp.site
 .buydee.org
+.buyimg.bianxianmao.com
 .buysellads.com
 .buyu8001.com
 .bv8888.com
@@ -26532,6 +26675,7 @@ zzxosget.com
 .bym03.cn
 .bypbwm.cn
 .byujf.cn
+.bzclk.baidu.com
 .bzshzx.com
 .c-adash.m.taobao.com
 .c-nfa.jd.com
@@ -26563,6 +26707,7 @@ zzxosget.com
 .c.kuwo.cn
 .c.lianwangtech.com
 .c.metrigo.com
+.c.minisplat.cn
 .c.mkmp365.com
 .c.mnjkw.cn
 .c.mobishu.com
@@ -26605,6 +26750,7 @@ zzxosget.com
 .c1.china.cn
 .c1.ifengimg.com
 .c1.lianwangtech.com
+.c1.minisplat.cn
 .c1.wkanx.com
 .c16cp358.com
 .c19f2.cn
@@ -26655,6 +26801,8 @@ zzxosget.com
 .camtinolc.com
 .cangnews.com
 .canonch.pro
+.canvas-ping.conduit-data.com
+.canvas-usage-v2.conduit-data.com
 .canvas.thenextweb.com
 .canyboysho.info
 .caob5.info
@@ -26670,7 +26818,6 @@ zzxosget.com
 .carpenterrprp.com
 .carutinv.com
 .cas.clickability.com
-.casalemedia.com
 .casbanlly.com
 .casee.cn
 .cash.neweramediaworks.com
@@ -26733,7 +26880,9 @@ zzxosget.com
 .cdn-adphone.wenhua.com.cn
 .cdn-ads.oss-cn-shanghai.aliyuncs.com
 .cdn-alliancegravity.s3.amazonaws.com
+.cdn-analytics.ladmedia.fr
 .cdn-gcs.outfit7.com
+.cdn-settings.segment.com
 .cdn.0i-i0.com
 .cdn.5bong.com
 .cdn.adapi.fotoable.com
@@ -26754,10 +26903,12 @@ zzxosget.com
 .cdn.jiuzhilan.com
 .cdn.jllstudio.com
 .cdn.komentary.aol.com
+.cdn.krxd.net
 .cdn.mingmingtehui.com
 .cdn.moji.com
 .cdn.moji002.com
 .cdn.ndapp.com
+.cdn.newapi.com
 .cdn.outfit7.com
 .cdn.popmyads.com
 .cdn.puata.info
@@ -26946,7 +27097,6 @@ zzxosget.com
 .cleaner.baidu.com
 .clearadnetwork.com
 .click.ali213.net
-.click.aliyun.com
 .click.bes.baidu.com
 .click.cheshi-img.com
 .click.cheshi.com
@@ -26984,6 +27134,7 @@ zzxosget.com
 .clickm.fang.com
 .clickn.fang.com
 .clicks.superpages.com
+.clicks.traffictrader.net
 .clickstrip.6wav.es
 .clicktracks.com
 .clickzs.com
@@ -26993,10 +27144,12 @@ zzxosget.com
 .client.88tours.com
 .client.show.qq.com
 .client.sidesearch.lycos.com
+.client.stats.yinyuetai.com
 .client.video.ucweb.com
 .clineddivoryr.site
 .cliushow.com
 .clk.about.com
+.clk.boulanger.com
 .clk.onet.pl
 .clk.uunt.com
 .clkads.com
@@ -27055,6 +27208,7 @@ zzxosget.com
 .cms.fx678.com
 .cms.fx678img.com
 .cms.laifeng.com
+.cms.quantserve.com
 .cms.ucweb.com
 .cmsapi.wifi8.com
 .cmshow.gtimg.cn
@@ -27132,10 +27286,10 @@ zzxosget.com
 .collect.igodigital.com
 .collector-cdn.github.com
 .collector-medium.lightstep.com
-.collector.fiverr.com
 .collector.ksax.com
 .collector.kstptv5.com
 .collector.nextguide.tv
+.collector.roistat.com
 .collector.tescocompare.com
 .collector.trendmd.com
 .collector.viki.io
@@ -27146,6 +27300,7 @@ zzxosget.com
 .com-eonsun-owl-user.oss-cn-hangzhou.aliyuncs.com
 .com-eonsun-owl.oss-cn-hangzhou.aliyuncs.com
 .comberry.cn
+.combine.urbanairship.com
 .comesgo.com
 .comet.ibsrv.net
 .commercedirections.com
@@ -27160,6 +27315,7 @@ zzxosget.com
 .config.ioam.de
 .config.kuyun.com
 .config.push.sogou.com
+.config2.mparticle.com
 .confirm-referer.glrsales.com
 .congregorysun.site
 .conjeller-chikemon.com
@@ -27221,20 +27377,25 @@ zzxosget.com
 .counter.csdn.net
 .counter.entertainmentwise.com
 .counter.kingsoft.com
+.counter.ksm.it
 .counter.ksosoft.com
 .counter.m1905.com
 .counter.opinion.com.ua
 .counter.pagesview.com
+.counter.pixplug.in
 .counter.rian.ru
 .counter.search.bg
 .counter.sina.com.cn
 .counter.theconversation.edu.au
 .counter.tovarro.com
+.counter.wapstart.ru
 .counter.yesky.com
 .counter.zerohedge.com
+.counter2.condenast.it
 .countersys.cn
 .countertrck.com
 .countpvn.light.fang.com
+.country.yepshare.com
 .countubn.light.soufun.com
 .couqm.com.cn
 .courselfnorter.site
@@ -27297,6 +27458,7 @@ zzxosget.com
 .cr-p16.ladsp.com
 .cr.m.liebao.cn
 .cralp.cn
+.crashapi.growingio.com
 .crashes.mo.wps.cn
 .crasheye.cn
 .crashlytics.163.com
@@ -27308,6 +27470,8 @@ zzxosget.com
 .cre.mix.sina.com.cn
 .cre99.com
 .creative.1111cpc.com
+.creative.jdkic.com
+.creative.ltheanine.cn
 .creatives.cliphunter.com
 .creatives.ftchinese.com
 .creatives.inmotionhosting.com
@@ -27370,7 +27534,6 @@ zzxosget.com
 .cuoas.com
 .cuoss.com
 .cupallask.site
-.cupid.iqiyi.com
 .current.sina.com.cn
 .customad.cnn.com
 .customer-security.online
@@ -27420,6 +27583,8 @@ zzxosget.com
 .d.1391.com
 .d.39.net
 .d.ab126.com
+.d.adrolays.de
+.d.agkn.com
 .d.annarbor.com
 .d.beigedi.com
 .d.businessinsider.com
@@ -27583,7 +27748,7 @@ zzxosget.com
 .data.haoma.sogou.com
 .data.mic.com
 .data.neuroxmedia.com
-.data.vod.itc.cn
+.data.studybreakmedia.com
 .data.waptime.cn
 .data2.doodlemobile.com
 .datafastguru.info
@@ -27614,6 +27779,7 @@ zzxosget.com
 .dbs.autolatest.ro
 .dbvault.net
 .dbwmjj.com
+.dc.ads.linkedin.com
 .dc.cp21.ott.cibntv.net
 .dc.csdn.net
 .dc.letv.com
@@ -27639,6 +27805,7 @@ zzxosget.com
 .dd.iaskgo.com
 .dd.mangofortune.net
 .dd.sina.com.cn
+.dd.wx16999.com
 .dd1.diymianmo.com
 .ddanq.com
 .ddapp.cn
@@ -27652,6 +27819,7 @@ zzxosget.com
 .ddomm.com
 .ddpxhq.cn
 .ddrrccck.m.qxs.la
+.de-mi-nis-ner2.info
 .de.as.cp61.ott.cibntv.net
 .de.as.pptv.com
 .de.dzribao.com
@@ -27665,6 +27833,7 @@ zzxosget.com
 .debadu.com
 .debug-vp.webmd.com
 .decisionediv.site
+.deepknow.egoid.me
 .defeatureother.site
 .definitedikdra.site
 .dehua.ixinfan.com
@@ -27718,6 +27887,7 @@ zzxosget.com
 .dhlmy.com
 .dhuhui.cn
 .dhxyzx.cn
+.di8n.bfmtv.com
 .di9qu.com.cn
 .diagnostics.support.microsoft.com
 .dialer.cdn.cootekservice.com
@@ -27734,6 +27904,7 @@ zzxosget.com
 .dierqingchun.com
 .difnxm.cn
 .digdug.divxnetworks.com
+.digg.analytics.live.com
 .digitru.st
 .dilcn.net
 .dildo.tnaflix.com
@@ -27752,12 +27923,14 @@ zzxosget.com
 .dipan.com
 .dir.minigame.qq.com
 .directrev.com
+.dirt.dennis.co.uk
 .dis.crieto.com
 .disappenedy.site
 .discoverapp.xyz
 .discuz.gtimg.cn
 .dispatcher.upmc.uc.cn
 .display.360totalsecurity.com
+.display.ad.daum.net
 .display.adhudong.com
 .display.digitalriver.com
 .display.superbay.net
@@ -27890,9 +28063,6 @@ zzxosget.com
 .dolphin4.ftimg.net
 .dolsoste.com
 .domisesvivin.info
-.domob.cn
-.domob.com.cn
-.domob.org
 .dontblockme.modaco.com
 .dooptoug.net
 .door2new.net
@@ -27935,6 +28105,7 @@ zzxosget.com
 .download.350.com
 .download.bav.baidu.com
 .download.fuyuncc.com
+.download.mackeeper.com
 .download.mediaget.com
 .download.qianka.com
 .download.sd.baidu.com
@@ -27950,6 +28121,7 @@ zzxosget.com
 .dpc6.cn
 .dpjszs.com
 .dpm.bluray-disc.de
+.dpm.demdex.net
 .dps.499.cn
 .dps.shouji56.com
 .dps.wtdtjs.com
@@ -28010,6 +28182,7 @@ zzxosget.com
 .dssdr.top
 .dsxdn.com
 .dszan.com
+.dt.nrjmobile.fr
 .dtrcw.cc
 .dtrk.slimcdn.com
 .dtscout.com
@@ -28030,7 +28203,6 @@ zzxosget.com
 .dumedia.ru
 .duobaoqj.com
 .duoduo.icu
-.duomeng.cn
 .duoqumanhua.com
 .duoyidd.com
 .dupinpu.com
@@ -28055,7 +28227,6 @@ zzxosget.com
 .dw.xcar.com.cn
 .dw998.com
 .dwh-tracking.it.auth0.com
-.dwtracking.sdo.com
 .dx1200.com
 .dxcssc.cn
 .dxmci.com
@@ -28178,8 +28349,10 @@ zzxosget.com
 .e9emh.cn
 .ea.aujourdhui.com
 .ea.bouquetnantais.com
+.ea.celio.com
 .ea.homair.com
 .ea.jeuxvideopc.com
+.ea.lexpress.fr
 .ea.megustaleer.com
 .ea.monsieurmanuel.com
 .ea.officedepot.fr
@@ -28209,8 +28382,8 @@ zzxosget.com
 .ec252f7027411.com
 .echoazou.com
 .eclick.120ask.com
-.eclick.360doc.com
 .eclick.baidu.cn
+.eclick.baidu.com
 .eclkspbn.com
 .ecma.bdimg.com
 .ecmb.bdimg.com
@@ -28223,6 +28396,7 @@ zzxosget.com
 .eddong.com
 .edencourtbrita.info
 .edesf.xyzxmark.cn
+.edge.quantserve.com
 .edge.sqweb.com
 .edhappearer.info
 .edigitalsurvey.com
@@ -28300,6 +28474,9 @@ zzxosget.com
 .encountryf.pro
 .encoursejaso.site
 .endpo.in
+.engage-cdn.schibsted.media
+.engine.lvehaisen.com
+.engine.tuia.cn
 .enjuk.com
 .enjuw.com
 .enohb.com
@@ -28360,6 +28537,7 @@ zzxosget.com
 .esyzdb.com
 .et.grabnetworks.com
 .et.unclejeans.com
+.etacontent.com
 .eteun.cn
 .etg.qq.com
 .etg98.com
@@ -28377,14 +28555,18 @@ zzxosget.com
 .eva.ucas.com
 .evefashion.cn
 .event-analytics.yesware.com
+.event-api.contactatonce.com.au
 .event-collector.udsrv.com
 .event-reporting-dot-webylytics.appspot.com
 .event.dkb.de
 .event.ksosoft.com
+.event.mackeeper.com
+.eventlog.beacon.qq.com
 .eventlog.hd.baofeng.com
 .eventlogger.soundcloud.com
 .events-api.outfit7.net
 .events.antenna.is
+.events.apester.com
 .events.avantisvideo.com
 .events.godaddy.com
 .events.guesttoguest.com
@@ -28456,6 +28638,7 @@ zzxosget.com
 .f56g.me
 .f6ce.com
 .f70123.com
+.f7ds.liberation.fr
 .f8272.com
 .fa.163.com
 .fa.corp.163.com
@@ -28673,7 +28856,6 @@ zzxosget.com
 .fpb.51edu.com
 .fpb.kuhou.com
 .fpb.mn586.com
-.fpb1.apple886.com
 .fpbb.aizhan.com
 .fpbbdx1.51240.com
 .fpbjiansuo.mn586.com
@@ -28784,6 +28966,7 @@ zzxosget.com
 .g.tbcdn.cn
 .g.techweekeurope.it
 .g.uusee.com
+.g.vev.io
 .g.w5b454.com
 .g.x.evolife.cn
 .g1.0573ren.com
@@ -28808,6 +28991,7 @@ zzxosget.com
 .g6rfh.cn
 .ga-beacon.appspot.com
 .ga.canoe.ca
+.gaandroid.talkingdata.net
 .gad.kugou.com
 .gadhx.cn
 .gadsabz.com
@@ -28882,6 +29066,7 @@ zzxosget.com
 .gbeik.com
 .gbieg.com
 .gc.keefung-zs.com
+.gc.newsweek.com
 .gc8fjz.cn
 .gcaij.com
 .gcaog.com
@@ -28944,6 +29129,20 @@ zzxosget.com
 .geobanner.socialflirt.com
 .geobeacon.ign.com
 .geodestricy.site
+.geoip-lookup.vice.com
+.geoip.al.com
+.geoip.cleveland.com
+.geoip.gulflive.com
+.geoip.inquirer.net
+.geoip.lehighvalleylive.com
+.geoip.masslive.com
+.geoip.mlive.com
+.geoip.nj.com
+.geoip.nola.com
+.geoip.oregonlive.com
+.geoip.pennlive.com
+.geoip.silive.com
+.geoip.syracuse.com
 .georgias.cn
 .geoshopping.nzherald.co.nz
 .gepush.com
@@ -29068,6 +29267,7 @@ zzxosget.com
 .gm682.com
 .gma.alicdn.com
 .gma1.com
+.gmonitor.aliimg.com
 .gmota.g188.net
 .gmxyorg.cn
 .gnativestreesaga.site
@@ -29105,8 +29305,6 @@ zzxosget.com
 .goodgz.cn
 .goods.tudou.com
 .goodwold.top
-.googleadservices.com
-.googleadsserving.cn
 .googlealiyun.cn
 .googlecommerce.com
 .googlespider1.cn
@@ -29156,7 +29354,6 @@ zzxosget.com
 .grenatorkovsh.site
 .grexoacu.com
 .gridsum-vd.cntv.cn
-.gridsum.com
 .gridsumdissector.cn
 .gridsumdissector.com
 .gringrin.cn
@@ -29170,6 +29367,7 @@ zzxosget.com
 .gsasqa.cn
 .gshtrl.top
 .gso0.com
+.gsp1.baidu.com
 .gssxb.com
 .gstat.bitauto.com
 .gstralpolita.info
@@ -29265,6 +29463,7 @@ zzxosget.com
 .h.canmg.cn
 .h.cliphunter.com
 .h.holder.com.ua
+.h.irs01.com
 .h.msn.com
 .h01ce.cn
 .h0o33.cn
@@ -29678,6 +29877,7 @@ zzxosget.com
 .hylyl.club
 .hyperpromote.com
 .hypers.com
+.hypersnap.mairuan.com
 .hypoot.com
 .hypzv.com
 .hys4.com
@@ -29747,7 +29947,6 @@ zzxosget.com
 .iadmusicmat.music.126.net
 .iadmusicmatvideo.music.126.net
 .iads.xinmin.cn
-.iadsdk.apple.com
 .iamqqo85467.cn
 .iangp.com
 .iangs.com
@@ -29960,6 +30159,7 @@ zzxosget.com
 .imgcdn.de92.com
 .imgp.cymzc.com
 .imgsreview.dftoutiao.com
+.imgstat.baidu.com
 .imgtrack.domainmarket.com
 .imiek.com
 .immassets.s3.amazonaws.com
@@ -30046,6 +30246,7 @@ zzxosget.com
 .install.sidesearch.lycos.com
 .install2.kugou.com
 .instantresp.com
+.instore.pagomeno.it
 .instreet.cn
 .insuf.cn
 .insurads.com
@@ -30088,6 +30289,7 @@ zzxosget.com
 .ipredictive.com
 .ipsoorel.com
 .iq24ne.cn
+.iqiyi.irs01.com
 .iqiyi.kim
 .iqiyi.pub
 .iqiyi.space
@@ -30100,6 +30302,7 @@ zzxosget.com
 .iroby.com
 .ironsrc.com
 .irpmt.mail.163.com
+.irqs.ioam.de
 .irs01.net
 .irs09.com
 .iruad.com
@@ -30282,6 +30485,7 @@ zzxosget.com
 .jiayi2019.top
 .jiazihao.cn
 .jibn12.jintang114.org
+.jic.talkingdata.com
 .jicmutse.com
 .jiedaibao.com
 .jiehantai.com
@@ -30399,6 +30603,7 @@ zzxosget.com
 .jrclick.jd.com
 .jrdkc.com
 .jrhaigou.com
+.jrlt.beacon.qq.com
 .jrpt.jrptweb.org
 .js-1.pchome.net
 .js.05sun.com
@@ -30448,7 +30653,6 @@ zzxosget.com
 .js.xiao7cdn.com
 .js.xuexila.com
 .js.yanyue.cn
-.js.zol.com.cn
 .js1.2abc8.com
 .js1.xbaixing.com
 .js1.zuocai.tv
@@ -30550,6 +30754,7 @@ zzxosget.com
 .jzm81.com
 .jzntxs.com
 .jzt.jd.com
+.k.rueducommerce.fr
 .k1.dancihu.com
 .k1.wanwenwan.cn
 .k12shequ.com
@@ -30620,6 +30825,7 @@ zzxosget.com
 .keyrun.cn
 .keyrun.com
 .keystone.mwbsys.com
+.keyword.daumdn.com
 .keyyou.net
 .kf3msfm.com
 .kfand.com
@@ -30653,6 +30859,7 @@ zzxosget.com
 .kinglian.cn
 .kingpolo.com.cn
 .kingwam.com
+.kio.quanliyouxi.cn
 .kirilaboola.com
 .kiss.blockplus.cc
 .kitchenfurniture.cc
@@ -30785,6 +30992,7 @@ zzxosget.com
 .kz8tr2.cn
 .l.adiers.com
 .l.betrad.com
+.l.minisplat.cn
 .l.mnjkw.cn
 .l.qq.com
 .l.yidianzixun.com
@@ -30844,6 +31052,7 @@ zzxosget.com
 .lchar.com
 .lcrmm.top
 .lcs.dev.surepush.cn
+.lcs.livedoor.net
 .ld.kuaigames.com
 .ld.mediaget.com
 .ldevillaechildren.info
@@ -30888,6 +31097,7 @@ zzxosget.com
 .lessplay.com
 .let83.cn
 .letaojuan68.com
+.letv.irs01.com
 .lexyhome.com
 .leztc.com
 .lfcepgb.cn
@@ -30911,7 +31121,6 @@ zzxosget.com
 .lianfuhuang.cn
 .liangao.com
 .liangziweixg.com
-.lianmeng.360.cn
 .lianyicq.cn
 .liaoren85.com
 .liaoruochen.cn
@@ -31034,7 +31243,6 @@ zzxosget.com
 .log.hunantv.com
 .log.kcisa.kr
 .log.ltype.baofeng.com
-.log.mix.sina.com.cn
 .log.moji.com
 .log.moviebox.baofeng.com
 .log.music.baidu.com
@@ -31074,6 +31282,7 @@ zzxosget.com
 .logs-qos.tf1.fr
 .logs.chelaile.net.cn
 .logs.dashlane.com
+.logs.newapi.com
 .logstat.t.sfht.com
 .logupdate.avlyun.sec.miui.com
 .lokipodi.com
@@ -31097,6 +31306,7 @@ zzxosget.com
 .lovexia.top
 .lovfp.com
 .loxbeelid.com
+.loxodo-analytics.ext.nile.works
 .lp.jiuzhilan.com
 .lp1901.com
 .lpaoz.com
@@ -31114,6 +31324,7 @@ zzxosget.com
 .lsper.top
 .lstat.youku.com
 .lsxmg.com
+.lt.tritondigital.com
 .ltcprtc.com
 .ltdnc.com
 .lthxz.cn
@@ -31198,6 +31409,7 @@ zzxosget.com
 .m.77vcd.com
 .m.937920.com
 .m.adxpop.com
+.m.analytics.126.net
 .m.anzhuotan.com
 .m.aqiudaohang.com
 .m.aty.snmsohu.aisee.tv
@@ -31205,12 +31417,14 @@ zzxosget.com
 .m.baidu.com.yiqisee.cn
 .m.baidu.com.zhiduo.org
 .m.bailingjiankang.com
+.m.beacon.sina.com.cn
 .m.biquge5200.cc
 .m.bsnnk.com
 .m.cbeif.com
 .m.cenrs.com
 .m.chenhuia.com
 .m.clubske.com
+.m.cudaojia.com
 .m.dbaiz.com
 .m.doodlemobile.com
 .m.du1du.org
@@ -31287,7 +31501,6 @@ zzxosget.com
 .m.symac.cn
 .m.tcksbz888.com
 .m.tiantianedu.net
-.m.trb.com
 .m.tuopp.com
 .m.uc123.com
 .m.uczzd.cn
@@ -31337,6 +31550,7 @@ zzxosget.com
 .ma1.meishij.net
 .ma2.meishij.net
 .maccms.tan5858.com
+.mackeeperapp.mackeeper.com
 .macplatform.wondershare.com
 .mad.m.maxthon.cn
 .madhouse.cn
@@ -31439,6 +31653,7 @@ zzxosget.com
 .mcgi.v.qq.com
 .mclick.simba.taobao.com
 .mcore.vcgame.cn
+.mcs.delvenetworks.com
 .mcupdate.gstarcad.com
 .md.1drj.com
 .md.he9630.com
@@ -31469,6 +31684,7 @@ zzxosget.com
 .medialytics.io
 .mediamgr.ugo.com
 .mediaplex.com
+.mediator.mail.ru
 .mediav.com
 .medprofile.cn
 .medrx.telstra.com.au
@@ -31513,9 +31729,8 @@ zzxosget.com
 .metric.inetcore.com
 .metric.ipv6test.net
 .metricfast.com
-.metrics.cbn.com
+.metrics.apartments.com
 .metrics.cbslocal.com
-.metrics.ee.co.uk
 .metrics.extremetech.com
 .metrics.feedroom.com
 .metrics.seenon.com
@@ -31719,6 +31934,7 @@ zzxosget.com
 .mobfox.com
 .mobgi.com
 .mobile-pubt.ele.me
+.mobile-service.segment.com
 .mobilead.kuwo.cn
 .mobileads.dx.cn
 .mobileads.google.com
@@ -31799,11 +32015,14 @@ zzxosget.com
 .mqqad.cs0309.html5.qq.com
 .mqqad.html5.qq.com
 .mqqadr.reader.qq.com
+.mqs.ioam.de
+.mr.da.netease.com
 .mr087.cn
 .mr5aqoqlegsp.com
 .mrelko.com
 .mreod.cn
 .mrksys.com
+.ms.analytics.live.com
 .ms.cmcm.com
 .ms.cnbanbao.com
 .ms.cnczjy.com
@@ -31991,6 +32210,7 @@ zzxosget.com
 .networkbench.com
 .never.ovh
 .new.htcui.com
+.new.ltheanine.cn
 .new.taobc.com
 .new.yokaunion.com
 .new.zhqiu.com
@@ -32023,6 +32243,7 @@ zzxosget.com
 .newyiba.top
 .nex.corp.163.com
 .nexage.com
+.nexioniect.com
 .nexstep.zdworks.com
 .nextcps.com
 .nextlnk9.com
@@ -32163,6 +32384,7 @@ zzxosget.com
 .ntsartingaccura.info
 .ntsimprovide.info
 .ntvcld-a.akamaihd.net
+.ntx.quanliyouxi.cn
 .ntxiangtai.com
 .nunc-china.com
 .nuonuo1.icu
@@ -32199,6 +32421,7 @@ zzxosget.com
 .o.08jm.cn
 .o.if.qidian.com
 .o.jy135.com
+.o.minisplat.cn
 .o.phb123.com
 .o091i.com
 .o1.jyjyj.cn
@@ -32289,21 +32512,14 @@ zzxosget.com
 .olpvimg.onlylady.com
 .olstats.onlylady.com
 .olxt.top
-.om.cbsi.com
-.om.rogersmedia.com
 .omaceran.pw
 .omafaren.pw
 .omaris.pw
 .omega7o.com
-.omgmta1.qq.com
 .omgnjvrjgpeg.com
 .ommodatesjoin.info
-.omni.nine.com.au
 .omnikool.discovery.com
-.omniture.stuff.co.nz
-.omniture.theglobeandmail.com
 .omoaxaus.net
-.oms.expedia.com
 .omtrdc.net
 .omztf.cn
 .on.maxspeedcdn.com
@@ -32347,8 +32563,6 @@ zzxosget.com
 .opengam.com
 .openrcv.baidu.com
 .openstat.net
-.openx.net
-.openxt.cn
 .opgirl-tmp.adbxb.cn
 .ophoahik.net
 .opjalajamak.com
@@ -32420,10 +32634,12 @@ zzxosget.com
 .p.7060.la
 .p.99mssj.com
 .p.abcache.com
+.p.adbrn.com
 .p.alimama.com
 .p.bdjiazanmiaomu.com
 .p.bnuni.com
 .p.ecwan77.net
+.p.eyebuydirect-cmr.net
 .p.kugou.com
 .p.m5bn.com
 .p.niudashu.com
@@ -32477,6 +32693,7 @@ zzxosget.com
 .pagechoice.com
 .pagechoice.net
 .pageinfo.motorsport.com
+.pages2.marketo.com
 .pageshow.dftoutiao.com
 .pagiwp.com
 .pagnookr.net
@@ -32500,6 +32717,7 @@ zzxosget.com
 .parallelsdesktop.cn
 .paratingsulik.site
 .parketbedde.info
+.parking.zunmi.cn
 .parsely.com
 .partner-safe.men
 .partner.bargaindomains.com
@@ -32552,6 +32770,7 @@ zzxosget.com
 .pc.uf.ksosoft.com
 .pc.videoclick.baidu.com
 .pcaoo.com
+.pcauto.irs01.com
 .pcbrowser.dd.qq.com
 .pcd.autohome.com.cn
 .pcfg.wps.cn
@@ -32590,6 +32809,7 @@ zzxosget.com
 .pentaxaws.cn
 .penxiangge.com
 .perahbashmama.com
+.perf.dugout.com
 .performanceonclick.com
 .performances.bestofmedia.com
 .perkas.pw
@@ -32611,6 +32831,7 @@ zzxosget.com
 .pgdt.gtimg.com
 .pgradualirelev.info
 .phabsoun.net
+.phar.gu-web.net
 .pharougn.com
 .pheekrie.com
 .pheevoug.com
@@ -32625,6 +32846,7 @@ zzxosget.com
 .phpad.cqnews.net
 .phpape.com
 .phsism.com
+.pi.feedsportal.com
 .pi920.com
 .pianyi95.top
 .piaogj.com
@@ -32667,7 +32889,9 @@ zzxosget.com
 .pindao.huoban.taobao.com
 .ping-dot-acp-magento.appspot.com
 .ping.acc.sogou.com
+.ping.hellobar.com
 .ping.pinyin.sogou.com
+.ping.smyte.com
 .ping.weiduofan.com
 .pingbi.diudou.com
 .pingdom.net
@@ -32698,6 +32922,7 @@ zzxosget.com
 .pixel.1und1.de
 .pixel.4players.de
 .pixel.bild.de
+.pixel.digitalspy.co.uk
 .pixel.dorehernowi.pro
 .pixel.fanbridge.com
 .pixel.glimr.io
@@ -32707,11 +32932,14 @@ zzxosget.com
 .pixel.pcworld.com
 .pixel.propublica.org
 .pixel.prosieben.de
+.pixel.quantserve.com
 .pixel.reddit.com
 .pixel.spotify.com
 .pixel.staging.tree.com
 .pixel.tapad.com
+.pixel.tree.com
 .pixel.vihub.ru
+.pixel.zumby.io
 .pixels.asia
 .pixels.livingsocial.com
 .pixfuture.net
@@ -32792,6 +33020,7 @@ zzxosget.com
 .poratav.com
 .poredii.com
 .portedlysarcatc.info
+.pos.baidu.com
 .pos68.cn
 .position.dftoutiao.com
 .possipationd.info
@@ -32823,6 +33052,7 @@ zzxosget.com
 .pqwtrq.xyz
 .pr-static.empflix.com
 .pr-static.tnaflix.com
+.pr.da.netease.com
 .pr00001.com
 .pr33.cn
 .practivate.adobe.com
@@ -32976,19 +33206,20 @@ zzxosget.com
 .pvsite.zol.com.cn
 .pvstat.china.cn
 .pvstat.html5.qq.com
+.pvtag.yahoo.co.jp
 .pvtest.zol.com.cn
 .pvx.autohome.com.cn
 .pwa.telephoneannuaire.fr
 .pwj.biqugezw.com
 .pwjhg.com
 .pwjmzqx.cn
+.px.ads.linkedin.com
 .px.boundhub.com
 .px.media-serving.com
 .px.mvfglobal.com
 .px.topspin.net
 .px.wayfair.com
 .px69z.cn
-.pxc.otto.de
 .pxene.com
 .pxyvb.cn
 .py.qlogo.cn
@@ -33103,7 +33334,9 @@ zzxosget.com
 .qoiusky.com
 .qooic.com
 .qoredi.com
+.qosp.msg.71.am
 .qpokok.com
+.qq.irs01.com
 .qq.tapiche.cn
 .qq0au.cn
 .qq2.co
@@ -33226,6 +33459,7 @@ zzxosget.com
 .rbywg.com
 .rc.haodongkeji.cn
 .rc.nxrxt.com
+.rc.rlcdn.com
 .rc2waycm-atl.netmng.com
 .rcaiu.com
 .rcaiv.com
@@ -33235,6 +33469,7 @@ zzxosget.com
 .rcynoe.cn
 .rcyy3.kaopuwangjz.com
 .rd.autohome.com.cn
+.rd.da.netease.com
 .rd.e.sogou.com
 .rd.kuaigames.com
 .rdbd.xsread.com
@@ -33296,6 +33531,7 @@ zzxosget.com
 .report.qq.com
 .report.vip.qq.com
 .reporting.flymonarch.com
+.reporting.handll.net
 .reporting.theonion.com
 .represented.cn
 .reqpostanza.com
@@ -33373,6 +33609,7 @@ zzxosget.com
 .rl.go2yd.com
 .rl.heise.de
 .rl972.cn
+.rlinks.one.in
 .rlogs.youdao.com
 .rm.sina.com.cn
 .rmads.eu.msn.com
@@ -33462,6 +33699,7 @@ zzxosget.com
 .ruyidk.com
 .ruyiqufu.com
 .rv.modanisa.com
+.rvb.quanliyouxi.cn
 .rwjfs.com
 .rx616.cn
 .rxwan.com
@@ -33482,6 +33720,7 @@ zzxosget.com
 .s.baidu.com
 .s.cdn.u17t.com
 .s.com2us.net
+.s.cr-nielsen.com
 .s.ddstu.com
 .s.de123.net
 .s.doyo.cn
@@ -33506,6 +33745,7 @@ zzxosget.com
 .s.qqhpg.com
 .s.qtad.qingting.fm
 .s.ryre.cn
+.s.sniphub.com
 .s.so.360.cn
 .s.temaidi.com
 .s.uc627.com
@@ -33544,7 +33784,7 @@ zzxosget.com
 .s2.mingmingtehui.com
 .s2.zdface.com
 .s2.zdmimg.com
-.s24cloud.net/log
+.s24cloud.net
 .s2mvd.cn
 .s3-tracking.synthasite.net.s3.amazonaws.com
 .s3.pfp.sina.net
@@ -33615,9 +33855,9 @@ zzxosget.com
 .saxs.sina.com.cn
 .saxxaz.taohuayuan8888.com
 .sayac.hurriyettv.com
+.sb.scorecardresearch.com
 .sb88b.com
 .sbbd1.qulishi.com
-.sbeacon.sina.com.cn
 .sbenx.com
 .sbiim.com
 .sbinx.com
@@ -33626,6 +33866,7 @@ zzxosget.com
 .sbpb1.qulishi.com
 .sbroughhig.info
 .sbrqp.com
+.sc.58mingtian.cn
 .sc.cc.com
 .sc.chinaiiss.com
 .sc.csai.cn
@@ -33650,6 +33891,7 @@ zzxosget.com
 .scimg.27admin.com
 .scjcgj.top
 .sclick.6rooms.com
+.sclick.baidu.com
 .sclizhong.com
 .sclog.moviebox.baofeng.com
 .scluster3.cliphunter.com
@@ -33726,9 +33968,11 @@ zzxosget.com
 .sec.resource.xiaomi.net
 .secpay.wostore.cn
 .secretmedia.s3.amazonaws.com
+.secure.quantserve.com
 .securecloud-dt.com
 .secured-iphone.club
 .secured-phone.club
+.securite.01net.com
 .security.browser.miui.com
 .seepsocu.net
 .seerpiu002.com
@@ -33741,11 +33985,14 @@ zzxosget.com
 .serrano.hardwareheaven.com
 .servedby.keygamesnetwork.com
 .server.m.pp.cn
+.service-stat.tbn.ru
 .service.ad.adesk.com
 .service.danmu.youku.com
+.service.epro.sogou.com
 .service.urchin.com
 .service4refresh.info
 .servicer.adskeeper.co.uk
+.services.hmhost.co.uk
 .servicetick.com
 .serving-sys.com
 .session-tracker.badcreditloans.com
@@ -33830,7 +34077,6 @@ zzxosget.com
 .shop265.com
 .shoppingpartners2.futurenet.com
 .shorug.cn
-.shouji.360.cn
 .shouji.sougou.com
 .shouwangba.cn
 .shouyoutan.com
@@ -33976,13 +34222,13 @@ zzxosget.com
 .soft.tbs.imtt.qq.com
 .softtest.vip
 .softxbutt.com
+.sohu.irs01.com
 .sohu999.com
 .sokoyo-fq.com
 .solicensusuntf.site
 .soltitate.site
 .somecoding.com
 .somennew.com
-.somniture.theglobeandmail.com
 .somode.net
 .song001.com
 .sonobi.com
@@ -34003,6 +34249,7 @@ zzxosget.com
 .sousuo.xm.sjzhushou.com
 .soza6rsz3ezi.com
 .sp-mms.weather.com
+.sp.baxterbulletin.com
 .sp.dnqc.com
 .sp.fanatical.com
 .sp.gametimepa.com
@@ -34062,7 +34309,6 @@ zzxosget.com
 .ss.swagger1.com
 .ss.sysad.cn
 .ss.ting55.com
-.ssac.suning.com
 .ssb.ah499.com
 .sscashpop.com
 .sscefsol.com
@@ -34074,6 +34320,7 @@ zzxosget.com
 .ssjpx.com
 .ssjy168.com
 .ssl-cdn.static.browser.mi-img.com
+.ssl.google-analytics.com
 .ssl.hyhzy.cn
 .ssmuse1314.cn
 .ssorsophicla.info
@@ -34100,11 +34347,13 @@ zzxosget.com
 .sstats.mora.jp
 .sstats.oui.sncf
 .sstc360.com
+.ssum.casalemedia.com
 .st-n.ads3-adnow.com
 .st.arte.tv
 .st.holalauncher.com
 .st.holaworld.cn
 .st.targetix.net
+.st.tmgrup.com.tr
 .st.vq.ku6.cn
 .st.yandexadexchange.net
 .st.zzhyyj.com
@@ -34115,6 +34364,7 @@ zzxosget.com
 .sta.jcjk0451.com
 .stadig0.ifeng.com
 .staging.admin.e.mi.com
+.stags.bluekai.com
 .stakenpolise.site
 .staqnet.com
 .star8.net
@@ -34137,6 +34387,7 @@ zzxosget.com
 .stat.alibaba.com
 .stat.browser.nearme.com.cn
 .stat.dealtime.com
+.stat.freetool.it
 .stat.funshion.com
 .stat.hudong.com
 .stat.it168.com
@@ -34147,6 +34398,7 @@ zzxosget.com
 .stat.moji.com
 .stat.pandora.xiaomi.com
 .stat.pptv.com
+.stat.radar.imgsmail.ru
 .stat.ruvr.ru
 .stat.simba.taobao.com
 .stat.tongji.today
@@ -34188,6 +34440,7 @@ zzxosget.com
 .staticxx.facebook.com
 .statis.mobile.youku.com
 .statis.push.netease.com
+.statistic.qzone.qq.com
 .statistics.crowdynews.com
 .statistics.raiffeisen.ch
 .statisticsv2.yinyuetai.com
@@ -34211,6 +34464,7 @@ zzxosget.com
 .stats.eyeviewdigital.com
 .stats.grafikart.fr
 .stats.harpercollins.com
+.stats.highwire.com
 .stats.hosting24.com
 .stats.ibtimes.co.uk
 .stats.mokeedev.com
@@ -34227,12 +34481,12 @@ zzxosget.com
 .stats.sitesuite.org
 .stats.slideshare.net
 .stats.someecards.com
+.stats.technopia.it
 .stats.townnews.com
 .stats.tudou.com
 .stats.uswitch.com
 .stats.videodelivery.net
 .stats.visistat.com
-.stats.vulture.com
 .stats.wwd.com
 .stats.ynet.co.il
 .stats.zmags.com
@@ -34270,6 +34524,7 @@ zzxosget.com
 .storeconfig.mistat.xiaomi.com
 .storewidget.pcauthority.com.au
 .storygize.net
+.strategy.beacon.qq.com
 .stream.heavenmedia.net
 .streamclub.best
 .streamclub.fun
@@ -34287,7 +34542,6 @@ zzxosget.com
 .su.bdimg.com
 .su.bdstatic.com
 .su9orw.cn
-.sub.powerapple.com
 .sub.topber.com
 .subshall.cn
 .substandferex.site
@@ -34311,7 +34565,6 @@ zzxosget.com
 .superjuryger.site
 .superli666.top
 .supersonic.com
-.supersonicads.com
 .supertrackingz.com
 .supfast.net
 .surfacecharo.info
@@ -34373,10 +34626,12 @@ zzxosget.com
 .synacast.com
 .sync-dsp.ad-m.asia
 .sync-eu.exe.bid
+.sync-tm.everesttech.net
 .sync.1dmp.io
 .sync.1rx.io
 .sync.audsp.com
 .sync.audtd.com
+.sync.crwdcntrl.net
 .sync.morgdm.ru
 .sync.republer.com
 .sync.teamrtb.net
@@ -34425,25 +34680,31 @@ zzxosget.com
 .t-ak.hulu.com
 .t-e.flyme.cn
 .t-flow.flyme.cn
+.t-staging.powerreviews.com
 .t.3apf.com
 .t.adbxb.cn
 .t.adcrops.net
 .t.adxchina.cn
 .t.alimama.com
 .t.atpanel.com
+.t.beopinion.com
+.t.blinkist.com
 .t.cinemablend.com
 .t.cnscore.com
 .t.collect.yinyuetai.com
+.t.cr-nielsen.com
 .t.cyuew.com
 .t.dangdang.com
 .t.eharmony.com
 .t.flux.com
+.t.growingio.com
 .t.indeed.com
 .t.iz55.com
 .t.kelkoogroup.net
 .t.paypal.com
 .t.pingzei.com
 .t.qiuqiuqipai.com
+.t.sgc.io
 .t.sj.qq.com
 .t.supermario.xyz
 .t.trafmag.com
@@ -34480,9 +34741,12 @@ zzxosget.com
 .tag.aticdn.net
 .tag.cdnmaster.cn
 .tag.digitaltarget.ru
+.tag.sonymusic.com
 .tag.vlitag.com
 .tag.yoc-adserver.com
 .taglocker.target.com
+.tags.bluekai.com
+.tags.growingio.com
 .tags.msnbc.com
 .tags.sprizzy.com
 .tags2.adshell.net
@@ -34552,8 +34816,10 @@ zzxosget.com
 .td.xue63.com
 .tdain.com
 .tdayi.com
+.tdcv3.talkingdata.net
 .tdep.vacansoleil.fr
 .tdf.ringier.ch
+.tdf1.admyjob.com
 .tdoup.com
 .tdrec.youku.com
 .tdtsd.com
@@ -34754,6 +35020,7 @@ zzxosget.com
 .top267.com
 .topbetfast.com
 .topgreatxoffers.com
+.torimochi.line-apps.com
 .torytalenty.site
 .tosfeed.com
 .totachrl.com
@@ -34772,10 +35039,12 @@ zzxosget.com
 .tplpages.com
 .tpush.html5.qq.com
 .tr.connatix.com
+.tr.interlake.net
 .tr.werkenntwen.de
 .tracelog.www.alibaba.com
 .track.24heures.ch
 .track.58.com
+.track.addevent.com
 .track.adintend.com
 .track.bazonline.ch
 .track.bcvcmedia.com
@@ -34794,7 +35063,6 @@ zzxosget.com
 .track.engagesciences.com
 .track.eyeviewads.com
 .track.fxstreet.com
-.track.hubspot.com
 .track.leadin.com
 .track.mopo.de
 .track.ning.com
@@ -34804,12 +35072,13 @@ zzxosget.com
 .track.spots.im
 .track.toutiao.com
 .track.ugamezone.com
-.track.ultimate-guitar.com
+.track.vdo.ai
 .track.wattpad.com
 .track.webgains.com
 .track.websiteceo.com
 .track.wildblue.com
 .track.workablemetro.com
+.track.written.com
 .track.xiachufang.com
 .track.zomato.com
 .track1.aniview.com
@@ -34849,12 +35118,15 @@ zzxosget.com
 .tracking.eurosport.com
 .tracking.goodgamestudios.com
 .tracking.ha.rueducommerce.fr
+.tracking.hi-pi.com
 .tracking.hrs.de
 .tracking.i-vengo.com
 .tracking.intl.miui.com
 .tracking.linda.de
+.tracking.menamarketplace.com
 .tracking.military.com
 .tracking.mobile.de
+.tracking.monsido.com
 .tracking.mycapture.com
 .tracking.nextdoor.com
 .tracking.oui.sncf
@@ -34906,6 +35178,7 @@ zzxosget.com
 .tribalfusion.com
 .trikersuccessar.site
 .trikroacha.com
+.trk.absuite.com.br
 .trk.bhs4.com
 .trk.cloudsna.com
 .trk.connatix.com
@@ -35019,6 +35292,7 @@ zzxosget.com
 .tylll.com
 .tymsyx.com
 .tyrghj.cn
+.tyu.quanliyouxi.cn
 .tyyjzs.cn
 .tz-dsp.com
 .tz.1688988.com
@@ -35030,18 +35304,22 @@ zzxosget.com
 .u.diannaodian.com
 .u.qijipc.com
 .u.raidmedia.com.cn
+.u.talkingdata.net
 .u.uc123.com
 .u.ucfly.com
 .u.x.jd.com
 .u.yizuya.com
 .u.zuoyesou.com
+.u0.s.minisplat.cn
 .u0r9.cn
 .u1.2048sj.com
 .u1.20q.cn
 .u1.61sou.com
 .u1.idongde.com
 .u1.img.mobile.sina.cn
+.u1.s.minisplat.cn
 .u1.shuaiku.com
+.u2.s.minisplat.cn
 .u2c8.cn
 .u349036.ff112222.com
 .u372q.cn
@@ -35055,6 +35333,7 @@ zzxosget.com
 .ubalh.com
 .uberads.com
 .ubm.fangtoo.com
+.ubt.berlingskemedia.net
 .uc.haoyunyuan.cc
 .uc.ucweb.com
 .uc.xiansuper.com
@@ -35088,6 +35367,7 @@ zzxosget.com
 .udata.mixmarket.biz
 .udbyv8918.com
 .udc.msn.com
+.udm.scorecardresearch.com
 .udorik.com
 .udpolimenew.baidu.com
 .udrwyjpwjfeg.com
@@ -35221,6 +35501,7 @@ zzxosget.com
 .uplze.code.weddingeeos.com
 .upnorma.com
 .ups.ksmobile.net
+.upt.graphiq.com
 .uptpro.homestead.com
 .upush.co
 .upush.res.meizu.com
@@ -35248,7 +35529,6 @@ zzxosget.com
 .uscpn0c485wn.com
 .usebutton.com
 .usejj.wangkl.com
-.user-metrics.onthemarket.com
 .user1.game.qq.com
 .usercollection.chinadaily.com.cn
 .userimg.qunar.com
@@ -35297,9 +35577,10 @@ zzxosget.com
 .uzotarak.com
 .uzpmrbek.com
 .uzyid.cn
+.v.emedia.cn
+.v.irs01.com
 .v.rmbn.net
 .v.shopify.com
-.v.smtcdns.net
 .v.szpaopao.com
 .v00087.com
 .v02u9.cn
@@ -35310,6 +35591,7 @@ zzxosget.com
 .v1.kwpewga.cn
 .v1.phb123.com
 .v1.taksh.cn
+.v12-r0566gbscjw.z.irs01.com
 .v2.fm.n.duokanbox.com
 .v2.hunantv.com
 .v2.log.mgtv.com
@@ -35365,8 +35647,8 @@ zzxosget.com
 .veremund-hon.com
 .vers80.com
 .vertivchina.cn
+.veta.naver.com
 .vf5yb4.cn
-.vfd2dyn.vodafone.de
 .vfdxlt.cn
 .vg02h8z1ul.me
 .vgaom.com
@@ -35404,8 +35686,8 @@ zzxosget.com
 .viralvideos.pw
 .virashux.net
 .virgo8.cn
-.visit.asb.co.nz
 .visit.dealspwn.com
+.visit.geocities.com
 .visit.mobot.net
 .vista.tgbus.com
 .vista.tgbusdata.cn
@@ -35420,7 +35702,9 @@ zzxosget.com
 .vknrfwwxhxaxupqp.pro
 .vkuay.com
 .vl8c4g7tmo.me
+.vlion.cn
 .vlive.qqvideo.tc.qq.com
+.vm.makeding.com
 .vmiua.com
 .vmjjzk.cn
 .vmzqwz.cn
@@ -35510,6 +35794,7 @@ zzxosget.com
 .w88.go.com
 .wa.gtimg.com
 .wa.kuwo.cn
+.wa.metro.co.uk
 .waby66.cn
 .wacc888.com
 .wacucmiy.net
@@ -35586,7 +35871,6 @@ zzxosget.com
 .wbanz.com
 .wbaor.com
 .wbapp.mobile.sina.cn
-.wbapp.uve.weibo.com
 .wbclick.mobile.sina.cn
 .wbdcrmn.cn
 .wbdds.allocine.fr
@@ -35625,6 +35909,7 @@ zzxosget.com
 .webhit.aftenposten.no
 .webkooo.com
 .weblb-wg.gslb.spotify.com
+.weblog.livesport.eu
 .webmaster.extabit.com
 .webmine.cz
 .webodu.com
@@ -35747,6 +36032,7 @@ zzxosget.com
 .wka8.com
 .wkanc.51y5.net
 .wkanc.com
+.wkctj.baidu.com
 .wkjava.top
 .wkjhd.com
 .wksrx.cn
@@ -35809,6 +36095,7 @@ zzxosget.com
 .wqmobile.com
 .wqqsa.puzihua.com
 .wqsph.net
+.wr.da.netease.com
 .wr.yiyouliao.com
 .wrating.com
 .wrongerababan.info
@@ -35838,6 +36125,7 @@ zzxosget.com
 .wudang05.com
 .wuhufengze.com.cn
 .wuliao.chzsport.cn
+.wuliao.epro.sogou.com
 .wuliao.ganji.cn
 .wuliao.juqingba.cn
 .wumii.cn
@@ -35862,6 +36150,7 @@ zzxosget.com
 .wwis-dubc1-vip60.adobe.com
 .wwlolbs.com
 .www-777563.com
+.www.google-analytics.com
 .www.jinshanju.com
 .www2.xinmin.cn
 .www8.xitek.com
@@ -35997,6 +36286,24 @@ zzxosget.com
 .xhydrs.cn
 .xi.liuxiaoer.com
 .xi0021.com
+.xia.beyondcompare.cc
+.xia.bingdianhuanyuan.cn
+.xia.chemdraw.com.cn
+.xia.coreldrawchina.com
+.xia.ediuschina.com
+.xia.flstudiochina.com
+.xia.guitarpro.cc
+.xia.huishenghuiying.com.cn
+.xia.imindmap.cc
+.xia.jihehuaban.com.cn
+.xia.keyshot.cc
+.xia.kingdeecn.cn
+.xia.logoshejishi.com
+.xia.mairuan.com
+.xia.mindmanager.cc
+.xia.shankejingling.com
+.xia.vegaschina.cn
+.xia.xmindchina.net
 .xiacai.com
 .xiacaidd.com
 .xiadaxiong.com
@@ -36022,8 +36329,23 @@ zzxosget.com
 .xiaozhishi852.com
 .xiarikui08.com
 .xiaxuanfu.com
+.xiazai.abbyychina.com
+.xiazai.bartender.cc
 .xiazai.cdren.com
+.xiazai.codesoftchina.com
+.xiazai.crossoverchina.com
 .xiazai.downok.com
+.xiazai.easyrecoverychina.com
+.xiazai.mathtype.cn
+.xiazai.mycleanmymac.com
+.xiazai.nicelabel.cc
+.xiazai.ntfsformac.cn
+.xiazai.overturechina.com
+.xiazai.pdfexpert.cc
+.xiazai.photozoomchina.com
+.xiazai.xshellcn.com
+.xiazai.yuanchengxiezuo.com
+.xiazai.zbrushcn.com
 .xibao100.com
 .xibei70.com
 .xidexableact.cn
@@ -36173,7 +36495,7 @@ zzxosget.com
 .xuanmeiguoji.com
 .xue.zbyw.cn
 .xuehelei.com
-.xuehongxs.com:8862
+.xuehongxs.com
 .xuexi.hydcd.com
 .xueyanshan.com
 .xueyongbao.com
@@ -36514,9 +36836,13 @@ zzxosget.com
 .yule.sohu.com
 .yule8.net
 .yulzs.com
+.yumcs.xiaohuau.xyz
 .yumimobi.com
 .yun-hl.3g.qq.com
+.yun.lvehaisen.com
 .yun.rili.cn
+.yun.sifuhe.cn
+.yun.tuia.cn
 .yun.tuisnake.com
 .yun.yuyiya.com
 .yun1.yahoo001.com
@@ -36531,7 +36857,6 @@ zzxosget.com
 .yunsoka.com
 .yunxiufang.net
 .yunxuu.com
-.yupptv.com/yupptvreports/stats.php
 .yuxiangrc.com
 .yuxiny.com
 .yuxyz.com
@@ -36566,6 +36891,7 @@ zzxosget.com
 .yymmsd.cn
 .yyp17.com
 .yyshow.top
+.yyt.irs01.com
 .yyylg.cn
 .yzaosite.com
 .yzh360.com
